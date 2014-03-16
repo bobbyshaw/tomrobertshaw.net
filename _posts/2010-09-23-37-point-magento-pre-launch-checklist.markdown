@@ -743,7 +743,7 @@ comments:
     insulation and also popcorn uneven ceilings.\r\n\r\n\r\nmy web-site; <a href=\"http://Www.Youtube.com/watch?v=wRBZRpop5jE\"
     rel=\"nofollow\">Atlanta Jobs</a>"
 ---
-[Guess what, I'm now available as a <a href="http://tomrobertshaw.net/wp-content/uploads/2010/11/Magento-Pre-Launch-Checklist.pdf">PDF</a>.]
+[Guess what, I'm now available as a <a href="/img/2010/11/Magento-Pre-Launch-Checklist.pdf">PDF</a>.]
 
 Taking any website live can be a very stressful time as a developer.   Your client is pushing to go live as soon as possible and the pressure can make it easy to forget steps.  I've compiled some tips and tricks that I have picked up on <a href="http://www.meanbee.com">Meanbee's</a> projects for moving your Magento store from development to production.
 

@@ -1024,15 +1024,15 @@ $(function() { $('.inlinesparkline').sparkline(); });
 							['Zen Cart',  85],
 							['VirtueMart',     85],
 							['osCommerce',   83],
-    						['Actinic',   81],
+    					['Actinic',   81],
 							['Demandware',  72],
 							['Yahoo! Stores', 53],   
 							['ECSHOP',    48],
-   	                        ['Ubercart', 43],
+              ['Ubercart', 43],
 							['Intershop',    43],
 							['Prestashop',    42],
-                            ['Open Cart', 40],
-                            ['GSI Commerce', 28],
+              ['Open Cart', 40],
+              ['GSI Commerce', 28],
 							['Others',    207]
 						]
 					}]

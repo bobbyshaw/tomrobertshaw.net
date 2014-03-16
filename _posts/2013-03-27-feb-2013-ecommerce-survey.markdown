@@ -1093,9 +1093,9 @@ var chart = [];
 							['ATG',    161],
 							['Demandware',  81],
 							['VirtueMart', 72],
-                               	                        ['osCommerce',   65],
-                                                        ['Hybris', 62],
-                                                        ['Open Cart', 52],
+              ['osCommerce',   65],
+              ['Hybris', 62],
+              ['Open Cart', 52],
 							['Zen Cart',  50],
 							['Yahoo! Stores', 49],
 							['Others',    386]

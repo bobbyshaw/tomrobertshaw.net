@@ -49,7 +49,9 @@ comments:
     as gospel!\r\n\r\nI was surprised as well Adam.  I was hoping for a better turn
     out than that!"
 ---
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/01/HTML5_Logo_128.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/01/HTML5_Logo_128.png" alt="HTML5 Logo" title="HTML5 Logo" width="128" height="128" class="alignright size-full wp-image-1269" /></a>
+
+<img src="/img/2011/01/HTML5_Logo_128.png" alt="HTML5 Logo" title="HTML5 Logo" />
+
 During this month's <a href="2011/02/magento-extends-lead-in-ecommerce-survey-february-2011/">eCommerce survey</a> which found Magento as the most popular eCommerce software, I added some one-off signatures to look for use of HTML5 in the <a href="http://www.alexa.com/topsites">Alexa top 1 million</a> sites.   In total, I found <strong>36,080 sites that were using features of HTML5.</strong>
 
 33,813 sites were using the new doctype.  While this may seem like a lot, it is only 3.4% of the top million sites according to Alexa.

@@ -186,11 +186,11 @@ comments:
 
 This month, I've expanded the signature set to cover a wider range of popular eCommerce software/packages.   Magento still takes the top spot, this month with 3414 sites - 150 more than last month.   77 of these sites were found to be using Magento Enterprise edition.  2nd place still goes to osCommerce with 3123, a touch less than last month.  Following the leaders, although a considerable amount behind, is Zen Cart and then Volusion with 1556 and 889 respectively.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/11/eCommerce-Market-Share.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/11/eCommerce-Market-Share.png" alt="eCommerce Market Share" title="eCommerce Market Share" width="668" height="493" class="aligncenter size-full wp-image-902" /></a>
+<img src="/img/2010/11/eCommerce-Market-Share.png" alt="eCommerce Market Share" title="eCommerce Market Share" />
 
 Volusion is often talked about as an alternative to Magento, but I only found a quarter as many Volusion stores.  Volusion definitely have their eyes on potential Magento customers.  When I Google search for Magento, I see ads for Volusion and Shopify.  When following the Volusion link it leads to a page <a href="http://www.volusion.com/volusion_magento_comparison/">comparing Volusion with Magento</a> (I use the term loosely).    Even though Shopify also advertises, I was only able to find 122 stores in the top 1 million this month.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/11/Magento-Google-Sponsered-Listings.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/11/Magento-Google-Sponsered-Listings.png" alt="Magento - Google Sponsored Listings" title="Magento - Google Sponsored Listings" width="640" height="180" class="aligncenter size-full wp-image-916" /></a>
+<img src="/img/2010/11/Magento-Google-Sponsered-Listings.png" alt="Magento - Google Sponsored Listings" title="Magento - Google Sponsored Listings" />
 
 <h3>Weighted Rankings</h3>
 
@@ -198,7 +198,7 @@ A limitation from the previous analysis was that a site that was in the top 100 
 
 I then counted up the new 'scores' and produced an updated pie chart as you can see below.  The largest eCommerce players are still there, i.e. Magento, osCommerce and Zencart but the lower players have moved around.   All of these appear to be reasonably well distributed on average across the top million.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/11/Weighted-eCommerce-Market-Share.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/11/Weighted-eCommerce-Market-Share.png" alt="Weighted eCommerce Market Share" title="Weighted eCommerce Market Share" width="722" height="539" class="aligncenter size-full wp-image-903" /></a>
+<img src="/img/2010/11/Weighted-eCommerce-Market-Share.png" alt="Weighted eCommerce Market Share" title="Weighted eCommerce Market Share" />
 
 <a href="http://www.gsicommerce.com/">GSI Commerce</a> performs interestingly.  I only found 48 GSI Commerce stores, but from the weightings, it can be seen that most of these must be in the top 100,000 sites.  Suggesting it's a popular choice for the enterprise customer base.   Indeed, sites include <a href="http://www.toysrus.co.uk">Toys R Us</a>, <a href="http://www.nflshop.com">NFLShop</a> and <a href="http://www.shopadidas.com/">Adidas</a>.
 

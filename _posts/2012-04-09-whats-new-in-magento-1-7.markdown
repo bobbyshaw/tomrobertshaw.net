@@ -274,7 +274,8 @@ It's time for a whirlwind overview of some of the new features in Magento 1.7.
 
 It integrates Zend_Captcha on most customer related forms, e.g. register, login, forgot password, but (somewhat bizarrely) isn't included on the contact form this time around.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Captcha.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Captcha.png" alt="Captcha" title="Captcha" width="612" height="220" class="aligncenter size-full wp-image-1961" /></a>
+<img src="/img/2012/04/Captcha.png" alt="Captcha" title="Captcha" />
+
 <h3>Redesigned iPhone Theme</h3>
 
 Naturally, I went looking for something shiny and I wasn't disappointed.  Magento 1.7 brings a redesigned and rebuilt HTML 5 iPhone theme.
@@ -283,71 +284,71 @@ It's really nice and clean, there are some nifty touches like the flipping of pr
 
 I did notice that any page that uses the new captcha integration in the iPhone theme breaks currently due to the use of a non-existent helper class.  However, <a href="http://www.magentocommerce.com/bug-tracking/issue?issue=13324">this bug</a> has already been reported, fixed and is due for release. 
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Home.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Home.png" alt="iPhone - Home" title="iPhone - Home" width="417" height="451" class="aligncenter size-full wp-image-1950" /></a>
+<img src="/img/2012/04/iPhone-Home.png" alt="iPhone - Home" title="iPhone - Home" />
 
+<img src="/img/2012/04/iPhone-Category.png" alr="iPhone - Category" />
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Category.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Category.png" alt="" title="iPhone - Category" width="399" height="591" class="aligncenter size-full wp-image-1949" /></a>
+<img src="/img/2012/04/iPhone-Category-2.png" alt="iPhone Category 2" />
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Category-2.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Category-2.png" alt="" title="iPhone Category 2" width="400" height="592" class="aligncenter size-full wp-image-1948" /></a>
+<img src="/img/2012/04/iPhone-Product.png" alt="iPhone Product" />
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Product.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Product.png" alt="" title="iPhone Product" width="401" height="494" class="aligncenter size-full wp-image-1946" /></a>
-
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Cart.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/iPhone-Cart.png" alt="" title="iPhone Cart" width="418" height="453" class="aligncenter size-full wp-image-1947" /></a>
+<img src="/img/2012/04/iPhone-Cart.png" alt="iPhone Cart" />
 
 <h3>REST API</h3>
 
 I've not had a chance to play, but this version also comes with a brand new REST API.  Yay.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/REST.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/REST.png" alt="" title="REST" width="283" height="214" class="aligncenter size-full wp-image-1974" /></a>
+<img src="/img/2012/04/REST.png" alt="REST" />
 
 <h3>Pricing per Customer Group</h3>
 
 It's now possible to set base prices for each customer group.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Group-Prices.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Group-Prices.png" alt="Group Prices" title="Group Prices" width="700" height="308" class="aligncenter size-full wp-image-2013" /></a>
+<img src="/img/2012/04/Group-Prices.png" alt="Group Prices" title="Group Prices" />
 
 <h3>VAT Number Validation</h3>
 
 Customers can now provide their VAT number when is then validated (frontend and backend orders).  The VAT number for the store is now also included in the store information configuration.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/VAT-Validation.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/VAT-Validation.png" alt="VAT Validation" title="VAT Validation" width="700" height="175" class="aligncenter size-full wp-image-1991" /></a>
+<img src="/img/2012/04/VAT-Validation.png" alt="VAT Validation" title="VAT Validation" />
 
 <h3>Indexes</h3>
 
 It is detailed in the release notes that indexers have been refactored. From the admin interface, we do now see an extra column that indicates whether an update is required or not.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Indexes.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Indexes.png" alt="Indexes" title="Indexes" width="700" height="161" class="aligncenter size-full wp-image-2012" /></a> 
+<img src="/img/2012/04/Indexes.png" alt="Indexes" title="Indexes" />
 
 <h3>Cookie Message</h3>
 
 In response to the <a href="http://www.cookielaw.org/">EU cookie law</a>, Magento have now included the option to display a message to new customers indicating the necessity of cookies on the site and requesting permission to use them.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Cookie-Message.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Cookie-Message.png" alt="Cookie Message" title="Cookie Message" width="700" height="219" class="aligncenter size-full wp-image-1984" /></a>
+<img src="/img/2012/04/Cookie-Message.png" alt="Cookie Message" title="Cookie Message" />
 
 <h3>Manage Currency Symbols</h3>
 
 The ability to manage the currency symbols used around the site rather than being restricted to what is defined in the Zend library.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Manage-Currency.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Manage-Currency.png" alt="Manage Currency" title="Manage Currency" width="700" height="90" class="aligncenter size-full wp-image-1985" /></a>
+<img src="/img/2012/04/Manage-Currency.png" alt="Manage Currency" title="Manage Currency" />
 
 <h3>System Backup</h3>
 
 The backup functionality sees some major new features in 1.7.  First thing to notice is that there are now three backup options: "System Backup", "Database and Media", and "Database".  The latter of which we are already familiar with.  The "Database and Media" creates a .tgz of database and media files.  The "System Backup" functionality creates a .tgz of the entire installation (filesystem) of Magento.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Backup.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Backup.png" alt="Backup" title="Backup" width="700" height="226" class="aligncenter size-full wp-image-1986" /></a>
+<img src="/img/2012/04/Backup.png" alt="Backup" title="Backup" />
 
 All backups now request a name to be given and also give the option of putting the store in maintenance mode while the backup is carried out. 
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/System-Backup.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/System-Backup.png" alt="System Backup" title="System Backup" width="618" height="292" class="aligncenter size-full wp-image-1987" /></a>
+<img src="/img/2012/04/System-Backup.png" alt="System Backup" title="System Backup" />
 
 The fancy new feature on top of all of this is the ability to rollback to any one of these.  While everyone should already be doing their own secondary and tertiary offsite backups, this is a handy feature nonetheless. You shouldn't have a Magento store that isn't managed using a version control system, so I'd personally be cautious about ever using the rollback of a System Backup, but it's a nice to have.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Rollback.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Rollback.png" alt="" title="Rollback" width="493" height="262" class="aligncenter size-full wp-image-1958" /></a>
+<img src="/img/2012/04/Rollback.png" alt="Rollback" />
+
 <h3>Auto-generation of Coupon Codes</h3>
 
 Previously, by default in Magento, when creating a shopping cart price rule, and you wanted to specify a coupon you could only specify one.  Now, there's built-in functionality to auto-generate a pool of codes for a particular rule.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2012/04/Autogen-Coupon-Codes.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2012/04/Autogen-Coupon-Codes.png" alt="Autogen Coupon Codes" title="Autogen Coupon Codes" width="700" height="242" class="aligncenter size-full wp-image-1988" /></a>
+<img src="/img/2012/04/Autogen-Coupon-Codes.png" alt="Autogen Coupon Codes" title="Autogen Coupon Codes" />
 
 <h3>And plenty more&hellip;</h3>
 

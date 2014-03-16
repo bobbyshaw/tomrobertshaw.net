@@ -29,7 +29,7 @@ Since I bought my lovely HTC Hero in aid of Children in Need from <a href="http:
 
 As I got my environment set up on my MacBook Pro (with help from O'Reilly), I thought I would make a few notes to help any others doing the same.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/01/My-First-Android-App.png"><img class="alignright size-medium wp-image-90" title="My First Android App" src="http://tomrobertshaw.net/wp-content/uploads/2010/01/My-First-Android-App-e1264269265522-300x282.png" alt="" width="300" height="282" /></a>
+<img title="My First Android App" src="/img/2010/01/My-First-Android-App-e1264269265522-300x282.png" alt="My First Android App" /></a>
 
 <strong>Get Eclipse</strong>
 

@@ -49,7 +49,7 @@ comments:
 ---
 <a href="http://geckoboard.com/">Geckoboard</a> is an awesome little web app which allows you to show real-time statistics about your business on a screen in the office, or anywhere for that matter!
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/01/codebase-commits.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/01/codebase-commits.png" alt="Codebase Commits" title="Codebase Commits" width="234" height="233" class="alignleft size-full wp-image-1174" /></a>
+<img src="/img/2011/01/codebase-commits.png" alt="Codebase Commits" title="Codebase Commits" /></a>
 
 At <a href="http://www.meanbee.com/">Meanbee</a>, we have started creating our own Geckoboard, but there are a limited number of widgets available as it is still in Beta.   We use <a href="http://www.codebasehq.com/t/w1xzietlf7bit8qd">Codebase</a> to manage our projects, so I decided to write a script to create a feed of recent commit statistics.  In its current form it can produce nifty little bars to show the top committers on a project or across the entire company.
 

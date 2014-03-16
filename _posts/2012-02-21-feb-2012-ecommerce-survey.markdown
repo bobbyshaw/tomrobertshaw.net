@@ -1210,16 +1210,16 @@ $(function() { $('.inlinesparkline').sparkline(); });
 							['ATG',    123],
 							['VirtueMart',     115],
 							['osCommerce',   101],
-            						['Actinic',   91],
+            	['Actinic',   91],
 							['Demandware',  64],
 							['Intershop',    62],
-                                                        ['Yahoo! Stores', 58],
-                                                        ['Zen Cart',  56],
+              ['Yahoo! Stores', 58],
+              ['Zen Cart',  56],
 							['ECSHOP',    56],
-                                                        ['Ubercart', 41],
-                                                        ['GSI Commerce', 39],
+              ['Ubercart', 41],
+              ['GSI Commerce', 39],
 							['MivaMerchant',  38],
-                                                        ['Volusion', 34],
+              ['Volusion', 34],
 							['Others',    247]
 						]
 					}]

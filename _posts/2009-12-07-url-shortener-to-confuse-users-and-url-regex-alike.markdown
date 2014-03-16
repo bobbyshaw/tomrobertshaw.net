@@ -40,7 +40,7 @@ comments:
 ---
 <p><h3><strong><a href="http://to/">http://to/</a></strong></h3></p>
 
-<a href="http://to/"><img class="aligncenter size-large wp-image-57" title="url-shortener" src="http://tomrobertshaw.net/wp-content/uploads/2009/12/url-shortener-1024x345.png" alt="url-shortener" width="580" height="243" /></a>
+<a href="http://to/"><img title="url-shortener" src="/img/2009/12/url-shortener-1024x345.png" alt="url-shortener" /></a>
 
 This [experimental] url shortener came to light recently and confused many to how it actually works.
 

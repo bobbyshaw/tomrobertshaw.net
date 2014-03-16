@@ -48,11 +48,12 @@ I used the Magento sites from this month's <a href="/2010/11/magento-tops-ecomme
      <tr><td>21</td><td>Canada</td></tr>
 </table>
 
-<img src="http://tomrobertshaw.net/wp-content/uploads/2010/11/Hosting-Locations-of-Magento-Sites.png" alt="Hosting Locations of Magento Sites" title="Hosting Locations of Magento Sites" width="852" height="643" class="aligncenter size-full wp-image-1082" />
+<img src="/img/2010/11/Hosting-Locations-of-Magento-Sites.png" alt="Hosting Locations of Magento Sites" title="Hosting Locations of Magento Sites" />
 
 As we can see, United States has the runaway majority and Germany has the largest European presence.  Incidentally, the successful <a href="http://www.meet-magento.de/">Meet Magento</a> event was hosted in Leipzig earlier this month.  The UK and France follow not far behind.  The biggest limitation of this methodology was that I was unable to map a country from the IP of quite a few of the sites.
 
-So, my improvement was to take a closer look at the actual content for each of the sites.  Luckily, by default in Magento there is a language code in the HTML tag at the top of the source of the page.   When a different locale is set up, Magento changes this tag to reflect the change.   For example, <a href="http://demo.magentocommerce.com/">demo.magentocommerce.com</a> shows: 
+So, my improvement was to take a closer look at the actual content for each of the sites.  Luckily, by default in Magento there is a language code in the HTML tag at the top of the source of the page.   When a different locale is set up, Magento changes this tag to reflect the change.   For example, <a href="http://demo.magentocommerce.com/">demo.magentocommerce.com</a> shows:
+
 <pre lang="html4strict">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 </pre>
@@ -65,7 +66,7 @@ while <a href="http://score.nl/">score.nl</a> uses:
 
 So let's take a look at the results.   Over 63% of sites are in English, 13% German, 7% French and 4% Dutch.  This is actually pretty similar to the hosting location results.
 
-<img src="http://tomrobertshaw.net/wp-content/uploads/2010/11/magento-locales.png" alt="Magento Locales" title="magento-locales" width="819" height="575" class="aligncenter size-full wp-image-1079" />
+<img src="/img/2010/11/magento-locales.png" alt="Magento Locales" title="magento-locales" />
 
 Does this tie in with what you are seeing?  Any module and theme developers out there that want to share their experiences with language translations?
 

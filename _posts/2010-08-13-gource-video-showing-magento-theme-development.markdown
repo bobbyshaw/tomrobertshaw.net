@@ -20,7 +20,7 @@ This only works for Git, Mercurial and Bazaar, but there are third party integra
 
 <a href="http://www.nicksays.co.uk/">Nick</a> and I recently worked on an emergency project for a client to convert a Photoshop design into a Magento theme in 2 days.  I thought I'd use this as an example of what it can do.  Although it is a rather short project to be creating visualisations with, I still found it pretty cool.
 
-<object width="800" height="600" class="aligncenter"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=14097573&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=ff9933&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=14097573&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=ff9933&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="800" height="600"></embed></object>
+<iframe src="//player.vimeo.com/video/14097573" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Now all I can think about is how awesome it would be to see the Magento team create a similar visualisation for the core code.  
 

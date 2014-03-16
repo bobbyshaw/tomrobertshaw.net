@@ -132,7 +132,7 @@ Of all software analysed, <a href="http://www.oscommerce.com/">osCommerce</a> sa
 
 <h4 style="text-align: center;"><strong>Most Popular eCommerce Software - June 2011</strong></h4>
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/06/June-2011-eCommerce-Survey.png"><img class="aligncenter size-full wp-image-1557" title="June 2011 eCommerce Survey" src="http://tomrobertshaw.net/wp-content/uploads/2011/06/June-2011-eCommerce-Survey.png" alt="June 2011 eCommerce Survey" width="915" height="529" /></a></p>
+<img class="aligncenter size-full wp-image-1557" title="June 2011 eCommerce Survey" src="/img/2011/06/June-2011-eCommerce-Survey.png" alt="June 2011 eCommerce Survey" />
 
 From a Magento developer's point of view, of the 4,705 Magento sites found, 274 included indications that they were running on the <a href="http://www.magentocommerce.com/product/enterprise-edition">Magento Enterprise edition</a>.   This month, checks were added for <a href="http://www.magentocommerce.com/go/">Magento Go</a>, Magento's new hosted solution.  This is aimed at small and emerging retailers and therefore we would not expect many to appear in the top 1 million.  Indeed, only 8 stores were found using Magento Go.    The most popular of these was <a href="http://fkc.com">fkc.com</a>, ranked around <a href="http://www.alexa.com/siteinfo/fkc.com">155K busiest site</a>.  However, this store is still under construction.   On the other hand, <a href="http://chefstore.mx/">chefstore.mx</a> is open for business but only ranked around the <a href="http://www.alexa.com/siteinfo/chefstore.mx">800K mark</a>.
 
@@ -388,7 +388,7 @@ Platform</strong></td>
 
 You know you wanted one.   The graph below shows the number of sites detected for each eCommerce platform over 3 editions of the survey.  All points are plotted on the same axes so that the popularity for each platform can be more easily compared.  From this we can see just how much the leaders, Magento, Zen Cart, VirtueMart and osCommerce, are dominating in terms of sheer number of stores.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/06/eCommerce-comparison.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/06/eCommerce-comparison.png" alt="eCommerce comparison" title="eCommerce comparison" width="810" height="806" class="aligncenter size-full wp-image-1659" /></a>
+<img src="/img/2011/06/eCommerce-comparison.png" alt="eCommerce comparison" title="eCommerce comparison" />
 
 Once again, the analysis will be re-conducted in around 3 months, so we'll see if Magento can retain or perhaps even extend their lead.  I'm sure eBay would certainly expect so.
 

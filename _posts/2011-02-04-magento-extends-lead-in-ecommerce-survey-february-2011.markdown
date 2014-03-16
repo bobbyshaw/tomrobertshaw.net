@@ -139,7 +139,7 @@ Magento extends its lead in this edition of the eCommerce survey.  4,074 of the 
 
 osCommerce is, again, the 2<sup>nd</sup> most used eCommerce software but slipped 3% to 3,033 sites.  New to this edition, Virtuemart is found to be the 3<sup>rd</sup> most prevalent with 2,683 stores.  The top 3 account for over 50% of stores in the survey.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/02/eCommerce-Survey-Results-Februrary-2011.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/02/eCommerce-Survey-Results-Februrary-2011.png" alt="eCommerce Survey Results - February 2011" title="eCommerce Survey Results - February 2011" width="700" height="400" class="aligncenter size-full wp-image-1324" /></a>
+<img src="/img/2011/02/eCommerce-Survey-Results-Februrary-2011.png" alt="eCommerce Survey Results - February 2011" title="eCommerce Survey Results - February 2011" />
 
 The eCommerce survey takes the <a href="http://www.alexa.com/topsites">top 1 million sites</a> provided by <a href="http://www.alexa.com/">Alexa</a>, the web information company.  It analyses the home page of each site by matching against signatures for various eCommerce packages to determine if any are being used.  This month, 19,000 eCommerce stores were found.
 

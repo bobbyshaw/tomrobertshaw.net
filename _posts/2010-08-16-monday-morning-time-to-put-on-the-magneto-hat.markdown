@@ -23,4 +23,4 @@ comments:
     MjAxMC0wOS0yNCAxMjoxMjowMyArMDEwMA==
   content: ! '[...] Monday Morning, Time to Put on the Magneto Hat [...]'
 ---
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/08/magneto.jpg"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/08/magneto.jpg" alt="" title="magneto" width="450" height="300" class="aligncenter size-full wp-image-577" /></a>
+<img src="/img/2010/08/magneto.jpg" alt="Magneto" title="Magneto" />

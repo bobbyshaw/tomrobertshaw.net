@@ -88,7 +88,7 @@ There is a significant amount of integration involved in theme production.  Them
 
 A great explanation that helped me understand this in the Wordpress context was written by <a href="http://markjaquith.wordpress.com/2010/07/17/why-wordpress-themes-are-derivative-of-wordpress/">Mark Jaquith</a>.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/08/Magento-Community-Licensing-Options.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/08/Magento-Community-Licensing-Options.png" alt="" title="Magento Community Licensing Options" width="300" height="172" class="alignright size-full wp-image-365" /></a>
+<img src="/img/2010/08/Magento-Community-Licensing-Options.png" alt="Magento Community Licensing Options" />
 
 Confusingly, when releasing a community module (i.e. free) on <a href="http://www.magentocommerce.com/magento-connect">Magento Connect</a>, we are offered to label the module as having any one of 8 different Open Source licenses.  Now, when it has already been noted that GPL and OSL are incompatible, without researching the others, how can a module developer choose any other option without breaching the terms of the license?
 

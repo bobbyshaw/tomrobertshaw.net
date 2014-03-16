@@ -14,7 +14,7 @@ categories:
 tags: []
 comments: []
 ---
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/07/Order-Success-Page.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/07/Order-Success-Page-300x209.png" alt="" title="Order Success Page" width="300" height="209" class="alignright size-medium wp-image-289" /></a>
+<img src="/img/2010/07/Order-Success-Page-300x209.png" alt="Order Success Page" title="Order Success Page" />
 We all know that product promotion from a friend or family member is the best kind of advertising.  This is especially true when we know they have put their money where their mouth is and bought the produce themselves.
 
 So, one evening I decided to play around with an idea.  I felt that the Magento Order Success page - the page that customers are redirected to after completing their order, was under-used.  It merely thanked them for their custom and gave them their order reference number.  Time for some customisation!
@@ -35,7 +35,7 @@ To get the order information on the order success page, I did this:
 
 I knew that some product URLs would be long and ugly for twitter so I wrote a short Model and function that takes a bit.ly users username, API key and long url and makes the request to bit.ly.  It then returns the shortened url (or the long one if it fails).  These details can then be set in the Magento config for the module.
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/07/Internet-Explorer-Degradation.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/07/Internet-Explorer-Degradation.png" alt="" title="Internet Explorer Degradation" width="166" height="205" class="alignright size-full wp-image-293" /></a>
+<img src="/img/2010/07/Internet-Explorer-Degradation.png" alt="Internet Explorer Degradation" title="Internet Explorer Degradation" />
 
 As part of the fun, I experimented with using solely css and html for the Facebook and Twitter icons instead of images.  I came across <a href="http://nicolasgallagher.com/experimental-pure-css-social-media-icons/">Nicolas Gallagher's</a> piece on the topic and decided to try it out.  I was impressed with the results, very swish.
 

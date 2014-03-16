@@ -218,13 +218,14 @@ As an aside, the hosting location of each site was checked.  Of the twenty-six t
 
 <h4 style="text-align: center;"><strong>Most Popular eCommerce Software (Top 1M Sites) - October 2011</strong></h4>
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/10/October-2011-eCommerce-Results.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/10/October-2011-eCommerce-Results.png" alt="October 2011 eCommerce Results" title="October 2011 eCommerce Results" width="765" height="482" class="aligncenter size-full wp-image-1793" /></a>
+<img src="/img/2011/10/October-2011-eCommerce-Results.png" alt="October 2011 eCommerce Results" title="October 2011 eCommerce Results" />
 
 This month, I decided to also look at just the top 100,000 sites to see how the distribution changes.  I was expecting software such as IBM WebSphere and GSI commerce to rule the Enterprise market.  Magento actually does very well there with 232 stores, and only 45 of which appear to be built upon the Professional/Enterprise edition. 
 
 <h4 style="text-align: center;"><strong>Most Popular eCommerce Software (Top 100K Sites)- October 2011</strong></h4>
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/10/October-2011-eCommerce-Results-Top-100K.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/10/October-2011-eCommerce-Results-Top-100K.png" alt="October 2011 eCommerce Results Top 100K" title="October 2011 eCommerce Results Top 100K" width="754" height="431" class="aligncenter size-full wp-image-1794" /></a>
+<img src="/img/2011/10/October-2011-eCommerce-Results-Top-100K.png" alt="October 2011 eCommerce Results Top 100K" title="October 2011 eCommerce Results Top 100K" />
+
 <h3>Full Results</h3>
 
 Here are the full results for all 32 eCommerce packages.  Historic values are also provided were available.
@@ -496,7 +497,7 @@ All of the signatures remained the same this month, but I did fix one bug that h
 
 The following graph is limited to the top 18 eCommerce software and depicts number of sites detected over time.  It is plotted on the same axes to allow for relative values to be compared.  
 
-<a href="http://tomrobertshaw.net/wp-content/uploads/2011/10/October-2011-eCommerce-Comparison.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2011/10/October-2011-eCommerce-Comparison.png" alt="October 2011 eCommerce Comparison" title="October 2011 eCommerce Comparison" width="835" height="578" class="aligncenter size-full wp-image-1795" /></a>
+<img src="/img/2011/10/October-2011-eCommerce-Comparison.png" alt="October 2011 eCommerce Comparison" title="October 2011 eCommerce Comparison" />
 
 <h3>Thanks</h3>
 

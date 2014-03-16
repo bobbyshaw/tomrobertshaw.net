@@ -42,7 +42,8 @@ comments:
     MjAxMC0wOS0yNCAxNDoyNzozMCArMDEwMA==
   content: Ha-ha. Really cool :)
 ---
-<a href="http://tomrobertshaw.net/wp-content/uploads/2010/08/magento-products-importing.png"><img src="http://tomrobertshaw.net/wp-content/uploads/2010/08/magento-products-importing.png" alt="" title="magento-products-importing" width="413" height="360" class="alignright size-full wp-image-518" /></a>
+<img src="/img/2010/08/magento-products-importing.png" alt="magento-products-importing" />
+
 As my recent posts have hinted at, I have been working to import a client's products into their new Magento store.
 
 Getting product information in to the correct spreadsheet format is time consuming enough.   Then, you come to import and find you have completed a column wrong, or forgotten to put the <a href="/2010/08/having-trouble-importing-product-images-into-magento/">leading slash</a> in front of the image file names and find you need to run the import profile all over again!

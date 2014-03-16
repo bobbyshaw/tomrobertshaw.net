@@ -2,9 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! '<img src="http://tomrobertshaw.net/wp-content/uploads/2010/11/favicon.ico"
-  alt="Magento Favicon" title="Magento Favicon" /> Magento Favicon: It''s lovely and
-  all, but not on a live store please guys!'
+title: ! 'Magento Favicon: It''s lovely and all, but not on a live store please guys!'
 author: Tom Robertshaw
 author_login: admin
 author_email: tom.robertshaw@meanbee.com
@@ -30,7 +28,7 @@ comments:
 ---
 With <a href="2010/11/magento-tops-ecommerce-market-share-november-2010/">November's list</a> of sites running Magento, I thought it would be fun (don't judge me) to look at how many of them were still using the default favicon.
 
-This was a pretty easy process: for each store, I retrieved the favicon and calculated the MD5 hash of it.  I then compared it with the MD5 hash of the Magento favicon <img style="display:inline; margin:0;" src="http://tomrobertshaw.net/wp-content/uploads/2010/11/favicon.ico" alt="Magento Favicon" title="Magento Favicon" class="aligncenter size-full wp-image-1009" />.
+This was a pretty easy process: for each store, I retrieved the favicon and calculated the MD5 hash of it.  I then compared it with the MD5 hash of the Magento favicon <img style="display:inline; margin:0;" src="/img/2010/11/favicon.ico" alt="Magento Favicon" title="Magento Favicon" />.
 
 Out of the 3414 sites found built on Magento, I found that <strong>362 of them were still using the default favicon</strong>.   
 
