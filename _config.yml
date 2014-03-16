@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Tom Robertshaw
 markdown: redcarpet
+permalink: /:year/:month/:title
 pygments: true
