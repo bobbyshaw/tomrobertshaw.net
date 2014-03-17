@@ -3,10 +3,8 @@ layout: default
 title: Tom Robertshaw | Co-founder at Meanbee.  eCommmerce strategy, magento development and technical experiments. 
 ---
 
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<ul class="posts">
+	{% for post in site.posts %}
+    	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-  </ul>
-</div>
+</ul>
