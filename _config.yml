@@ -2,3 +2,4 @@ name: Tom Robertshaw
 markdown: redcarpet
 permalink: /:year/:month/:title
 pygments: true
+url: http://tomrobertshaw.net
