@@ -543,14 +543,17 @@ main[role="main"],
 }
 
 main[role="main"] {
-    margin: 1em;
+    margin: 3em 1em 1em;
+    text-align: justify;
 }
 
 footer[role="contentinfo"] {
     background: #37393b;
+    color: white;
+    font-family: 'RalewayThin';
+    font-weight: bold;
     margin: 0 auto;
     padding: 0.5em 1em;
-    color: white;
 }
 
 footer[role="contentinfo"] p {
