@@ -563,6 +563,11 @@ main[role="main"] {
     text-align: justify;
 }
 
+main[role="main"] h1,
+main[role="main"] h2 {
+    text-align: left;
+}
+
 footer[role="contentinfo"] {
     background: #37393b;
     color: white;
