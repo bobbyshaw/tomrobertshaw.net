@@ -479,7 +479,7 @@ body {
     font-smooth:always;
     -webkit-font-smoothing: antialiased;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 h1,h2,h3,h4 {
@@ -557,6 +557,11 @@ main[role="main"],
     border: 4px solid #fff;
     border-radius: 100%;
 }
+
+.headshot-link:hover:after {
+    width: 0;
+}
+
 
 main[role="main"] {
     margin: 3em 1em 1em;
