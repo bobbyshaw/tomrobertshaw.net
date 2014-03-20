@@ -544,6 +544,11 @@ header[role="banner"] a {
     text-decoration: none;
 }
 
+header[role="banner"] a:hover:after,
+footer[role="contentinfo"] a:hover:after {
+    background: white;
+}
+
 .header-content,
 main[role="main"],
 .footer-content {
