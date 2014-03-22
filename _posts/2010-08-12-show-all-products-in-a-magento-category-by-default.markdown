@@ -205,7 +205,8 @@ So, I went into the Magento code and decided to modify the block in order to get
 
 Inside this file, the function that we are interested in is <tt>getLimit()</tt> beginning around line 723.
 
-<pre lang="php">
+{% highlight php %}
+<?php 
 $limit = $this->getRequest()->getParam($this->getLimitVarName());
 if ($limit && isset($limits[$limit])) {
     if ($limit == $defaultLimit) {
@@ -215,15 +216,19 @@ if ($limit && isset($limits[$limit])) {
     }   
 } else {
     $limit = Mage::getSingleton('catalog/session')->getLimitPage();
-}   
-</pre>
+}
+?>
+{% endhighlight %}
 
 This else on the outer if statement needs to be changed to a string rather than a number.  So for example:
 
-<pre lang="php">
+{% highlight php %}
+<?php
+...
 } else {
     $limit = 'all';
 }   
-</pre>
+?>
+{% endhighlight %}
 
 And voilá, now all of your product listing pages will display all items by default.

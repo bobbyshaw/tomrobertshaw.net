@@ -148,20 +148,20 @@ To do this, find the attribute under <tt>Magento Admin -> Catalog -> Attributes 
 
 Then, when it comes to your theme design, there are a couple of ways that you can retrieve the attribute.  For most you will be able to use:
 
-<pre lang="php">
- <?php echo $_product->getAttributeName(); ?>
-</pre>
+{% highlight php %}
+<?php echo $_product->getAttributeName(); ?>
+{% endhighlight %}
 
 For example, suppose you were selling computer monitors and you had a field called <tt>screen_size</tt>.  You would get the product field by:
 
-<pre lang="php">
- <?php echo $_product->getScreenSize(); ?>
-</pre>
+{% highlight php %}
+<?php echo $_product->getScreenSize(); ?>
+{% endhighlight %}
 
 However, if the attribute is a dropdown box, this will only return an ID, so you will need to use another method.  Luckily, it's just as simple to remember!  The <tt>getAttributeText</tt> function takes the field name as a parameter.
 
-<pre lang="php">
+{% highlight php %}
  <?php echo $_product->getAttributeText('screen_size');  ?>
-</pre>
+{% endhighlight %}
 
 That's it! If you cannot get it to work, double check that you have set the right scope for the attribute in admin.

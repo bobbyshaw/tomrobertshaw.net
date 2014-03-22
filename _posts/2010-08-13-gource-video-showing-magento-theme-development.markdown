@@ -28,15 +28,15 @@ Now all I can think about is how awesome it would be to see the Magento team cre
 
 I run <a href="http://www.macports.org/">MacPorts</a> so to install Gource was nice and easy:
 
-<pre lang="text">
+{% highlight bash %}
 sudo port sync
 sudo port install gource
-</pre>
+{% endhighlight %}
 
 Then, I moved into the folder with my git repository and ran:
 
-<pre lang="text">
+{% highlight bash %}
 gource --disable-progress --stop-at-end --output-ppm-stream - | ffmpeg -y -fpre /path/to/libx264-default.ffpreset -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 gource.mp4
-</pre>
+{% endhighlight %}
 
 If you make any of your own videos with Gource, post links in the comments for us all to see!

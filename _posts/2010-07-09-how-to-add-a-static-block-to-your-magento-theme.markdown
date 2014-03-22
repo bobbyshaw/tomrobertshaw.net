@@ -56,16 +56,16 @@ When creating your magento theme, you often will want to insert cms static block
 
 Place in the appropriate layout file and scope.  If this was, for example, a static block in the footer, you would need to add it in <tt>app/design/frontend/[interface_name]/[theme_name]/layout/page.xml</tt> inside the scope of the "footer" block.
 
-<pre lang="xml">
+{% highlight xml %}
 <block type="cms/block" name="reference_to_static_block">
     <action method="setBlockId"><block_id>name-of-static-block</block_id></action>
 </block>
-</pre>
+{% endhighlight %}
 
 The <tt>name-of-static-block</tt> has to be the static block identifier in <tt>Magento Admin -> CMS -> Static Blocks</tt>
 
 Then in your template, continuing with the example of it being in the footer, we then get static block content using this sweet and simple line in <tt>app/design/frontend/[interface_name]/[theme_name]/template/page/html/footer.phtml</tt>:
 
-<pre lang="php">
+{% highlight php %}
 <?php echo $this->getChildHtml('reference_to_static_block') ?>
-</pre>
+{% endhighlight %}

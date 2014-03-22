@@ -66,22 +66,24 @@ My solution:
 
 That was the difficult bit done.  It's very simple from a code point of view to get the page post data and show the latest one and link to it.
     
-<pre lang="php">
-$data = get_data("https://graph.facebook.com/PAGE_ID/promotable_posts?access_token=ACCESS_TOKEN");
-$result = json_decode($data);
-</pre>
+{% highlight php %}
+<?php 
+  $data = get_data("https://graph.facebook.com/PAGE_ID/promotable_posts?access_token=ACCESS_TOKEN");
+  $result = json_decode($data);
+?>
+{% endhighlight %}
 
 <a href="http://davidwalsh.name/curl-download">get_data</a> is a wrapper function for curl.
 
 With this information we can take the first item in the data array and get the message.  Obviously this code should probably have more validation in it than it does. 
     
-<pre lang="php">
+{% highlight php %}
 <?php        
-    $latest_post =  $result->data[0];
-    $latest_post_text = $latest_post->message;
-    $latest_post_link = $latest_post->actions[0]->link;
+  $latest_post =  $result->data[0];
+  $latest_post_text = $latest_post->message;
+  $latest_post_link = $latest_post->actions[0]->link;
 ?>
 <a href="<?php echo $latest_post_link ?>"><?php echo $latest_post_text ?></a>
-</pre>
+{% endhighlight %}
 
 There you go, Lewis.

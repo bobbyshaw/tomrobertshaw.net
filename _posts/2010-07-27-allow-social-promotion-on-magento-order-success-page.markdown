@@ -15,23 +15,27 @@ tags: []
 comments: []
 ---
 <img src="/img/2010/07/Order-Success-Page-300x209.png" alt="Order Success Page" title="Order Success Page" />
+
 We all know that product promotion from a friend or family member is the best kind of advertising.  This is especially true when we know they have put their money where their mouth is and bought the produce themselves.
 
 So, one evening I decided to play around with an idea.  I felt that the Magento Order Success page - the page that customers are redirected to after completing their order, was under-used.  It merely thanked them for their custom and gave them their order reference number.  Time for some customisation!
 
 I modified the order success page using layout updates to use my own template.  After the standard order information I looped through the products in the order and displayed the product name, product image and then two links.  One directed users to twitter whereon (if logged in) their status box would be completed with the message:
 
-<pre lang="text">"I just bought a $product_name from $shop_name. $product_url"</pre>
+{% highlight text %}
+I just bought a $product_name from $shop_name. $product_url
+{% endhighlight %}
 
 The other used Facebook's <a href="http://wiki.developers.facebook.com/index.php/Facebook_Share">share API</a> to post the product url.
 
 To get the order information on the order success page, I did this:
 
-<pre lang="php">
+{% highlight php %}
 <?php $_order = Mage::getModel('sales/order')->loadByIncrementId($this->getOrderId()); ?>
-        <?php foreach ( $_order->getAllItems() as $_item ) : ?>
-            <?php $_product = Mage::getModel('catalog/product')->load($_item->getProductId()); ?>
-</pre>
+<?php foreach ( $_order->getAllItems() as $_item ): ?>
+	<?php $_product = Mage::getModel('catalog/product')->load($_item->getProductId()); ?>
+<?php endforeach; ?>
+{% endhighlight %}
 
 I knew that some product URLs would be long and ugly for twitter so I wrote a short Model and function that takes a bit.ly users username, API key and long url and makes the request to bit.ly.  It then returns the shortened url (or the long one if it fails).  These details can then be set in the Magento config for the module.
 

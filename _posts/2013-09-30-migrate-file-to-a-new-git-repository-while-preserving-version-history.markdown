@@ -22,31 +22,31 @@ What I actually wanted was very simple. I wanted all patches for a single file a
 
 I couldn't quite get this line working for me.  It was not including a patch for the root commit:
 
-<pre lang="bash">
+{% highlight bash %}
 git format-patch -o ~/Code/patches $(git log file.txt|grep ^commit|tail -1|awk '{print $2}')^..HEAD file.txt
-</pre>
+{% endhighlight %}
 
 In the end, I found that this was sufficient:
 
-<pre lang="bash">
+{% highlight bash %}
 git format-patch -o ~/Code/patches --root file.txt
-</pre>
+{% endhighlight %}
 
 This left me with a directory of patches, which, after initialising a new git repository, I could then apply in bulk with:
 
-<pre lang="bash">
+{% highlight bash %}
 git am ~/Code/patches/*.patch
-</pre>
+{% endhighlight %}
 
 Now, all being well that would have been problem solved.  However, somehow the git history on the file was messy.  Without going into details, it meant that the patches produced didn't make sense and it needed manual resolution.
 
 After recovering from <em>that fear</em> you get when something goes wrong in git, I retaliated and was able to apply the patches manually with the help of <a href="http://www.pizzhacks.com/bugdrome/2011/10/deal-with-git-am-failures/">this post</a>.
 
-<pre lang="bash">
+{% highlight bash %}
 git apply ~/Code/patches/0015-patchfile.patch --reject
 (edit edit edit)
 git add file.txt
 git am --resolved
-</pre>
+{% endhighlight %}
 
 And there we are.  One new repository with a brand new old file.
