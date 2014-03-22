@@ -530,13 +530,17 @@ main[role="main"],
     max-width: 42em;
 }
 
-
 .headshot {
+    background: url('/img/theme/sprites.png') no-repeat;
+    background-position: -2px -35px ;
     box-shadow: 0 1px 2px rgba(0,0,0,0.5);
     border: 4px solid #fff;
     border-radius: 100%;
+    display: inline-block;
+    height: 7.5em;
+    text-indent: -9999px;
+    width: 7.5em;
 }
-
 
 main[role="main"] {
     margin: 3em 1em 1em;
@@ -572,10 +576,6 @@ footer[role="contentinfo"] {
     padding: 0.5em 1em;
 }
 
-footer[role="contentinfo"] p {
-    max-width: 1400px;
-}
-
 footer[role="contentinfo"] a {
     color: white;
     background-image: -moz-linear-gradient(top,#37393b 50%, #fff 50%);
@@ -586,6 +586,55 @@ footer[role="contentinfo"] a {
     background-size: 0.8em;
     background-position: 0 1.05em;
     text-shadow: 0 0 0.1em #37393b;
+}
+
+footer[role="contentinfo"] .contact {
+    background-image: -moz-linear-gradient(top,#333 50%,#fff 50%);
+    background-image: -webkit-linear-gradient(top,#333 50%,#fff 50%);
+    background-image: -o-linear-gradient(top,#333 50%,#fff 50%);
+    background-image: linear-gradient(to bottom,#333 50%,#fff 50%);
+    background-repeat: repeat-x;
+    background-size: 1.2em;
+    background-position: 0 0.8em;
+    text-align: center;
+}
+
+footer[role="contentinfo"] .contact li {
+    background: #37393b;
+    display: inline;
+}
+
+footer[role="contentinfo"] .contact li:first-child {
+    padding-left: 1.2em;
+}
+
+footer[role="contentinfo"] .contact li:last-child {
+    padding-right: 1.2em;
+}
+
+footer[role="contentinfo"] .contact a {
+    background: url('/img/theme/sprites.png') no-repeat;
+    background-size: inherit;
+    display: inline-block;
+    height: 31px;
+    text-indent: -9999px;
+    width: 31px;
+}
+
+footer[role="contentinfo"] .contact a.twitter{
+    background-position: 0 0;
+}
+
+footer[role="contentinfo"] .contact a.rss {
+    background-position: -37px 0;;
+}
+
+footer[role="contentinfo"] .contact a.linkedin {
+    background-position: -74px 0;
+}
+
+footer[role="contentinfo"] .contact a.email {
+    background-position: -112px 0;
 }
 
 /*
@@ -743,6 +792,10 @@ main[role="main"] a.newer {
 
     main[role="main"] p.meta {
         margin-top: 1.25em;
+    }
+
+    footer[role="contentinfo"] .contact {
+        background-size: 1.8em;
     }
 
 }
