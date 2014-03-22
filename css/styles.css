@@ -632,7 +632,9 @@ main[role="main"] a.newer {
  }
 
 
-
+.post pre {
+    padding: 1em 0;
+}
 
 
 .post code {
