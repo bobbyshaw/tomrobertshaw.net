@@ -609,6 +609,10 @@ main[role="main"] a.newer {
     float: left;
 }
 
+.posts li {
+    margin: 1.5em 0;
+}
+
 /* 
  * Posts
  */
@@ -725,15 +729,28 @@ main[role="main"] a.newer {
 
 
 /*
- * Larger devices
+ * Tweaks once we can make text larger
  */
 @media only screen and (min-width: 40em) {
     h1 {
         font-size: 2.2em;
     }
 
+    main[role="main"] {
+        margin-top: 4em;
+    }
+
     main[role="main"] p.meta {
         margin-top: 1.25em;
     }
 
+}
+
+/*
+ * Full-width
+ */
+@media only screen and (min-width: 57em) {
+    main[role="main"] {
+        margin: 4em auto;
+    }
 }
