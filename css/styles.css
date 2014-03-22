@@ -691,16 +691,6 @@ main[role="main"] a.newer {
 }
 
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
