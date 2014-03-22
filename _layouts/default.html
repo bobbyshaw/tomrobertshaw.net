@@ -29,7 +29,10 @@
 
                 <ul class="contact">
                     <li>
-                        <a href="mailto:me@tomrobertshaw.net" class="email">Email Tom Robertshaw</a>
+                        <script type="text/javascript">
+                            var me = "me", at = "@", domain = "tomrobertshaw.net";
+                            document.write("<a class='email' href='mailto:" + me + at + domain + "'>Email Tom Robertshaw</a>");
+                        </script>
                     </li>
                     <li>
                         <a href="http://twitter.com/bobbyshaw" class="twitter">Bobbyshaw on Twitter</a>
@@ -42,20 +45,6 @@
                     </li>
                 </ul>
             </div>
-        </footer>
-
-        <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'tomrobertshawnet'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var s = document.createElement('script'); s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
-        </script>
-    
+        </footer>    
     </body>
 </html>
