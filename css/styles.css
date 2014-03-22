@@ -501,16 +501,8 @@ ul {
 }
 
 a {
-    color: #111;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
     color: #333;
+    text-decoration: none;
 }
 
 header[role="banner"] {
@@ -529,13 +521,8 @@ header[role="banner"] .title {
 
 header[role="banner"] a {
     color: white;
-    text-decoration: none;
 }
 
-header[role="banner"] a:hover:after,
-footer[role="contentinfo"] a:hover:after {
-    background: white;
-}
 
 .header-content,
 main[role="main"],
@@ -551,10 +538,6 @@ main[role="main"],
     border-radius: 100%;
 }
 
-.headshot-link:hover:after {
-    width: 0;
-}
-
 
 main[role="main"] {
     margin: 3em 1em 1em;
@@ -564,6 +547,21 @@ main[role="main"] {
 main[role="main"] h1,
 main[role="main"] h2 {
     text-align: left;
+}
+
+main[role="main"] a {
+    background-image: -moz-linear-gradient(top,#fff 50%,#333 50%);
+    background-image: -webkit-linear-gradient(top,#fff 50%,#333 50%);
+    background-image: -o-linear-gradient(top,#fff 50%,#333 50%);
+    background-image: linear-gradient(to bottom,#fff 50%,#333 50%);
+    background-repeat: repeat-x;
+    background-size: 0.6em;
+    background-position: 0 1.05em;
+    text-shadow: 0 0 0.1em white;
+}
+
+main[role="main"] h2 a {
+    background-size: 1em;
 }
 
 footer[role="contentinfo"] {
@@ -581,6 +579,14 @@ footer[role="contentinfo"] p {
 
 footer[role="contentinfo"] a {
     color: white;
+    background-image: -moz-linear-gradient(top,#37393b 50%, #fff 50%);
+    background-image: -webkit-linear-gradient(top,#37393b 50%,#fff 50%);
+    background-image: -o-linear-gradient(top,#37393b 50%,#fff 50%);
+    background-image: linear-gradient(to bottom,#37393b 50%,#fff 50%);
+    background-repeat: repeat-x;
+    background-size: 0.8em;
+    background-position: 0 1.05em;
+    text-shadow: 0 0 0.1em #37393b;
 }
 
 .post code {
