@@ -1,6 +1,6 @@
 name: Tom Robertshaw
 markdown: redcarpet
-paginate: 10
+paginate: 5
 permalink: /:year/:month/:title
 pygments: true
 url: http://tomrobertshaw.net
