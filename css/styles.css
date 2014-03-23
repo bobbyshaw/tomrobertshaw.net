@@ -633,6 +633,7 @@ footer[role="contentinfo"] .contact li:last-child {
 footer[role="contentinfo"] .contact a {
     background: url('/img/theme/sprites.jpg') no-repeat;
     background-size: inherit;
+    border-radius: 0.3em;
     display: inline-block;
     height: 31px;
     text-indent: -9999px;
