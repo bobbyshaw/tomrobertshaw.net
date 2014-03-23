@@ -15,7 +15,6 @@ tags: []
 head_js:
   - domReady.js
 footer_js:
-  - highcharts_standalone.js
   - highcharts.js
 ---
 

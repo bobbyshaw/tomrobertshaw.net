@@ -15,7 +15,6 @@ tags: []
 head_js:
   - domReady.js
 footer_js:
-  - highcharts_standalone.js
   - highcharts.js
 ---
 The February 2013 eCommerce survey found 34,864 sites in the <a href="http://www.alexa.com/topsites">Alexa Top 1 Million</a>. This is a slight decrease on the <a href="http://tomrobertshaw.net/2012/11/october-2012-ecommerce-survey/">October 2012 survey</a>.
