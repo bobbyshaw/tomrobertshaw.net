@@ -54,15 +54,15 @@ As we can see, United States has the runaway majority and Germany has the larges
 
 So, my improvement was to take a closer look at the actual content for each of the sites.  Luckily, by default in Magento there is a language code in the HTML tag at the top of the source of the page.   When a different locale is set up, Magento changes this tag to reflect the change.   For example, <a href="http://demo.magentocommerce.com/">demo.magentocommerce.com</a> shows:
 
-<pre lang="html4strict">
+{% highlight html %}
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-</pre>
+{% endhighlight %}
 
 while <a href="http://score.nl/">score.nl</a> uses:
 
-<pre lang="html4strict">
+{% highlight html %}
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
-</pre>
+{% endhighlight %}
 
 So let's take a look at the results.   Over 63% of sites are in English, 13% German, 7% French and 4% Dutch.  This is actually pretty similar to the hosting location results.
 

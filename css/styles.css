@@ -503,6 +503,23 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 1em 0;
+}
+
+table {
+    margin: 1em auto;
+}
+
+td {
+    padding: 0 0.5em 0 0;
+}
+
+img { 
+    display: block;
+    margin: 1em auto;
+}
+
 header[role="banner"] {
     background: #283844 url('/img/theme/header-bg-cropped.png') repeat-x;
     text-align: center;

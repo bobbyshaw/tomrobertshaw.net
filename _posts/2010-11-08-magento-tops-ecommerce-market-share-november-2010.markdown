@@ -206,11 +206,7 @@ Similarly, <a href="http://www.mercent.com/">Mercent</a> were relatively low in 
 
 <h2>Results in Full</h2>
 
-<table style="width:70%;">
-   <col/>
-   <col width="1"/>
-   <col width="1"/>
-   <col/>
+<table>
    <tr>
      <th>eCommerce Package</th>
      <th>Number of Sites</th>

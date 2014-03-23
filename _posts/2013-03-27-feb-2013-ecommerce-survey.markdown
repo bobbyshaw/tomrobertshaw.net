@@ -31,7 +31,7 @@ On trend from the previous surveys, osCommerce loses further market share and no
 Large increases are seen this month for Prestashop (+14%) and Open Cart (+39%).
 
 
-<div id="mostPopularMillion" style="/*height: 300px;*/"></div>
+<div id="mostPopularMillion"></div>
 
 <div style="text-align: center; margin: 20px 0; font-weight: bold;">
     <a href="#download-now">Download the full results</a>
@@ -41,327 +41,299 @@ Turning to the top 100K busiest sites according to Alexa, 1,632 stores were dete
 
 The results of which show that Magento continues to have the most stores in the top 100K, with 468 stores. Second and third most popular in this category are the traditional Enterprise products <a href="http://www.ibm.com/software/websphere">IBM WebSphere</a> and <a href="http://www.atg.com">ATG</a>. This month sees Hybris added to the survey and 62 sites in the top 100K were found to be on the platform.
 
-<div id="mostPopularHundredThousand" style="height: 400px;"></div>
+<div id="mostPopularHundredThousand"></div>
 
 
-<h3>Full Results</h3>
+### Full Results
+
 For this edition, technology signatures for 8 more ecommerce softwares has been added, including Hybris and Digital River. Here are summarised results for each platform.
-<table style="border-collapse: collapse; table-layout: fixed; width: 450pt;" width="450" border="0" cellspacing="0" cellpadding="0"><colgroup> <col width="143" /> <col width="100" /> <col width="100" /> <col width="100" /></colgroup>
+
+<table>
 <tbody>
-<tr style="height: 15.0pt;">
+<tr>
 <td><strong>eCommerce Platform</strong></td>
 <td align="right"><strong>Oct 2012</strong></td>
 <td align="right"><strong>Feb 2013</strong></td>
-<td><strong>Change</strong></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Magento</td>
+<tr>
+<td>Magento</td>
 <td align="right">8087</td>
 <td align="right">9063</td>
-<td><span class="inlinesparkline">3414,4074,4705,5589,6795,8087,9063</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">VirtueMart</td>
+<tr>
+<td>VirtueMart</td>
 <td align="right">3657</td>
 <td align="right">3324</td>
-<td><span class="inlinesparkline">2683,2701,2753,3914,3657,3324</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">PrestaShop</td>
+<tr>
+<td>PrestaShop</td>
 <td align="right">2621</td>
 <td align="right">2998</td>
-<td><span class="inlinesparkline">852,1079,1302,1518,2187,2621,2998</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Zen Cart</td>
+<tr>
+<td>Zen Cart</td>
 <td align="right">4541</td>
 <td align="right">2515</td>
-<td><span class="inlinesparkline">1556,1533,3167,3758,4042,4541,2515</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">osCommerce</td>
+<tr>
+<td>osCommerce</td>
 <td align="right">2881</td>
 <td align="right">2461</td>
-<td><span class="inlinesparkline">3123,3033,2554,2334,3199,2881,2461</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">OpenCart</td>
+<tr>
+<td>OpenCart</td>
 <td align="right">1747</td>
 <td align="right">2425</td>
-<td><span class="inlinesparkline">335,492,660,757,1129,1747,2425</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Volusion</td>
+<tr>
+<td>Volusion</td>
 <td align="right">1080</td>
 <td align="right">1168</td>
-<td><span class="inlinesparkline">889,906,1099,1157,1266,1080,1168</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Interspire</td>
+<tr>
+<td>Interspire</td>
 <td align="right">987</td>
 <td align="right">1106</td>
-<td><span class="inlinesparkline">605,739,819,918,983,987,1106</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Yahoo! Stores</td>
+<tr>
+<td>Yahoo! Stores</td>
 <td align="right">1068</td>
 <td align="right">1014</td>
-<td><span class="inlinesparkline">1315,997,1217,1068,1014</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Shopify</td>
+<tr>
+<td>Shopify</td>
 <td align="right">573</td>
 <td align="right">826</td>
-<td><span class="inlinesparkline">122,143,204,251,345,573,826</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">WP e-Commerce</td>
+<tr>
+<td>WP e-Commerce</td>
 <td align="right">800</td>
 <td align="right">799</td>
-<td><span class="inlinesparkline">779,754,861,800,799</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Ubercart</td>
+<tr>
+<td>Ubercart</td>
 <td align="right">856</td>
 <td align="right">770</td>
-<td><span class="inlinesparkline">706,992,1305,891,856,770</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">CS-Cart</td>
+<tr>
+<td>CS-Cart</td>
 <td align="right">555</td>
 <td align="right">620</td>
-<td><span class="inlinesparkline">397,383,538,555,620</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Miva Merchant</td>
+<tr>
+<td>Miva Merchant</td>
 <td align="right">611</td>
 <td align="right">547</td>
-<td><span class="inlinesparkline">710,894,802,464,721,611,547</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">IBM WebSphere Commerce</td>
+<tr>
+<td>IBM WebSphere Commerce</td>
 <td align="right">528</td>
 <td align="right">525</td>
-<td><span class="inlinesparkline">223,1011,396,527,528,525</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ECSHOP</td>
+<tr>
+<td>ECSHOP</td>
 <td align="right">774</td>
 <td align="right">484</td>
-<td><span class="inlinesparkline">667,831,703,774,484</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">X-Cart</td>
+<tr>
+<td>X-Cart</td>
 <td align="right">509</td>
 <td align="right">399</td>
-<td><span class="inlinesparkline">733,740,659,639,617,509,399</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">OXID eSales</td>
+<tr>
+<td>OXID eSales</td>
 <td align="right">381</td>
 <td align="right">338</td>
-<td><span class="inlinesparkline">310,314,305,311,404,381,338</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">3DCart</td>
+<tr>
+<td>3DCart</td>
 <td align="right">313</td>
 <td align="right">338</td>
-<td><span class="inlinesparkline">209,249,317,313,338</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ATG</td>
+<tr>
+<td>ATG</td>
 <td align="right">276</td>
 <td align="right">335</td>
-<td><span class="inlinesparkline">91,112,248,276,335</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Demandware</td>
+<tr>
+<td>Demandware</td>
 <td align="right">245</td>
 <td align="right">304</td>
-<td><span class="inlinesparkline">118,140,182,189,245,304</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Hybris</td>
+<tr>
+<td>Hybris</td>
 <td align="right"></td>
 <td align="right">214</td>
-<td><span class="inlinesparkline">214</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">E-junkie</td>
+<tr>
+<td>E-junkie</td>
 <td align="right">210</td>
 <td align="right">213</td>
-<td><span class="inlinesparkline">265,210,213</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Actinic</td>
+<tr>
+<td>Actinic</td>
 <td align="right">682</td>
 <td align="right">166</td>
-<td><span class="inlinesparkline">290,229,237,221,777,682,166</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">MonsterCommerce</td>
+<tr>
+<td>MonsterCommerce</td>
 <td align="right"></td>
 <td align="right">161</td>
-<td><span class="inlinesparkline">161</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">AbleCommerce</td>
+<tr>
+<td>AbleCommerce</td>
 <td align="right">142</td>
 <td align="right">159</td>
-<td><span class="inlinesparkline">151,142,159</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Intershop</td>
+<tr>
+<td>Intershop</td>
 <td align="right">170</td>
 <td align="right">156</td>
-<td><span class="inlinesparkline">240,170,156</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Shopp</td>
+<tr>
+<td>Shopp</td>
 <td align="right">150</td>
 <td align="right">152</td>
-<td><span class="inlinesparkline">171,193,199,150,152</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ePages</td>
+<tr>
+<td>ePages</td>
 <td align="right"></td>
 <td align="right">146</td>
-<td><span class="inlinesparkline">146</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">nopCommerce</td>
+<tr>
+<td>nopCommerce</td>
 <td align="right">130</td>
 <td align="right">145</td>
-<td><span class="inlinesparkline">52,64,81,111,129,130,145</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">plentyMarkets</td>
+<tr>
+<td>plentyMarkets</td>
 <td align="right"></td>
 <td align="right">138</td>
-<td><span class="inlinesparkline">138</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">xt:Commerce</td>
+<tr>
+<td>xt:Commerce</td>
 <td align="right"></td>
 <td align="right">118</td>
-<td><span class="inlinesparkline">118</span></td>
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ProStores</td>
+<tr>
+<td>ProStores</td>
 <td align="right">105</td>
 <td align="right">100</td>
-<td><span class="inlinesparkline">275,132,154,105,100</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ShopSite</td>
+<tr>
+<td>ShopSite</td>
 <td align="right">84</td>
 <td align="right">82</td>
-<td><span class="inlinesparkline">112,84,82</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ekmPowershop</td>
+<tr>
+<td>ekmPowershop</td>
 <td align="right">61</td>
 <td align="right">73</td>
-<td><span class="inlinesparkline">71,58,65,62,63,61,73</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Big Cartel</td>
+<tr>
+<td>Big Cartel</td>
 <td align="right">67</td>
 <td align="right">72</td>
-<td><span class="inlinesparkline">28,41,44,47,83,67,72</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">FoxyCart</td>
+<tr>
+<td>FoxyCart</td>
 <td align="right">70</td>
 <td align="right">68</td>
-<td><span class="inlinesparkline">27,34,47,94,70,68</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Drupal Commerce</td>
+<tr>
+<td>Drupal Commerce</td>
 <td align="right">28</td>
 <td align="right">68</td>
-<td><span class="inlinesparkline">15,28,68</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">GSI Commerce</td>
+<tr>
+<td>GSI Commerce</td>
 <td align="right">46</td>
 <td align="right">45</td>
-<td><span class="inlinesparkline">48,59,64,63,57,46,45</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">ShopFactory</td>
+<tr>
+<td>ShopFactory</td>
 <td align="right">42</td>
 <td align="right">40</td>
-<td><span class="inlinesparkline">59,42,40</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">CubeCart</td>
+<tr>
+<td>CubeCart</td>
 <td align="right">34</td>
 <td align="right">34</td>
-<td><span class="inlinesparkline">47,56,45,34,34</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">CosmoShop</td>
+<tr>
+<td>CosmoShop</td>
 <td align="right"></td>
 <td align="right">29</td>
-<td><span class="inlinesparkline">29</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">RomanCart</td>
+<tr>
+<td>RomanCart</td>
 <td align="right">33</td>
 <td align="right">28</td>
-<td><span class="inlinesparkline">43,33,28</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">LemondStand</td>
+<tr>
+<td>LemondStand</td>
 <td align="right">20</td>
 <td align="right">23</td>
-<td><span class="inlinesparkline">12,16,14,20,23</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">BluCommerce</td>
+<tr>
+<td>BluCommerce</td>
 <td align="right">23</td>
 <td align="right">21</td>
-<td><span class="inlinesparkline">26,23,21</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">TomatoCart</td>
+<tr>
+<td>TomatoCart</td>
 <td align="right">31</td>
 <td align="right">19</td>
-<td><span class="inlinesparkline">11,16,9,15,13,31,19</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">RBS Change</td>
+<tr>
+<td>RBS Change</td>
 <td align="right"></td>
 <td align="right">16</td>
-<td><span class="inlinesparkline">16</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">Digital River</td>
+<tr>
+<td>Digital River</td>
 <td align="right"></td>
 <td align="right">16</td>
-<td><span class="inlinesparkline">16</span></td>
+
 </tr>
-<tr style="height: 15.0pt;">
-<td style="height: 15.0pt;" height="15">AgoraCart</td>
+<tr>
+<td>AgoraCart</td>
 <td align="right"></td>
 <td align="right">3</td>
-<td><span class="inlinesparkline">3</span></td>
+
 </tr>
 </tbody>
 </table>
+
 <h3 id="download-now">Download Now</h3>
 
-A range of site lists are available to purchase and download instantly as an .xls spreadsheet. Choose from the most popular platforms or buy all 34,864 sites for only £299.99 (~$450) + VAT.
+A range of site lists are available to purchase.
 
 <script type="text/javascript">
 var me = "me", at = "@", domain = "tomrobertshaw.net";
 document.write("<span style='display: block; font-size: larger; font-weight: bold; text-align:center;'><a href=" + "mailto:" + me + at + domain + ">Email me to discuss a site list purchase</a></span>");
 </script>
 
-</div>
-</form>For each site the Alexa site rank and the eCommerce platform are provided. Additionally, a DNS lookup is conducted and provides IP and hosting country when successful.
-<h3>About the Survey</h3>
+For each site the Alexa site rank and the eCommerce platform are provided. Additionally, a DNS lookup is conducted and provides IP and hosting country when successful.
+
+
+### About the Survey
+
 The survey takes the list of the top 1 million sites as provided by Alexa (an Amazon-owned company). It then fetches the HTML document for the home page and analyses against a library of over 225 signatures that have been written. A signature is a rule that identifies an individual platform. For example, for Magento this would be a reference to the varien/js.js JavaScript file. The accuracy of the survey is being improved with each edition as signature rules are added and reviewed.
 
 The platform is built to scale on Amazon EC2, Mongo and Redis, so the survey is predominantly limited by source sites to analyse. Alexa produces their site list based on visits to sites by the Alexa toolbar user community. Plans are being made to include data from <a href="http://www.quantcast.com/top-sites-1">Quantcast</a> to try and reduce the inevitable bias of using a single dataset.
@@ -369,8 +341,6 @@ The platform is built to scale on Amazon EC2, Mongo and Redis, so the survey is 
 I co-own an eCommerce development company, Meanbee. We specialise in Magento, and hence a reasonable argument could be made for a biased survey. I would respond that significant effort has been put into writing rules for each and every platform and regular improvements are made to the accuracy of all signatures. Focussing on eCommerce as a company we are interested in observing how the market share of platforms changes over time. This enables us to judge the speed of adoption of new platforms and the demise of others. This way we can be sure that we are knowledgeable about the solutions that are available and offering the most appropriate platform for our clients.
 
 Feedback, suggestions and questions always welcome. Say hello on twitter, I'm <a href="http://twitter.com/bobbyshaw">@bobbyshaw</a>.
-
-&nbsp;
 
 <script type="text/javascript">// <![CDATA[
 var chart = [];
