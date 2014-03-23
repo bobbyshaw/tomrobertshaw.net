@@ -474,10 +474,11 @@ img,canvas,iframe,video,svg{max-width:100%}.overflow-container{overflow-y:scroll
 body {
     color: #333;
     font-family: 'enrquetaregular';
-    font-smooth:always;
-    -webkit-font-smoothing: antialiased;
     font-size: 20px;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
     line-height: 1.4;
+    text-rendering: optimizeLegibility;
 }
 
 h1,h2,h3,h4 {
