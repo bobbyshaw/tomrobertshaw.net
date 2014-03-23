@@ -420,7 +420,7 @@ domReady.on(function () {
           color: '#000000',
           connectorColor: '#000000',
           formatter: function() {
-            return '<b>'+ this.point.name +'</b>: '+ this.point.y;
+            return '<b>'+ this.point.name +'</b>';
           }
         }
       }
