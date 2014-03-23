@@ -7,8 +7,13 @@
         <meta name="description" content="{{ page.meta-description }}" />
         <title>{{ page.title }}</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
-
+        <link rel="stylesheet" href="/css/styles.css" />
+        {% for css_name in page.extra_css %}
+        <link rel="stylesheet" href="{{ css_name }}" />
+        {% endfor %}
+        {% for head_js_name in page.head_js %}
+        <script src="/js/{{ head_js_name }}"></script>
+        {% endfor %}
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
 
@@ -45,6 +50,9 @@
                     </li>
                 </ul>
             </div>
-        </footer>    
+        </footer>   
+        {% for footer_js_name in page.footer_js %}
+            <script src="/js/{{ footer_js_name }}"></script>
+        {% endfor %} 
     </body>
 </html>
