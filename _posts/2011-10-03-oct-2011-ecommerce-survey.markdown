@@ -228,4 +228,4 @@ Follow me on twitter as <a href="http://twitter.com/bobbyshaw">@bobbyshaw</a>
 
 ### Would you be interested in purchasing a site list?
 
-After discussions with Alexa, I've been able to confirm that it's not against their terms of service to sell lists of sites running particular eCommerce software.  So, if you're interested in getting a full or partial site list.  Please <script type="text/javascript">var me = "me"; var at = "@"; var domain = "tomrobertshaw.net"; document.write("<a href=" + "mailto:" + me + at + domain + ">get in touch</a>");</script>.
+After discussions with Alexa, I've been able to confirm that it's not against their terms of service to sell lists of sites running particular eCommerce software.  So, if you're interested in getting a full or partial site list.  Please <a href="mailto:me@tomrobertshaw.net">get in touch</a>.

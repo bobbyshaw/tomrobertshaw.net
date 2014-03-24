@@ -323,10 +323,7 @@ For this edition, technology signatures for 8 more ecommerce softwares has been 
 
 A range of site lists are available to purchase.
 
-<script type="text/javascript">
-var me = "me", at = "@", domain = "tomrobertshaw.net";
-document.write("<span style='display: block; font-size: larger; font-weight: bold; text-align:center;'><a href=" + "mailto:" + me + at + domain + ">Email me to discuss a site list purchase</a></span>");
-</script>
+<span style='display: block; font-size: larger; font-weight: bold; text-align:center;'><a href="mailto:me@tomrobertshaw.net">Email me to discuss a site list purchase</a></span>
 
 For each site the Alexa site rank and the eCommerce platform are provided. Additionally, a DNS lookup is conducted and provides IP and hosting country when successful.
 

@@ -43,10 +43,7 @@
 
                 <ul class="contact">
                     <li>
-                        <script type="text/javascript">
-                            var me = "me", at = "@", domain = "tomrobertshaw.net";
-                            document.write("<a class='email' href='mailto:" + me + at + domain + "'>Email Tom Robertshaw</a>");
-                        </script>
+                        <a href="mailto:me@tomrobertshaw.net" class="email">Email Tom Robertshaw</a>
                     </li>
                     <li>
                         <a href="http://twitter.com/bobbyshaw" class="twitter">Bobbyshaw on Twitter</a>
@@ -59,9 +56,11 @@
                     </li>
                 </ul>
             </div>
-        </footer>   
+        </footer>
         {% for footer_js_name in page.footer_js %}
-            <script src="/js/{{ footer_js_name }}"></script>
+        <script src="/js/{{ footer_js_name }}"></script>
         {% endfor %} 
+        <script src="/js/instantclick.min.js" data-no-instant></script>
+        <script data-no-instant>InstantClick.init();</script>
     </body>
 </html>
