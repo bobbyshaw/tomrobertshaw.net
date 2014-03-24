@@ -16,11 +16,11 @@ meta-description: Co-founder of Meanbee, ecommerce focussed, speaking on respons
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="newer">&lang; Newer</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="newer">&#x2329; Newer</a>
   {% endif %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="older">Older &rang; </a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="older">Older &#x232A;</a>
   {% endif %}
 </div>
 {% endif %}
