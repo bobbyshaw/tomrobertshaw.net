@@ -56,14 +56,15 @@
                 </ul>
             </div>
         </footer>
-        {% for footer_js_name in page.footer_js %}
-        <script src="/js/{{ footer_js_name }}"></script>
-        {% endfor %} 
         <script src="/js/instantclick.min.js" data-no-instant></script>
+        {% for footer_js_name in page.footer_js %}
+        <script src="/js/{{ footer_js_name }}" data-no-instant></script>
+        {% endfor %} 
         <script data-no-instant>
             InstantClick.on('change', function() {
                 ga('send', 'pageview', location.pathname + location.search);
             });
+
             InstantClick.init();
         </script>
     </body>
