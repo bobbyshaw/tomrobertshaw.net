@@ -1,4 +1,5 @@
 <IfModule mod_expires.c>
+ FileETag MTime Size
  ExpiresActive On
  ExpiresDefault "access plus 1 year"
   # IMAGES
@@ -24,8 +25,6 @@
   # FLASH
  ExpiresByType application/x-shockwave-flash "access plus 1 year"
 </IfModule>
-
-FileETag Size
 
 # compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/plain
