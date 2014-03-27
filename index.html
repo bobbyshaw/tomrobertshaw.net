@@ -7,7 +7,7 @@ meta-description: Co-founder of Meanbee, ecommerce focussed, speaking on respons
 <ul class="posts">
 	{% for post in paginator.posts %}
     	<li>
-    		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    		<h2><a href="{{ post.url }}/">{{ post.title }}</a></h2>
 			<p class="excerpt">{{ post.content | strip_html | truncatewords:50}}</p>
     	</li>
     {% endfor %}
