@@ -12,10 +12,6 @@ date: 2012-02-21 15:40:26.000000000 +00:00
 categories:
 - eCommerce
 tags: []
-head_js:
-  - domReady.js
-footer_js:
-  - highcharts.js
 ---
 <h4><a href="http://tomrobertshaw.net/2012/11/october-2012-ecommerce-survey/">Read the latest results in the October 2012 edition of the eCommerce survey</a></h4>
 

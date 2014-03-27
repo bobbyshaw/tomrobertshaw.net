@@ -11,9 +11,8 @@
         {% for css_name in page.extra_css %}
         <link rel="stylesheet" href="{{ css_name }}" />
         {% endfor %}
-        {% for head_js_name in page.head_js %}
-        <script src="/js/{{ head_js_name }}"></script>
-        {% endfor %}
+        <script src="js/domReady.js"></script>
+        <script src="js/highcharts.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,9 +56,6 @@
             </div>
         </footer>
         <script src="/js/instantclick.min.js" data-no-instant></script>
-        {% for footer_js_name in page.footer_js %}
-        <script src="/js/{{ footer_js_name }}" data-no-instant></script>
-        {% endfor %} 
         <script data-no-instant>
             InstantClick.on('change', function() {
                 ga('send', 'pageview', location.pathname + location.search);

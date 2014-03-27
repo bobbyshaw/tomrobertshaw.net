@@ -12,10 +12,6 @@ date: 2012-11-06 14:37:53.000000000 +00:00
 categories:
 - eCommerce
 tags: []
-head_js:
-  - domReady.js
-footer_js:
-  - highcharts.js
 ---
 
 The October 2012 eCommerce survey found 35,218 sites in the <a href="http://www.alexa.com/topsites">Alexa Top 1 Million</a>.  This is a 4% increase since the <a href="http://tomrobertshaw.net/2012/02/feb-2012-ecommerce-survey/">February eCommerce survey</a>.
