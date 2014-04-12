@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tom Robertshaw | Co-founder at Meanbee.  eCommmerce strategy, magento development and technical experiments.
-meta-description: Co-founder of Meanbee, ecommerce focussed, speaking on responsive design, researching technology prolification and building a UX optimised checkout.
+title: Tom Robertshaw | Presenting at conferences on magento development, responsive design and entrepreneurship.
+meta-description: Presenting at conferences and events on a range of topics including responsive design, entrepreneuship and software engineering.
 ---
 
 
