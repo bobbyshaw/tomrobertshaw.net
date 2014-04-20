@@ -495,8 +495,12 @@ h2 {
 }
 
 ul {
-    list-style: none;
+    list-style: disc;
     padding: 0;
+}
+
+ul li {
+    margin-left: 1em;
 }
 
 a {
@@ -676,6 +680,10 @@ main[role="main"] a.older {
 
 main[role="main"] a.newer {
     float: left;
+}
+
+.posts {
+  list-style: none;
 }
 
 .posts li {
