@@ -15,7 +15,7 @@ The trend towards responsive design in eCommerce over the last 18 months has bee
 
 At Meanbee we have been pushing our technical expertise forward and one of those has been in responsive design. We are grateful to have been invited to Meet Magento conferences to share our experiences. The slides of which are available on [speakerdeck](speakerdeck.com/meanbee/).
 
-As part of these talks with [Darren Belding](http://darrenbelding.com/) I conducted some quick research into understanding how many sites were actually using this technique. The prototype was counting the occurrences of media queries within CSS files.  After looking through the results and checking a sample, a count of 5 or more was considered to be a reasonable indicator of responsiveness.  This results in statistic such as 1% of ecommerce site being responsive and 66% of those were based on Magento.
+As part of these talks with [Darren Belding](http://darrenbelding.com/) I conducted some quick research a year ago into understanding how many sites were actually using this technique. The prototype was counting the occurrences of media queries within CSS files.  After looking through the results and checking a sample, a count of 5 or more was considered to be a reasonable indicator of responsiveness.  This resulted in statistics such as 1% of ecommerce site being responsive and 66% of those were based on Magento.
 
 ## Latest Responsive Survey
 
@@ -26,7 +26,7 @@ This was somewhat rudimentary though, so using the April 2014 eCommerce survey r
 - Ignoring media queries that were empty or only had one css statement.
 - Checking link HTML elements for media queries.
 
-It has been a year since the last ecommerce survey and much growth has happened to it with an even wider range of platform detection.  This edition found 49,000 sites within the Alexa Top 1 million to be running on a known ecommerce platform.  This is an increase of 40% from February 2013. 
+It has been a year since the last ecommerce survey and there has been massive growth in it with an even wider range of platform detection.  This edition found 49,000 sites within the Alexa Top 1 million to be running on a known ecommerce platform.  This is an increase of 40% from February 2013. 
 
 ## Results and Analysis
 
@@ -80,7 +80,7 @@ This is where a responsive site is built but small sections of it are optimized 
 
 During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries however showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a different site to mobile devices. 
 
-There are two approaches to this.  Some sites do this while keeping the same URL (regarding as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](m.marksandspencers.com) and [Warby Parker](m.warbyparker.com).
+There are two approaches to this.  Some sites do this while keeping the same URL (regarded as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](m.marksandspencers.com) and [Warby Parker](m.warbyparker.com).
 
 ## Limitations
 
