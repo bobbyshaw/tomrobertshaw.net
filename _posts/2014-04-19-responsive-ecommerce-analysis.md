@@ -64,7 +64,7 @@ A special mention should also go to [theproteinworks.com](theproteinworks.com) a
 
 This leads us on to take a look at what platforms the sites are on that have chosen responsive design.
 
-The leaders are (with their proportion of responsive sites:
+The leaders are (with their proportion of responsive sites):
 
 - Magento (32%)
 - WooCommece (22%)
@@ -72,13 +72,13 @@ The leaders are (with their proportion of responsive sites:
 - Shopify  (9%)
 - Prestashop (9%)
 
-Last year, Magento was at 66% so it has somewhat reduced in share even if the quantity of responsive sites has increased.  One reason for this is likely to be the introduction of WooCommerce which wasn't previously detected and has a high proportion of responsive sites.  Indeed, 30 out of 39 of the starter themes on [woothemes](http://www.woothemes.com/product-category/themes/woocommerce/) are responsive.
+Last year, Magento was at 66% so it has somewhat reduced in share even if the quantity of responsive sites has increased.  One reason for this is likely to be the introduction of WooCommerce which was not previously detected and has a high proportion of responsive sites.  Indeed, 30 out of 39 of the starter themes on [woothemes](http://www.woothemes.com/product-category/themes/woocommerce/) are responsive.
 
 ## Responsive Web Design with Server-Side Components (RESS)
 
 This is where a responsive site is built but small sections of it are optimized prior to delivery by detecting the user agent of the device. 
 
-During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries however showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a different site to mobile devices. 
+During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries but showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a different site to mobile devices. 
 
 There are two approaches to this.  Some sites do this while keeping the same URL (regarded as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](m.marksandspencers.com) and [Warby Parker](m.warbyparker.com).
 
