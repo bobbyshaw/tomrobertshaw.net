@@ -74,11 +74,11 @@ The leaders are (with their proportion of responsive sites):
 
 Last year, Magento was at 66% so it has somewhat reduced in share even if the quantity of responsive sites has increased.  One reason for this is likely to be the introduction of WooCommerce which was not previously detected and has a high proportion of responsive sites.  Indeed, 30 out of 39 of the starter themes on [woothemes](http://www.woothemes.com/product-category/themes/woocommerce/) are responsive.
 
-## Responsive Web Design with Server-Side Components (RESS)
+## Responsive Web Design with Device Experiences
 
-This is where a responsive site is built but small sections of it are optimized prior to delivery by detecting the user agent of the device. 
+This is where a responsive site is built but [device experiences](https://developers.facebook.com/blog/post/2012/01/24/device-experiences---responsive-design/) are created by detecting the user agent of the device and using a different template. 
 
-During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries but showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a different site to mobile devices. 
+During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries but showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a site variant to mobile devices. 
 
 There are two approaches to this.  Some sites do this while keeping the same URL (regarded as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](m.marksandspencers.com) and [Warby Parker](m.warbyparker.com).
 
@@ -88,10 +88,6 @@ It is difficult to automatically classify sites that have a low number of media 
 
 ## Conclusions
 
-It is clear to see that responsive design for eCommerce has seen enormous growth over the last 2 years.  I can only see this trend to continue as more brands go through a redesign and rebuild cycle.
+It is clear to see that responsive design for eCommerce has seen enormous growth over the last 2 years.  I can only see this trend continuing as more brands go through a redesign and rebuild cycle.
 
-The next step for those already taking advantage of responsive design is making optimisations using the RESS technique.  From a code maintenance point of view it makes sense to have a single codebase which is where the advantage of responsive comes over having a separate mobile site.  However, that is not to say that a careful use of user-agent detection can allow for some optimisations, e.g. performance or usability. 
-
-
-
-
+The next step for those already taking advantage of responsive design is making optimisations on the device level.  This could be through device experiences or perhaps with the [server side components](http://www.lukew.com/ff/entry.asp?1392) technique.  With careful use of user-agent detection, these can enable optimisations further to responsive design alone, e.g. performance or usability.
