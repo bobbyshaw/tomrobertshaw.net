@@ -13,13 +13,13 @@ The trend towards responsive design in eCommerce over the last 18 months has bee
 
 ## History
 
-At Meanbee we have been pushing our technical expertise forward and one of those has been in responsive design. We are grateful to have been invited to Meet Magento conferences to share our experiences. The slides of which are available on [speakerdeck](speakerdeck.com/meanbee/).
+At Meanbee we have been pushing our technical expertise forward and one of those has been in responsive design. We are grateful to have been invited to Meet Magento conferences to share our experiences. The slides of which are available on [speakerdeck](http://speakerdeck.com/meanbee/).
 
 As part of these talks with [Darren Belding](http://darrenbelding.com/) I conducted some quick research a year ago into understanding how many sites were actually using this technique. The prototype was counting the occurrences of media queries within CSS files.  After looking through the results and checking a sample, a count of 5 or more was considered to be a reasonable indicator of responsiveness.  This resulted in statistics such as 1% of ecommerce site being responsive and 66% of those were based on Magento.
 
 ## Latest Responsive Survey
 
-This was somewhat rudimentary though, so using the April 2014 eCommerce survey results, I built on the prototype to improve accuracy. I did this in a number of ways including:
+This was somewhat rudimentary though, so using the April 2014 eCommerce survey results (to be released imminently), I built on the prototype to improve accuracy. I did this in a number of ways including:
 
 - Only looking for min-width and max-width media queries
 - Blacklisting some libraries, e.g. flexslider, that include their own media queries
@@ -38,27 +38,28 @@ The sites that were detected to have used media queries were evenly spread over 
 
 A selection of the most popular responsive sites that were detected were: 
 
-#### [disney.go.com](disney.go.com) (IBM WebSphere)
+#### [disney.go.com](http://disney.go.com) (IBM WebSphere)
 
-![Disney Site on Desktop](/img/2014/04/disney-desktop.png "Disney Site on Desktop")
+<a href="http://disney.go.com"><img src="/img/2014/04/disney-desktop.png" alt="Disney Site on Desktop" title="Disney Site on Desktop" /></a>
 
-#### [qvc.com](qvc.com) (IBM WebSphere)
+#### [qvc.com](http://qvc.com) (IBM WebSphere)
 
-![QVC Site on Desktop](/img/2014/04/qvc-desktop.png "QVC Site on Desktop")
+<a href="http://qvc.com"><img src="img/2014/04/qvc-desktop.png" alt="QVC Site on Desktop" title="QVC Site on Desktop" /></a>
 
-#### [konga.com](konga.com) (Magento)
+#### [konga.com](http://konga.com) (Magento)
 
-![Konga Site on Desktop](/img/2014/04/konga-desktop.png "Konga Site on Desktop")
+<a href="http://konga.com"><img src="/img/2014/04/konga-desktop.png" alt="Konga Site on Desktop" title="Konga Site on Desktop" /></a>
 
-#### [riverisland.com](riverisland.com) (Commerce Server)
+#### [riverisland.com](http://riverisland.com) (Commerce Server)
 
-![River Island Site on Desktop](/img/2014/04/riverisland-desktop.png "River Island Site on Desktop")
+<a href="http://riverisland.com"><img src="/img/2014/04/riverisland-desktop.png" alt="River Island Site on Desktop" title="River Island Site on Desktop" /></a>
 
-#### [galerieslafayette.com](galerieslafayette.com) (Hybris)
+#### [galerieslafayette.com](http://galerieslafayette.com) (Hybris)
 
-![Galeries La Fayette Site on Desktop](/img/2014/04/lafayette-desktop.png "Galeries La Fayette Site on Desktop")
+<a href="http://galerieslafayette.com"><img src="/img/2014/04/lafayette-desktop.png" alt="Galeries La Fayette Site on Desktop" title="Galeries La Fayette Site on Desktop" /></a>
 
-A special mention should also go to [theproteinworks.com](theproteinworks.com) and [883police.com](883police.com) for having over 250 and 300 media queries respectively! The highest amongst all ecommerce sites checked.
+
+A special mention should also go to [theproteinworks.com](http://theproteinworks.com) and [883police.com](http://883police.com) for having over 250 and 300 media queries respectively! The highest amongst all ecommerce sites checked.
 
 ### Most Popular Platforms to be Responsive
 
@@ -80,7 +81,7 @@ This is where a responsive site is built but [device experiences](https://develo
 
 During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries but showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a site variant to mobile devices. 
 
-There are two approaches to this.  Some sites do this while keeping the same URL (regarded as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](m.marksandspencers.com) and [Warby Parker](m.warbyparker.com).
+There are two approaches to this.  Some sites do this while keeping the same URL (regarded as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](http://m.marksandspencer.com/mt/www.marksandspencer.com) and [Warby Parker](http://m.warbyparker.com).
 
 ## Limitations
 
