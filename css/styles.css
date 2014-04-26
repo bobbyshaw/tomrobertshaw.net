@@ -624,6 +624,7 @@ footer[role="contentinfo"] .contact {
 footer[role="contentinfo"] .contact li {
     background: #37393b;
     display: inline;
+    margin: 0;
 }
 
 footer[role="contentinfo"] .contact li:first-child {
