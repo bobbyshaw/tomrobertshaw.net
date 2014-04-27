@@ -19,14 +19,14 @@ As part of these talks with [Darren Belding](http://darrenbelding.com/) I conduc
 
 ## Latest Responsive Survey
 
-This was somewhat rudimentary though, so using the April 2014 eCommerce survey results (to be released imminently), I built on the prototype to improve accuracy. I did this in a number of ways including:
+This was somewhat rudimentary though, so using the [April 2014 eCommerce survey results](2014/04/april-2014-ecommerce-survey/), I built on the prototype to improve accuracy. I did this in a number of ways including:
 
 - Only looking for min-width and max-width media queries
 - Blacklisting some libraries, e.g. flexslider, that include their own media queries
 - Ignoring media queries that were empty or only had one css statement.
 - Checking link HTML elements for media queries.
 
-It has been a year since the last ecommerce survey and there has been massive growth in it with an even wider range of platform detection.  This edition found 49,000 sites within the Alexa Top 1 million to be running on a known ecommerce platform.  This is an increase of 40% from February 2013. 
+It has been a year since the last ecommerce survey and there has been massive growth in it with an even wider range of platform detection.  This edition found 46,859 sites within the Alexa Top 1 million to be running on a known ecommerce platform.  This is an increase of 34% since February 2013. 
 
 ## Results and Analysis
 
