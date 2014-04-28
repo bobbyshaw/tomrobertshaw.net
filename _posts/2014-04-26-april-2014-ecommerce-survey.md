@@ -443,7 +443,7 @@ A range of site lists are available to purchase.  Simply get in touch and I will
 
 <h4 style='display: block; font-size: larger; font-weight: bold; text-align:center;'><a href="mailto:me@tomrobertshaw.net">Purchase a dataset</a></h4>
 
-For each site the Alexa site rank and the eCommerce platform are provided. Additionally, a DNS lookup is conducted and provides IP and hosing network and country where available.
+For each site the Alexa site rank and the eCommerce platform are provided. Additionally, a DNS lookup is conducted and provides IP and hosting network and country where available.
 
 e.g.
 
