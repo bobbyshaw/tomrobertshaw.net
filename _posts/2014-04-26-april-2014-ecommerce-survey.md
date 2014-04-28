@@ -19,7 +19,7 @@ Over the last year, the number of ecommerce sites detected in the [Alexa top 1 m
     <a href="#download-now">Download the full results</a>
 </div>
 
-The addition of [WooCommerce](www.woothemes.com/woocommerce/) has shown the Wordpress plugin to be a sizeable competitor to Magento, with 4,524 sites. While it would typically be considered as a software for smaller ecommerce companies, it is now the second most popular.  Plugin updates have been very frequent recently for WooCommerce, with [8 point releases](http://wordpress.org/plugins/woocommerce/changelog/) this year already. 
+The addition of [WooCommerce](http://www.woothemes.com/woocommerce/) has shown the Wordpress plugin to be a sizeable competitor to Magento, with 4,524 sites. While it would typically be considered as a software for smaller ecommerce companies, it is now the second most popular.  Plugin updates have been very frequent recently for WooCommerce, with [8 point releases](http://wordpress.org/plugins/woocommerce/changelog/) this year already. 
 
 That being said, Magento widens the gap when considering higher traffic ranks.  Looking at sites that have ranks higher than 250,000, we see 2,516 Magento sites while WooCommerce responds with 692.
 
