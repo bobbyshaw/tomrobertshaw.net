@@ -37,7 +37,7 @@ Using these results, I have also been able to identify that up to 16% of ecommer
 
 Turning to the top 100K busiest sites according to Alexa, 2,373 stores were detected. In this section of the survey we are expecting more enterprise-focussed shopping cart solutions.
 
-The results of which show that Magento continues to have the most stores in the top 100K. Identifying 704 Magento installations means that it sees a slightly increased majority of 30% compared to the full 1 million. Second and fourth most popular in this category are the traditional Enterprise products <a href="http://www.ibm.com/software/websphere">IBM WebSphere</a> and <a href="http://www.atg.com">ATG</a>. However, newcomer to the survey, [WooCommerce](http://www.woothemes.com/woocommerce/) takes third position in the top 100K with 186 sites. 
+The results of which show that Magento continues to have the most stores in the top 100K. Identifying 704 Magento installations means that it sees a slightly increased majority of 30% compared to the full 1 million. Second and fourth most popular in this category are the traditional Enterprise products <a href="http://www.ibm.com/software/websphere">IBM WebSphere</a> and <a href="http://www.atg.com">ATG Web Commerce</a>. However, newcomer to the survey, [WooCommerce](http://www.woothemes.com/woocommerce/) takes third position in the top 100K with 186 sites. 
 
 <div id="mostPopularHundredThousand"></div>
 
