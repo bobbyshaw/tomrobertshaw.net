@@ -31,7 +31,7 @@ A further 28 technologies have been added with 77 ecommerce platforms now being 
 
 For the first time, other forms of technology have been searched for, e.g. cache tools, CRM, web servers, analytics and CMS.  The aim of which is to allow for more in depth analysis such as that 628 (5%) Magento stores are also using Varnish as a caching mechanism.
 
-Using these results, I have also been able to identify that up to 16% of ecommerce sites are now using responsive design techniques through the [responsive ecommerce survey](2014/04/responsive-ecommerce-analysis/).
+Using these results, I have also been able to identify that up to 16% of ecommerce sites are now using responsive design techniques through the [responsive ecommerce survey](/2014/04/responsive-ecommerce-analysis/).
 
 ### The Top 100K
 
