@@ -21,7 +21,7 @@ Over the last year, the number of ecommerce sites detected in the [Alexa top 1 m
 
 The addition of [WooCommerce](www.woothemes.com/woocommerce/) has shown the Wordpress plugin to be a sizeable competitor to Magento, with 4,524 sites. While it would typically be considered as a software for smaller ecommerce companies is now the second most popular.  Plugin updates have been very frequent recently for WooCommerce, with [8 point releases](http://wordpress.org/plugins/woocommerce/changelog/) this year already. 
 
-That being said, Magento widens the gap when considering higher traffic ranks.  Looking at sites that have a ranks lower than 250,000 and above, we see 2,516 Magento sites while WooCommerce responds with 692.
+That being said, Magento widens the gap when considering higher traffic ranks.  Looking at sites that have ranks higher than 250,000, we see 2,516 Magento sites while WooCommerce responds with 692.
 
 Other platforms that see increases are PrestaShop and Shopify.  It is not surprising to see growth from Shopify as they have had a number of significant announcements in the last year including launching [Payments](http://www.shopify.com/blog/8536245-shopify-payments-launches-for-u-s-merchants), [POS System](http://www.shopify.com/blog/8814755-introducing-shopify-pos) and [Shopify Mobile](http://www.shopify.com/blog/11013977-introducing-shopify-mobile).  OpenCart also sees growth of 50%, an even greater increase on its jump of 39% that was seen last time. Part of this could be down to improved signatures, but there has been [one version and 5 point releases](http://www.opencart.com/?route=download/download) of OpenCart in the last year. 
 
