@@ -9,7 +9,7 @@ categories:
 - eCommerce
 ---
 
-For the fourth year running [Magento](http://www.magentocommerce.com) remains the most popular platform on the market.  This survey sees an additional 35% added to Magento's site count.  Even with this growth it maintains a stable 26% of the marketshare due to the growth in other platforms and further softwares being added to the survey to improve coverage and accuracy.
+For the fourth year running [Magento](http://www.magentocommerce.com) remains the most popular platform on the market.  This survey sees an additional 35% added to Magento's site count.  Even with this growth it maintains a stable 26% of the marketshare due to the growth in other platforms and further software being added to the survey to improve coverage and accuracy.
 
 Over the last year, the number of ecommerce sites detected in the [Alexa top 1 million](http://www.alexa.com/topsites) has increased by 34% to 46,859.
 
