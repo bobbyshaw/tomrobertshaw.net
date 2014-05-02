@@ -305,7 +305,7 @@ Here are summarised results for each platform.
 <td align="right">50</td>
 </tr>
 <tr>
-<td>LemondStand</td>
+<td>LemonStand</td>
 <td align="right">23</td>
 <td align="right">46</td>
 </tr>
