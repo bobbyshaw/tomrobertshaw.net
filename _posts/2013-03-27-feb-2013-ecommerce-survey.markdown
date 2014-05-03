@@ -13,6 +13,9 @@ categories:
 - eCommerce
 tags: []
 ---
+
+<strong>The April 2014 Survey has now been released. [Read more](/2014/04/april-2014-ecommerce-survey/).</strong>
+
 The February 2013 eCommerce survey found 34,864 sites in the <a href="http://www.alexa.com/topsites">Alexa Top 1 Million</a>. This is a slight decrease on the <a href="http://tomrobertshaw.net/2012/11/october-2012-ecommerce-survey/">October 2012 survey</a>.
 
 The eCommerce software with the largest market share continues to be <a href="http://www.magentocommerce.com">Magento</a>. Out of all the eCommerce sites detected, 26% are attributed to the platform.
