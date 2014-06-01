@@ -505,7 +505,7 @@ ul li {
 
 a {
     color: #333;
-    text-decoration: none;
+    text-shadow: 0 0 0.1em white;
 }
 
 p {
@@ -549,6 +549,7 @@ header[role="banner"] .title {
 
 header[role="banner"] a {
     color: white;
+    text-decoration: none;
     text-shadow: 0 1px 0.2em black;
 }
 
@@ -583,14 +584,8 @@ main[role="main"] h2 {
 }
 
 main[role="main"] a {
-    background-image: -moz-linear-gradient(top,#fff 50%,#333 50%);
-    background-image: -webkit-linear-gradient(top,#fff 50%,#333 50%);
-    background-image: -o-linear-gradient(top,#fff 50%,#333 50%);
-    background-image: linear-gradient(to bottom,#fff 50%,#333 50%);
-    background-repeat: repeat-x;
-    background-size: 0.6em;
-    background-position: 0 1.05em;
-    text-shadow: 0 0 0.1em white;
+
+    
 }
 
 main[role="main"] h2 a {
@@ -608,13 +603,6 @@ footer[role="contentinfo"] {
 
 footer[role="contentinfo"] a {
     color: white;
-    background-image: -moz-linear-gradient(top,#37393b 50%, #fff 50%);
-    background-image: -webkit-linear-gradient(top,#37393b 50%,#fff 50%);
-    background-image: -o-linear-gradient(top,#37393b 50%,#fff 50%);
-    background-image: linear-gradient(to bottom,#37393b 50%,#fff 50%);
-    background-repeat: repeat-x;
-    background-size: 0.8em;
-    background-position: 0 1.05em;
     text-shadow: 0 0 0.1em #37393b;
 }
 
@@ -769,7 +757,6 @@ main[role="main"] a.newer {
 .highlight .kc { font-weight: bold } /* Keyword.Constant */
 .highlight .kd { font-weight: bold } /* Keyword.Declaration */
 .highlight .kp { font-weight: bold } /* Keyword.Pseudo */
-.highlight .kr { font-weight: bold } /* Keyword.Reserved */
 .highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
 .highlight .m { color: #009999 } /* Literal.Number */
 .highlight .s { color: #d14 } /* Literal.String */
