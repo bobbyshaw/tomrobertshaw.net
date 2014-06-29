@@ -44,7 +44,7 @@ A selection of the most popular responsive sites that were detected were:
 
 #### [qvc.com](http://qvc.com) (IBM WebSphere)
 
-<a href="http://qvc.com"><img src="img/2014/04/qvc-desktop.png" alt="QVC Site on Desktop" title="QVC Site on Desktop" /></a>
+<a href="http://qvc.com"><img src="/img/2014/04/qvc-desktop.png" alt="QVC Site on Desktop" title="QVC Site on Desktop" /></a>
 
 #### [konga.com](http://konga.com) (Magento)
 
