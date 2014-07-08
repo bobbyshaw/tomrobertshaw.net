@@ -24,7 +24,7 @@ During this month's <a href="2011/02/magento-extends-lead-in-ecommerce-survey-fe
 <!DOCTYPE html>
 {% endhighlight %}
 
-14,125 sites were using elements new to HTML5, these can be identified on <a href="http://www.w3schools.com/html5/html5_reference.asp">w3schools</a>.  
+14,125 sites were using elements new to HTML5, these can be identified on <a href="http://www.w3schools.com/html/html5_new_elements.asp">w3schools</a>.  
 
 1,769 were using Remy Sharp's <a href="http://remysharp.com/2009/01/07/html5-enabling-script/">HTML5 enabling script</a> which can be found hosted on <a href="http://code.google.com/p/html5shim/">Google Code</a>.
 
