@@ -15,6 +15,10 @@ categories:
 tags: []
 ---
 
+<div class="hivemind-promo">
+    <h2>The Ecommerce Survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 October 2011's eCommerce survey found 4% more stores than the <a href="http://tomrobertshaw.net/2011/06/june-2011-ecommerce-survey/">June survey</a>, detecting 26,594 in total.  The analysis looks at the home page of the <a href="http://www.alexa.com/topsites">top 1 million Alexa sites</a> and analyses them for identifying features of 32 different eCommerce packages.  
 
 Both Zen Cart and Magento see huge growths of 18% each this month.  However, Magento is the real winner with over 20% of the eCommerce sites found being attributed to the platform.  We've consistently seen growth from Magento over the last 12 months and it shows no sign of slowing. 

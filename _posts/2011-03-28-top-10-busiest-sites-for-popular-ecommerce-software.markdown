@@ -123,6 +123,11 @@ comments:
     MjAxNC0wMi0wNSAxNTowNzozNiArMDAwMA==
   content: Nice listing, but i sure this could be changed in this year
 ---
+
+<div class="hivemind-promo">
+    <h2>The top ecommerce sites is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 Following on from the <a href="2011/02/magento-extends-lead-in-ecommerce-survey-february-2011/">February eCommerce survey</a>, I decided to release the top 10 sites for some of the more popular eCommerce software packages.
 
 

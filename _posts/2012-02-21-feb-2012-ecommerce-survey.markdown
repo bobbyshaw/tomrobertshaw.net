@@ -13,7 +13,10 @@ categories:
 - eCommerce
 tags: []
 ---
-<h4><a href="http://tomrobertshaw.net/2012/11/october-2012-ecommerce-survey/">Read the latest results in the October 2012 edition of the eCommerce survey</a></h4>
+
+<div class="hivemind-promo">
+    <h2>The Ecommerce Survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
 
 The February 2012 eCommerce survey found 33,632 sites in the <a href="http://www.alexa.com/topsites">Alexa Top 1 Million</a>.  The survey visits each site and analyses the HTML document against a set of rules that detect the use of any one of 40 different eCommerce platforms.
 

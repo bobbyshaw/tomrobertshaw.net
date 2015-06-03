@@ -14,6 +14,11 @@ categories:
 - eCommerce
 tags: []
 ---
+
+<div class="hivemind-promo">
+    <h2>The Ecommerce Survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 Magento extends its lead in this edition of the eCommerce survey.  4,074 of the busiest million sites were running Magento, this figure up 19% since November last year. 208 of these were built on the premium version of the Magento platform, <a href="http://www.magentocommerce.com/product/enterprise-edition">Magento Enterprise</a>.
 
 osCommerce is, again, the 2<sup>nd</sup> most used eCommerce software but slipped 3% to 3,033 sites.  New to this edition, Virtuemart is found to be the 3<sup>rd</sup> most prevalent with 2,683 stores.  The top 3 account for over 50% of stores in the survey.

@@ -8,6 +8,10 @@ categories:
 - eCommerce
 ---
 
+<div class="hivemind-promo">
+    <h2>The responsive survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 
 The trend towards responsive design in eCommerce over the last 18 months has been quite incredible to watch.  Many web developers had already been practicing it but integrating it into ecommerce had proven a lot harder.  Ecommerce sites are typically much larger with more complex navigation and user tasks, e.g. product filtering and the checkout process.  While there are still plenty of challenges in front of us, we have seen it become the preferred method of offering a great experience over a wide range of devices.
 

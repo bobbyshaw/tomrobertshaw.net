@@ -793,6 +793,17 @@ main[role="main"] a.newer {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+.hivemind-promo {
+    padding-top: 3em;
+    border-bottom: 1px solid #666;
+    text-align: center;
+}
+
+.hivemind_logo {
+    border: 0 !important;
+    margin-bottom: 0;
+    width: 100%;
+}
 
 
 /*
@@ -813,6 +824,10 @@ main[role="main"] a.newer {
 
     footer[role="contentinfo"] .contact {
         background-size: 1.8em;
+    }
+
+    .hivemind_logo {
+        width: 60%;
     }
 
 }

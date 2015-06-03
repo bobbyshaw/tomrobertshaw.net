@@ -14,6 +14,10 @@ categories:
 tags: []
 ---
 
+<div class="hivemind-promo">
+    <h2>The Ecommerce Survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 The October 2012 eCommerce survey found 35,218 sites in the <a href="http://www.alexa.com/topsites">Alexa Top 1 Million</a>.  This is a 4% increase since the <a href="http://tomrobertshaw.net/2012/02/feb-2012-ecommerce-survey/">February eCommerce survey</a>.
 
 <a href="http://www.magentocommerce.com">Magento</a>, with a 23% share of the market, is the leading eCommerce software platform.  Equating to 8,087 sites, Magento has seen growth in every single edition since the survey began 2 years ago.  It sees a 20% growth rate since the last survey in February alone.

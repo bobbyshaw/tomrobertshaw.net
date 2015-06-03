@@ -14,6 +14,11 @@ categories:
 - eCommerce
 tags: []
 ---
+
+<div class="hivemind-promo">
+    <h2>The Ecommerce Survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 The June 2011 eCommerce survey of the <a href="http://www.alexa.com/topsites">Alexa top 1 million sites</a> found 25,592 online stores.  <a href="http://www.magentocommerce.com/">Magento</a> continues to reign as the most popular platform with 4,705 sites, an 15% increase since <a href="http://tomrobertshaw.net/2011/02/magento-extends-lead-in-ecommerce-survey-february-2011/">February</a>.
 
 <a href="http://www.zen-cart.com/">Zen Cart</a> sees the largest gains, doubling to 3,167 sites.  This results in Zen Cart becoming the second most popular eCommerce software in the top 1 million sites.  This increase is predominantly due to improvements in the signatures used to detect technologies.  These also led to 800 more web sites running <a href="http://www.ibm.com/software/websphere/">IBM WebSphere</a> being identified.  While these two pieces of software were the most heavily affected by adjustments to the survey, improvements were made across the board.

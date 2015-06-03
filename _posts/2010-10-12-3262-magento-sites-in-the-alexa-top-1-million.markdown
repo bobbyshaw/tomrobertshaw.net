@@ -13,6 +13,11 @@ categories:
 - Magento Development
 tags: []
 ---
+
+<div class="hivemind-promo">
+    <h2>The Ecommerce Survey is now <a href="https://askhivemind.com/"><img src="/img/2015/06/hivemind_logo.svg" class="hivemind_logo" /></a></h2>
+</div>
+
 I've been thinking for a while that it would be interesting to look at the sites in the <a href="http://www.alexa.com/topsites">Alexa Top 1 Million</a> and determine how many of them were using Magento.  This weekend I finally got around to writing a script to investigate this.  I looked for a few ways to identify Magento and then used some basic regular expressions to match content.  I did the same for osCommerce to see how the results compared.
 
 <img src="http://tomrobertshaw.net/wp-content/uploads/2010/10/Screen-shot-2010-10-11-at-21.14.31.png" alt="Magento Vs osCommerce" title="Magento Vs osCommerce" />
