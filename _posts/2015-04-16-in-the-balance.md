@@ -27,7 +27,7 @@ On a personal level, it has often meant that I have pushed myself too far.  Ther
 
 It got to a point when the days were passing me by.  I woke up and hated that it was another day.  Then longing for my favourite time of the day, bed time.  I went on medication and through a small amount of therapy but I didn't find it useful.
 
-I have been on the long and slow road to recovery since the peak of issues around a year ago.  It is a gradual process that happens one decision at at time.  There are some items that have certainly helped, forcing myself to keep a better work life balance, eating well and most importantly for me exercising has helped progress.
+I have been on the long and slow road to recovery since the peak of issues around a year ago.  It is a gradual process that happens one decision at a time.  There are some items that have certainly helped, forcing myself to keep a better work life balance, eating well and most importantly for me exercising has helped progress.
 
 More recently, the break from society that my honeymoon provided was great for not only revitalising but also for spending time learning and changing my life perspective to include a second person.  While I might argue that being able to provide for a family is the most important.  Actually, the best thing that I can do for my wife is simply to look after myself.
 
