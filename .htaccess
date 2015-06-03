@@ -26,6 +26,9 @@
  ExpiresByType application/x-shockwave-flash "access plus 1 year"
 </IfModule>
 
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+
 # compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
