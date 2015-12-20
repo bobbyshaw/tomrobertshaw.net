@@ -7,11 +7,11 @@ categories:
 - development
 ---
 
-_Long Read - because anything shorter wouldn't be worth writing nor reading._
+_Long Read_
 
-2015 [has been said](http://www.bloomberg.com/news/articles/2015-12-08/why-2015-was-a-breakthrough-year-in-artificial-intelligence) to be the year of Artificial Intelligence.  As a keen enthusiast, I am enthralled by all articles surrounding its progression.  AI is a strange term, it is a label often only applied while there is some mysticism around the solution.  Once it becomes a solved problem, however, it's no longer considered AI (.g. chess computer).  Minor point aside, it's clear to be the source of the next generation of software.
+2015 [has been said](http://www.bloomberg.com/news/articles/2015-12-08/why-2015-was-a-breakthrough-year-in-artificial-intelligence) to be the year of Artificial Intelligence.  As a keen enthusiast, I am enthralled by all articles surrounding its progression.  AI is a strange term that is often only applied while there is  mysticism around the solution.  However once a problem is solved, it's no longer considered AI (.g. chess computer).  Minor point aside, it's clear to be the source of the next generation of software.
 
-I'd love to play a part in that generation and so I chose a problem and gave myself the challenge to solve it with some basic machine learning as an introduction.  My challenge was to take [100,000 popular ecommerce sites](https://askhivemind.com/groups/ecommerce) and train a machine learning agent to categories them based on language and content type (for which I used the [Google Taxonomy](http://www.google.com/basepages/producttype/taxonomy.en-GB.txt) top level categories).
+I'd love to play a part in that generation and so I gave myself a challenge of taking over [100,000 popular ecommerce sites](https://askhivemind.com/groups/ecommerce) and training a machine learning agent to categorise them based on language and content type (for which I used the [Google Taxonomy](http://www.google.com/basepages/producttype/taxonomy.en-GB.txt)).
 
 This article is primarily an organisation of my thoughts and research so it will include the theory, sample code and optimisation challenges that I faced during implementation.
 
@@ -21,24 +21,24 @@ The [naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifie
 
 Naive Bayes looks at the relationship between the following probabilities:
 
-- P(A)
+- `P(A)`
     - Probability of A
-- P(^A)
+- `P(^A)`
     - Probability of not A
-- P(A|B)
+- `P(A|B)`
     - Probability of A given B is true.
-- P(B|A)
+- `P(B|A)`
     - Probability of B given A is true.
 
-The actual formula can be difficult to get your head around in the first go so let's go through with our example of language classification.  If we are wanting to classify whether a site is French based on in containing the word "mode".   We know that "mode" is an English word but that it is also French for "fashion". So in order to determine the probability that this is a french site given that it contains the word mode, we first have to consider the probability that a site would be french anyway, multiplied by the chance that a french site would contain the word "mode" divided by the chance of the word appears in any case.
+The actual formula can be difficult to get your head around in the first instance so let's go through with our example of language classification.  Can we classify whether a site is French based on in containing the word "mode"?  We know that "mode" is an English word but that it is also French for "fashion". So in order to determine the probability that this is a French site given that it contains the word "mode", we first have to consider the probability that a site would be French anyway, multiplied by the chance that a French site would contain the word "mode" divided by the chance of the word appears in any case.
 
     P(French|mode) = P(French) x P(mode|French) / P(mode).
 
-In it's original form this is:
+In its original form this is:
 
     P(A|B) = P(A) x P(B|A) / P(B)
 
-Another way that this can be described is that the probability of an class given a feature observed is equal to ratio of the chance of that class and the chance of that feature being found in that event against the chance that that signal is seen in all classes.
+Another way that this can be described is that the probability of an class given a feature observed is equal to the ratio of the chance of the class and the chance of the feature being found in that class against the chance that that feature is seen in all classes.
 
 Going back to our example, if we use some real numbers we can see it in practice.
 
@@ -49,16 +49,18 @@ Going back to our example, if we use some real numbers we can see it in practice
     P(French|mode) = 0.08 x 0.62 / 0.15
                    = 0.33
 
-As we can see, "mode" is more likely to occur when the site is french but given the low likelihood of it being french over the entire dataset, the final probability is only one in three.
+As we can see, "mode" is more likely to occur when the site is French but given the low likelihood of it being French over the entire dataset, the final probability is only one in three.
 
 If we were to take a word that is more unique to French and perform the same equation that it should increase the probability. Let's use "maison" and look at the same equation:
 
     P(French|maison) = 0.08 x 0.92 / 0.08
                      = 0.92
 
-So if we see "maison", we're pretty confident that the site is French!
+So, if we see "maison", we're pretty confident that the site is French!
 
-While naive Bayes is one of the most basic machine learning techniques that does mean that's been plenty of research in how to optimise it and [overcome its assumptions](http://people.csail.mit.edu/jrennie/papers/icml03-nb.pdf).  One of these assumptions is that there are the same number of training examples for each class.  That's not always going to be the case, and so a variation of the model called "Complement Naive Bayes".  This helps to avoid the bias of over-populated classes in the training set by adding a weighting to those that are under-represented.  This is still a simplification over acrtually getting more training data for those classes.
+Here we're considering French or Not French.  When it comes language classification, there are actually many different languages in the problem space.  The naive Bayes approach is to test against each class and then find the class with the largest probability.
+
+While naive Bayes is one of the most basic machine learning techniques that does mean there's been plenty of research in how to optimise it and [overcome its assumptions](http://people.csail.mit.edu/jrennie/papers/icml03-nb.pdf).  One of these assumptions is that there are the same number of training examples for each class.  That's not always going to be the case, and so a variation of the model called "Complement Naive Bayes".  This helps to avoid the bias of over-populated classes in the training set by adding a weighting to those that are under-represented.  This is still a simplification over actually getting more training data for those classes.
 
 ## PHP Implementation
 
@@ -87,15 +89,17 @@ Once training is complete, a site can be classified by:
 $result = $this->classify($site->content);
 ```
 
+There were a few other advantages of this library, including it's provision of dependency injection and interfaces to provide your own tokenisation and normalisation (more later).  It also provides the ability to integrate with caching technology, e.g. redis, in order to make access to the trained classifer quicker during execution.
+
 # Creating the training dataset
 
-There are some datasets out there (e.g. [Crowdflower](http://www.crowdflower.com/)) that can be used to train classifiers.  I wanted to create my own, partly because I had my own source data and classification groups that I wanted to work with but also because I wanted to take on the challenge of creating my own training set.  Only by doing this would I really get an understanding of the challenges that are faced.  It is thought that in the future our workforce is going to be around supervising artificial intelligent machines that are performing tasks previously performed by humans. Therefore, understanding the qualities of a good training dataset will help to prioritise human time spent classifying.
+There are a few different sources for datasets (e.g. [Crowdflower](http://www.crowdflower.com/)) that can be used to train classifiers.  I wanted to create my own, partly because I had my own source data and classification groups that I wanted to work with but also because I wanted to take on the challenge of creating my own.  By doing this would I get an understanding of the challenges that are faced in producing one.  It is thought that in the future our workforce is going to be around supervising artificial intelligent machines that are performing tasks previously performed by humans. Therefore, understanding the qualities of a good training dataset will help to prioritise human time spent classifying.
 
 For training I built a laravel based website with commands that would fetch and parse text content from Hivemind's ecommerce dataset.  The training interface loaded the text content parsed and the website in an iframe with two select boxes to confirm.
 
 ![Hivemind Classifier Interface](/img/2015/12/hivemind-classifier-interface.jpg)
 
-In terms of presenting sites for training I ran through multiple methodologies.  As time went on and I was evaluating the time/money that went into either myself or third parties performing the training, I wanted to identify ways to create the best training dataset in the shortest of time.  I wagered that the best dataset that had the greatest variation so it would have sufficient sample for each possible result category.  The aim is to have data points that represented the edge cases as well as the sufficient datapoint that enabled trend identification.
+In terms of presenting sites for training I ran through multiple methodologies.  As time went on and I was evaluating the time/money that went into either myself or third parties performing the training, I wanted to identify ways to create the best training dataset in the shortest of time.  I wagered that the best dataset  had the greatest variation so it would have sufficient sample for each possible result category.  The aim is to have data points that represented the edge cases as well as the sufficient datapoint that enabled trend identification.
 
 - **In order of the dataset**
     - When first creating the system this was a good start while I was focussing on other problems.
@@ -106,7 +110,7 @@ In terms of presenting sites for training I ran through multiple methodologies. 
 - **By TLD/Language**
     - Classifying in order of least accurate still had the problem of which order to classify sites within that category, e.g. random? Secondly, by the very nature that our system isn't very good at classifying sites into this poorly performing category, it's not a very good way of prioritising new sites to train as often they are simply providing more training data for other categories.  While this is useful to add further edge cases to those categories, there is smaller return available in this when compared to building up a training dataset for the poorly performing category that has a smaller training dataset.
 
-    So for the next step, I focussed on improving the language classification.  For this, I knew that TLD were going to correlate with language usage of the country, albeit with English having a strong presence in all TLDs. I then aimed to have the same number of sites classified within each TLD.  In practice this meant avoiding popular (English-rich) TLDs and focussing on country specific TLDs.
+    So, for the next step, I focussed on improving the language classification.  For this, I knew that the TLD were going to correlate with language usage of the country, albeit with English having a strong presence in all TLDs. I then aimed to have the same number of sites classified within each TLD.  In practice this meant avoiding popular (English-rich) TLDs and focussing on country specific TLDs.
 
 As training continued, I could run the classification process over the dataset so that training gradually becomes more of a confirmation task.
 
@@ -114,13 +118,13 @@ As training dataset sized increased, the speed at which improvement of automatic
 
 # Testing Accuracy
 
-The most rudimentary accuracy test for a classifier is to train our classifier with the entire training dataset and then ask it to classifier each document again to see whether it gives the right answer.  While it is hoped that is able to provide reasonable accurate answers with this method, it isn't a fair test because there is no unseen data.
+The most rudimentary test for classifier accuracy is to train with the entire training dataset and then ask it to classify each document again to see whether it gives the right answer.  While it is hoped that is able to provide reasonable accurate answers with this method, it isn't a fair test because there is no unseen data.
 
 With any classifier there is a risk of underfitting or overfitting the training data which this training method would not be able to test for.  Overfitting is where the algorithm is so finely tuned to the dataset that it is unable to make the generalisations on the data required to classifier unseen data accurately.
 
 ![Overfitting](/img/2015/12/overfitting.jpg)
 
-Therefore, the the most basic testing method is to split the training set into halves.  The first half is used to train the classifier, the second half is used to test the classifier (as we know what the correct answer is).  The advantage of this is that we can quickly get a percentage accuracy for our classifier.  The disadvantage is that we're testing a half-trained classifier so doesn't give us a good indicator of how it will perform with the full training dataset.
+Therefore, the most basic testing method is to split the training set into halves.  The first half is used to train the classifier, the second half is used to test the classifier (as we know what the correct answer is).  The advantage of this is that we can quickly get a percentage accuracy for our classifier.  The disadvantage is that we're testing a half-trained classifier so it doesn't give us a good indicator of how it will perform with the full training dataset.
 
 This brings us onto [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_%28statistics%29). This is where the training dataset is split into `n`-subsets, testing performed on each one and the results averaged in order to get a better estimate of classification accuracy.  It helps to counter-act overfitting and underfitting.
 
@@ -132,12 +136,12 @@ There are two main tasks that our classifier has to undertake, and for those fam
 
 - **Learning/Training (Offline)**
     - Importing our training data into the system so that it can "learn" and be ready to classifying unseen data.
-    - This process has Big O Notation of O(n) where n is the largest of either the size of the dataset or the number of different words x number of categories.  In most cases n will be the size of the training dataset.  
+    - This process has Big O Notation of `O(n)` where `n` is the largest of either the size of the dataset or the number of different words x number of categories.  In most cases `n` will be the size of the training dataset.  
 - **Classify (Online)**
     - Processing a document against the trained system and producing a result.
-    - O(n) where n is the length of the document x number of categories)
+    - `O(n)` where `n` is the length of the document x number of categories)
 
-While we have processing power, memory and storage in greater abundance than ever, all have the potential to become limiting factors when it comes to machine learning.  In practice, I tackled these challenges with a range of optimisation techniques with the aim of reducing the value of `n` without significantly reducing the accuracy.
+While we have processing power, memory and storage in a greater abundance than ever, all have the potential to become limiting factors when it comes to machine learning.  In practice, I tackled these challenges with a range of optimisation techniques with the aim of reducing the value of `n` without significantly reducing the accuracy.
 
 ## Reducing Resource Usage
 
@@ -183,9 +187,9 @@ I'm not sure if this is partly to do what problems SVM is more suited to solving
 
 # Conclusions
 
-For my classification problem, almost 3000 sites were trained and he classifier achieved 93% accuracy on identifying languages.  For categories classification it is accurate only 44% of the time.
+For my classification problem, almost 3000 sites were trained and he classifier achieved 93% accuracy on identifying languages.  For content type classification it is accurate only 44% of the time.
 
-In terms of reviewing and researching Naive Bayes, it's been found that:
+In terms of reviewing and researching Naive Bayes, it has been found that:
 
 - It has reasonable (linear) performance when considering Big O notation
 - In terms of accuracy, naive bayes is considered generally good at classification decisions but is over-confident in its decisions.
