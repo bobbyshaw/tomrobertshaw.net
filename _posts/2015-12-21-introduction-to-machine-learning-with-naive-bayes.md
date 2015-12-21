@@ -17,7 +17,7 @@ This article is primarily an organisation of my thoughts and research so it will
 
 # Naive Bayes
 
-The [naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is one of the most popular and simple classifiers to get started with.
+The [Naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is one of the most popular and simple classifiers to get started with.
 
 Naive Bayes looks at the relationship between the following probabilities:
 
@@ -38,9 +38,9 @@ In its original form this is:
 
     P(A|B) = P(A) x P(B|A) / P(B)
 
-Another way that this can be described is that the probability of an class given a feature observed is equal to the ratio of the chance of the class and the chance of the feature being found in that class against the chance that that feature is seen in all classes.
+Going back to our example, this formula can be described as: Given a word, the probability that a document is French is equal to the ratio of the probability that it would be French anyway, and the proportion of French documents that contain that word, against the proportion of all documents that contain that word.
 
-Going back to our example, if we use some real numbers we can see it in practice.
+Inserting some real numbers into the equation and we see:
 
     P(French) = 0.08
     P(mode|French) = 0.62
@@ -58,9 +58,9 @@ If we were to take a word that is more unique to French and perform the same equ
 
 So, if we see "maison", we're pretty confident that the site is French!
 
-Here we're considering French or Not French.  When it comes language classification, there are actually many different languages in the problem space.  The naive Bayes approach is to test against each class and then find the class with the largest probability.
+Here we're considering French or Not French.  When it comes language classification, there are actually many different languages in the problem space.  The Naive Bayes approach is to test against each class and then find the class with the largest probability.
 
-While naive Bayes is one of the most basic machine learning techniques that does mean there's been plenty of research in how to optimise it and [overcome its assumptions](http://people.csail.mit.edu/jrennie/papers/icml03-nb.pdf).  One of these assumptions is that there are the same number of training examples for each class.  That's not always going to be the case, and so a variation of the model called "Complement Naive Bayes".  This helps to avoid the bias of over-populated classes in the training set by adding a weighting to those that are under-represented.  This is still a simplification over actually getting more training data for those classes.
+While Naive Bayes is one of the most basic machine learning techniques that does mean there's been plenty of research in how to optimise it and [overcome its assumptions](http://people.csail.mit.edu/jrennie/papers/icml03-nb.pdf).  One of these assumptions is that there are the same number of training examples for each class.  That's not always going to be the case, and so a variation of the model called "Complement Naive Bayes".  This helps to avoid the bias of over-populated classes in the training set by adding a weighting to those that are under-represented.  This is still a simplification over actually getting more training data for those classes.
 
 ## PHP Implementation
 
@@ -106,7 +106,7 @@ In terms of presenting sites for training I ran through multiple methodologies. 
 - **Randomise the order**
     - Dataset is ordered by traffic rank so has a bias towards English and certain categories, e.g. Fashion. Classifying sites in a random order is our next best bet at creating a better sample.
 - **By least accurate**
-    - The laws of probability say that classifying in a random order will, over time, give us a equal exposure to the dataset, but only assuming that the categories in the dataset are of even size.  As the training dataset increase in size I was able to start using it to train a naive bayes implementation and test it's accuracy on the dataset (more on that in the next section).  In doing so, I could then have statistics on the languages and content types that the system was worse at classifying.  By manually classifying sites that the system had classified into groups that we knew that we performed poorly at, it would both provide further training data for poorly classified categories, as well as helping to provide training information for more training data to help correct the mis-classifications.
+    - The laws of probability say that classifying in a random order will, over time, give us a equal exposure to the dataset, but only assuming that the categories in the dataset are of even size.  As the training dataset increase in size I was able to start using it to train a Naive Bayes implementation and test it's accuracy on the dataset (more on that in the next section).  In doing so, I could then have statistics on the languages and content types that the system was worse at classifying.  By manually classifying sites that the system had classified into groups that we knew that we performed poorly at, it would both provide further training data for poorly classified categories, as well as helping to provide training information for more training data to help correct the mis-classifications.
 - **By TLD/Language**
     - Classifying in order of least accurate still had the problem of which order to classify sites within that category, e.g. random? Secondly, by the very nature that our system isn't very good at classifying sites into this poorly performing category, it's not a very good way of prioritising new sites to train as often they are simply providing more training data for other categories.  While this is useful to add further edge cases to those categories, there is smaller return available in this when compared to building up a training dataset for the poorly performing category that has a smaller training dataset.
 
@@ -177,11 +177,11 @@ For this classification we're using 1-grams, i.e. each token is made up by a sin
 
 # Alternative Algorithms
 
-I primarily focussed on naive-bayes as a well documented, popular and well regarded alrogithm but there are many more out there that take different approaches which can suit different problems. I experimented also with Support Vector Machine (SVM).  
+I primarily focussed on Naive Bayes as a well documented, popular and well regarded algorithm but there are many more out there that take different approaches which can suit different problems. I experimented also with Support Vector Machine (SVM).  
 
 The library by Cam Spiers made this as easy as instantiating a different classifier and the rest of my approach still worked.
 
-The results were quite astounding. With the same dataset and testing technique, SVM performed very pooly when compared to Naive Bayes.
+The results were quite astounding. With the same dataset and testing technique, SVM performed very poorly when compared to Naive Bayes.
 
 I'm not sure if this is partly to do what problems SVM is more suited to solving or whether perhaps it's slow starter and that with an larger training dataset it's accuracy would increase in this test space.  It's something that could be tested for.
 
@@ -192,7 +192,7 @@ For my classification problem, almost 3000 sites were trained and he classifier 
 In terms of reviewing and researching Naive Bayes, it has been found that:
 
 - It has reasonable (linear) performance when considering Big O notation
-- In terms of accuracy, naive bayes is considered generally good at classification decisions but is over-confident in its decisions.
+- In terms of accuracy, Naive Bayes is considered generally good at classification decisions but is over-confident in its decisions.
 - It is capable of withstanding noise introduced during training as false classifications are cancelled out.
 - It struggles when tackling problems that have a large number of possible solutions.  It works best with just a few possible results.
 - When comparing the language classification to content type classification, the above problem is worsened by the fact that the number of shared words between content types when compared to languages is much greater - causing more confusion.
@@ -209,13 +209,13 @@ Thanks also to [Cam Spiers](https://twitter.com/camspiers), without his library,
 
 # References and Further Reading
 
+- [A Tutorial on Learning With Bayesian Networks, David Heckerman, 1995](http://research.microsoft.com/pubs/69588/tr-95-06.pdf)
+- [Cross Validation](http://www.cs.cmu.edu/~schneide/tut5/node42.html)
+- [Introductory Applied Machine Learning](http://www.inf.ed.ac.uk/teaching/courses/iaml/slides/eval-2x2.pdf)
+- [Introduction to text classification using naive bayes](http://www.slideshare.net/dhwajr/text-classification-34115804)
 - [Natural Language Processing with Naive Bayes](http://www.slideshare.net/timruffles1/naturallanguage-processing-with-naive-bayes)
 - [Naive Bayes for Classifying Text](http://www.cs.nyu.edu/faculty/davise/ai/bayesText.html)
-- [What are the advantages of different classification algorithms?, Quora](http://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
-- [A Tutorial on Learning With Bayesian Networks, David Heckerman, 1995](http://research.microsoft.com/pubs/69588/tr-95-06.pdf)
-- [Introductory Applied Machine Learning](http://www.inf.ed.ac.uk/teaching/courses/iaml/slides/eval-2x2.pdf)
 - [Overfitting Bayes optimal classifier, Carlos Guestrin, 2006](http://www.cs.cmu.edu/~guestrin/Class/10701-S06/Slides/overfitting-naivebayes.pdf)
-- [Text Classification and Naive Bayes](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf)
 - [Tackling the Poor Assumptions of Naive Bayes Text Classifiers, Jason D.M. Rennie, Lawrence Shih, Jaime Teevan & David R. Karger](http://people.csail.mit.edu/jrennie/papers/icml03-nb.pdf)
-- [Introduction to text classification using naive bayes](http://www.slideshare.net/dhwajr/text-classification-34115804)
-- [Cross Validation](http://www.cs.cmu.edu/~schneide/tut5/node42.html)
+- [Text Classification and Naive Bayes](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf)
+- [What are the advantages of different classification algorithms?, Quora](http://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
