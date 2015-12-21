@@ -439,10 +439,10 @@ th {
 img,canvas,iframe,video,svg{max-width:100%}.overflow-container{overflow-y:scroll;-webkit-overflow-scrolling:touch}
 
 @font-face {
-    font-family: 'RalewayThin'; 
+    font-family: 'RalewayThin';
     src: url('/fonts/raleway_thin-webfont.eot');
-    src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('eot'), 
-         url('/fonts/raleway_thin-webfont.woff') format('woff'), 
+    src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('eot'),
+         url('/fonts/raleway_thin-webfont.woff') format('woff'),
          url('/fonts/raleway_thin-webfont.ttf') format('truetype'),
          url('/fonts/raleway_thin-webfont.svg#webfontZVa3jSPK') format('svg');
 }
@@ -505,14 +505,13 @@ ul li {
 
 a {
     color: #333;
-    text-shadow: 0 0 0.1em white;
 }
 
 p {
     margin: 1em 0;
 }
 
-dt { 
+dt {
   font-weight: bold;
 }
 
@@ -528,7 +527,7 @@ td {
     padding: 0 0.5em 0 0;
 }
 
-img { 
+img {
     display: block;
     margin: 1em auto;
 }
@@ -588,14 +587,9 @@ main[role="main"] {
 }
 
 main[role="main"] h1,
-main[role="main"] h2 { 
+main[role="main"] h2 {
     display: inline;
     margin-right: 0.3em;
-}
-
-main[role="main"] a {
-
-    
 }
 
 main[role="main"] h2 a {
@@ -678,7 +672,6 @@ main[role="main"] .pagination {
 
 main[role="main"] .pagination a {
     background: none;
-    text-shadow: none;
 }
 
 main[role="main"] a.older {
@@ -697,7 +690,7 @@ main[role="main"] a.newer {
     margin: 1.5em 0;
 }
 
-/* 
+/*
  * Posts
  */
 
@@ -726,18 +719,6 @@ main[role="main"] a.newer {
 
 .post img {
     border: 1px solid #DDD;
-}
-
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
 }
 
 /*
