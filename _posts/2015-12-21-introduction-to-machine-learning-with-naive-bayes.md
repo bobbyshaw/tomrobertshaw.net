@@ -9,7 +9,7 @@ categories:
 
 _Long Read_
 
-2015 [has been said](http://www.bloomberg.com/news/articles/2015-12-08/why-2015-was-a-breakthrough-year-in-artificial-intelligence) to be the year of Artificial Intelligence.  As a keen enthusiast, I am enthralled by all articles surrounding its progression.  AI is a strange term that is often only applied while there is  mysticism around the solution.  However once a problem is solved, it's no longer considered AI (.g. chess computer).  Minor point aside, it's clear to be the source of the next generation of software.
+2015 [has been said](http://www.bloomberg.com/news/articles/2015-12-08/why-2015-was-a-breakthrough-year-in-artificial-intelligence) to be the year of Artificial Intelligence.  As a keen enthusiast, I am enthralled by all articles surrounding its progression.  AI is a strange term that is often only applied while there is mysticism around the solution.  However once a problem is solved, it's no longer considered AI (e.g. chess computer).  Minor point aside, it's clear to be the source of the next generation of software.
 
 I'd love to play a part in that generation and so I gave myself a challenge of taking over [100,000 popular ecommerce sites](https://askhivemind.com/groups/ecommerce) and training a machine learning agent to categorise them based on language and content type (for which I used the [Google Taxonomy](http://www.google.com/basepages/producttype/taxonomy.en-GB.txt)).
 
@@ -64,7 +64,7 @@ While Naive Bayes is one of the most basic machine learning techniques that does
 
 ## PHP Implementation
 
-After some searching for what solutions were out there already, I chose to experiment with Cam Spiers' [Statistical Classifier](https://github.com/camspiers/statistical-classifier) as it seemed the most feature complete.  It provided a Complement Naive Bayes and SVM implementation.
+After some searching for what solutions were out there already, I chose to experiment with Cam Spiers' [Statistical Classifier](https://github.com/camspiers/statistical-classifier) as it seemed the most feature complete Complement Naive Bayes implementation.
 
 To train the classifier:
 
@@ -89,7 +89,7 @@ Once training is complete, a site can be classified by:
 $result = $this->classify($site->content);
 ```
 
-There were a few other advantages of this library, including it's provision of dependency injection and interfaces to provide your own tokenisation and normalisation (more later).  It also provides the ability to integrate with caching technology, e.g. redis, in order to make access to the trained classifer quicker during execution.
+There were a few other advantages of this library, including its provision of dependency injection and interfaces to provide your own tokenisation and normalisation (more later).  It also provides the ability to integrate with caching technology, e.g. redis, in order to make access to the trained classifer quicker during execution.
 
 # Creating the training dataset
 
@@ -99,14 +99,14 @@ For training I built a laravel based website with commands that would fetch and 
 
 ![Hivemind Classifier Interface](/img/2015/12/hivemind-classifier-interface.jpg)
 
-In terms of presenting sites for training I ran through multiple methodologies.  As time went on and I was evaluating the time/money that went into either myself or third parties performing the training, I wanted to identify ways to create the best training dataset in the shortest of time.  I wagered that the best dataset  had the greatest variation so it would have sufficient sample for each possible result category.  The aim is to have data points that represented the edge cases as well as the sufficient datapoint that enabled trend identification.
+In terms of presenting sites for training I ran through multiple methodologies.  As time went on and I was evaluating the time/money that went into performing the training.  I wanted to identify ways to create the best training dataset in the shortest time.  I figured that the most valuable dataset had the greatest variation so it would have a representative sample for every result category.  Therefore the aim was to have sufficient datapoints to be able to identify trends as well have outliers to ensure that edge cases could be coped with.
 
 - **In order of the dataset**
     - When first creating the system this was a good start while I was focussing on other problems.
 - **Randomise the order**
     - Dataset is ordered by traffic rank so has a bias towards English and certain categories, e.g. Fashion. Classifying sites in a random order is our next best bet at creating a better sample.
 - **By least accurate**
-    - The laws of probability say that classifying in a random order will, over time, give us a equal exposure to the dataset, but only assuming that the categories in the dataset are of even size.  As the training dataset increase in size I was able to start using it to train a Naive Bayes implementation and test it's accuracy on the dataset (more on that in the next section).  In doing so, I could then have statistics on the languages and content types that the system was worse at classifying.  By manually classifying sites that the system had classified into groups that we knew that we performed poorly at, it would both provide further training data for poorly classified categories, as well as helping to provide training information for more training data to help correct the mis-classifications.
+    - The laws of probability say that classifying in a random order will, over time, give us a equal exposure to the dataset, but only assuming that the categories in the dataset are of even size.  As the training dataset increase in size I was able to start using it to train a Naive Bayes implementation and test its accuracy on the dataset (more on that in the next section).  In doing so, I could then have statistics on the languages and content types that the system was worse at classifying.  By manually classifying sites that the system had classified into groups that we knew that we performed poorly at, it would both provide further training data for poorly classified categories, as well as helping to provide training information for more training data to help correct the mis-classifications.
 - **By TLD/Language**
     - Classifying in order of least accurate still had the problem of which order to classify sites within that category, e.g. random? Secondly, by the very nature that our system isn't very good at classifying sites into this poorly performing category, it's not a very good way of prioritising new sites to train as often they are simply providing more training data for other categories.  While this is useful to add further edge cases to those categories, there is smaller return available in this when compared to building up a training dataset for the poorly performing category that has a smaller training dataset.
 
@@ -132,14 +132,14 @@ For this problem I chose [2-fold cross-validation](https://en.wikipedia.org/wiki
 
 # Optimisation
 
-There are two main tasks that our classifier has to undertake, and for those familiar with Big O Notation, these are their complexities:
+There are two main tasks that our classifier has to undertake, and for those familiar with [big O notation](https://en.wikipedia.org/wiki/Analysis_of_algorithms), these are their complexities:
 
 - **Learning/Training (Offline)**
     - Importing our training data into the system so that it can "learn" and be ready to classifying unseen data.
-    - This process has Big O Notation of `O(n)` where `n` is the largest of either the size of the dataset or the number of different words x number of categories.  In most cases `n` will be the size of the training dataset.  
+    - This process has big O notation of `O(n)` where `n` is the largest of either the size of the dataset or the number of different words x number of categories.  In most cases `n` will be the size of the training dataset.
 - **Classify (Online)**
     - Processing a document against the trained system and producing a result.
-    - `O(n)` where `n` is the length of the document x number of categories)
+    - `O(n)` where `n` is the length of the document x number of categories.
 
 While we have processing power, memory and storage in a greater abundance than ever, all have the potential to become limiting factors when it comes to machine learning.  In practice, I tackled these challenges with a range of optimisation techniques with the aim of reducing the value of `n` without significantly reducing the accuracy.
 
@@ -191,7 +191,7 @@ For my classification problem, almost 3000 sites were trained and he classifier 
 
 In terms of reviewing and researching Naive Bayes, it has been found that:
 
-- It has reasonable (linear) performance when considering Big O notation
+- It has reasonable (linear) performance when considering big O notation
 - In terms of accuracy, Naive Bayes is considered generally good at classification decisions but is over-confident in its decisions.
 - It is capable of withstanding noise introduced during training as false classifications are cancelled out.
 - It struggles when tackling problems that have a large number of possible solutions.  It works best with just a few possible results.
