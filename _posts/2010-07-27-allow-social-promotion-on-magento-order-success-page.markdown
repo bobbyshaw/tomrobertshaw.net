@@ -4,15 +4,8 @@ status: publish
 published: true
 title: ! 'Allow Social Promotion on Magento Order Success Page '
 author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 281
-wordpress_url: http://tomrobertshaw.net/?p=281
-date: 2010-07-27 22:42:48.000000000 +01:00
 categories:
 - Magento Development
-tags: []
-comments: []
 ---
 <img src="/img/2010/07/Order-Success-Page-300x209.png" alt="Order Success Page" title="Order Success Page" />
 
