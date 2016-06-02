@@ -10,11 +10,11 @@
     <author>
         <name>Tom Robertshaw</name>
     </author>
-    <rights>Copyright (c) 2010-2014 Tom Robertshaw</rights>
+    <rights>Copyright (c) 2010-2016 Tom Robertshaw</rights>
     {% for post in site.posts limit:20 %}
     <entry>
         <title></title>
-        <link href="{{ site.url}}{{ post.url }}/"/>
+        <link href="{{ site.url}}{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>{{ site.url }}{{ post.url }}/</id>
         <summary type="html">{{ post.excerpt | xml_escape }}</summary>

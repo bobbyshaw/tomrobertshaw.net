@@ -1,8 +1,6 @@
 name: Tom Robertshaw
-markdown: redcarpet
 paginate: 5
 paginate_path: "page/:num"
 
-permalink: /:year/:month/:title
-pygments: true
+permalink: /:year/:month/:title/
 url: http://tomrobertshaw.net
