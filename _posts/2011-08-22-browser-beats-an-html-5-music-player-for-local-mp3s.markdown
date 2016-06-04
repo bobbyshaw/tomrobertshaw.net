@@ -3,17 +3,9 @@ layout: post
 status: publish
 published: true
 title: ! 'Browser Beats: An HTML 5 music player for local MP3s'
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1664
-wordpress_url: http://tomrobertshaw.net/?p=1664
-date: 2011-08-22 16:55:50.000000000 +01:00
 categories:
 - Technology
 - Fun
-tags: []
-comments: []
 ---
 Play your local mp3 files in the browser with <strong><a href="http://tomrobertshaw.net/browserbeats" title="Browser Beats" target="_blank">Browser Beats</a></strong>, a hack weekend project by <a href="http://twitter.com/tgerulaitis">Tomas Gerulaitis</a> and me.  
 

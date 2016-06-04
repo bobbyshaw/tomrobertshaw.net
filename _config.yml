@@ -1,4 +1,7 @@
 name: Tom Robertshaw
+
+gems:
+ - 'jekyll-paginate'
 paginate: 5
 paginate_path: "page/:num"
 

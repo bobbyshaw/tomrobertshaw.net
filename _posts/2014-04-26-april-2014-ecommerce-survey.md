@@ -3,8 +3,6 @@ layout: post
 status: publish
 published: true
 title: April 2014 eCommerce Survey
-author: Tom Robertshaw
-author_email: tom.robertshaw@meanbee.com
 categories:
 - eCommerce
 ---
@@ -23,11 +21,11 @@ Over the last year, the number of ecommerce sites detected in the [Alexa top 1 m
     <a href="#download-now">Download the full results</a>
 </div>
 
-The addition of [WooCommerce](http://www.woothemes.com/woocommerce/) has shown the Wordpress plugin to be a sizeable competitor to Magento, with 4,524 sites. While it would typically be considered as a software for smaller ecommerce companies, it is now the second most popular.  Plugin updates have been very frequent recently for WooCommerce, with [8 point releases](http://wordpress.org/plugins/woocommerce/changelog/) this year already. 
+The addition of [WooCommerce](http://www.woothemes.com/woocommerce/) has shown the Wordpress plugin to be a sizeable competitor to Magento, with 4,524 sites. While it would typically be considered as a software for smaller ecommerce companies, it is now the second most popular.  Plugin updates have been very frequent recently for WooCommerce, with [8 point releases](http://wordpress.org/plugins/woocommerce/changelog/) this year already.
 
 That being said, Magento widens the gap when considering higher traffic ranks.  Looking at sites that have ranks higher than 250,000, we see 2,516 Magento sites while WooCommerce responds with 692.
 
-Other platforms that see increases are PrestaShop and Shopify.  It is not surprising to see growth from Shopify as they have had a number of significant announcements in the last year including launching [Payments](http://www.shopify.com/blog/8536245-shopify-payments-launches-for-u-s-merchants), [POS System](http://www.shopify.com/blog/8814755-introducing-shopify-pos) and [Shopify Mobile](http://www.shopify.com/blog/11013977-introducing-shopify-mobile).  OpenCart also sees growth of 50%, an even greater increase on its jump of 39% that was seen last time. Part of this could be down to improved signatures, but there has been [one version and 5 point releases](http://www.opencart.com/?route=download/download) of OpenCart in the last year. 
+Other platforms that see increases are PrestaShop and Shopify.  It is not surprising to see growth from Shopify as they have had a number of significant announcements in the last year including launching [Payments](http://www.shopify.com/blog/8536245-shopify-payments-launches-for-u-s-merchants), [POS System](http://www.shopify.com/blog/8814755-introducing-shopify-pos) and [Shopify Mobile](http://www.shopify.com/blog/11013977-introducing-shopify-mobile).  OpenCart also sees growth of 50%, an even greater increase on its jump of 39% that was seen last time. Part of this could be down to improved signatures, but there has been [one version and 5 point releases](http://www.opencart.com/?route=download/download) of OpenCart in the last year.
 
 With consecutive losses on recent surveys, both Zen Cart and osCommerce continue to move down the ecommerce league table.
 
@@ -41,7 +39,7 @@ Using these results, I have also been able to identify that up to 16% of ecommer
 
 Turning to the top 100K busiest sites according to Alexa, 2,373 stores were detected. In this section of the survey we are expecting more enterprise-focussed shopping cart solutions.
 
-The results of which show that Magento continues to have the most stores in the top 100K. Identifying 704 Magento installations means that it sees a slightly increased majority of 30% compared to the full 1 million. Second and fourth most popular in this category are the traditional Enterprise products <a href="http://www.ibm.com/software/websphere">IBM WebSphere</a> and <a href="http://www.atg.com">ATG Web Commerce</a>. However, newcomer to the survey, [WooCommerce](http://www.woothemes.com/woocommerce/) takes third position in the top 100K with 186 sites. 
+The results of which show that Magento continues to have the most stores in the top 100K. Identifying 704 Magento installations means that it sees a slightly increased majority of 30% compared to the full 1 million. Second and fourth most popular in this category are the traditional Enterprise products <a href="http://www.ibm.com/software/websphere">IBM WebSphere</a> and <a href="http://www.atg.com">ATG Web Commerce</a>. However, newcomer to the survey, [WooCommerce](http://www.woothemes.com/woocommerce/) takes third position in the top 100K with 186 sites.
 
 <div id="mostPopularHundredThousand"></div>
 
@@ -472,14 +470,14 @@ e.g.
 
 New in this edition of the survey, email addresses are also provided where they have been detected on the home page of a site.
 
-If you are interested in a filtered dataset or when that is cross-related to other technologies in other technology groups, e.g. server, cache tool or CMS, please also let me know. 
+If you are interested in a filtered dataset or when that is cross-related to other technologies in other technology groups, e.g. server, cache tool or CMS, please also let me know.
 
 
 ### About the Survey
 
 The survey takes the list of the top 1 million sites as provided by Alexa (an Amazon-owned company). It then fetches the HTML document for the home page and analyses against a library of over 500 signatures that have been written. A signature is a rule that identifies an individual platform. For example, for Magento this would be a reference to the varien/js.js JavaScript file. The accuracy of the survey is being improved with each edition as signature rules are added and reviewed.
 
-The platform has been rebuilt since the last survey.  The signatures have been expanded massively to not only increase the coverage of ecommerce platforms but also other types of technology.  The long-term aim here is to draw understanding how platforms are paired together and to discover 'best of breed' systems.  In addition to this the platform has been re-built in Java and Cassandra. 
+The platform has been rebuilt since the last survey.  The signatures have been expanded massively to not only increase the coverage of ecommerce platforms but also other types of technology.  The long-term aim here is to draw understanding how platforms are paired together and to discover 'best of breed' systems.  In addition to this the platform has been re-built in Java and Cassandra.
 
 Alexa produces their site list based on visits to sites by the Alexa toolbar user community. Plans are being made to include data from <a href="http://www.quantcast.com/top-sites-1">Quantcast</a> to reduce the inevitable bias of using a single dataset.
 

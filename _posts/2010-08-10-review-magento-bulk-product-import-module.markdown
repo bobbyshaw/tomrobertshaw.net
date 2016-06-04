@@ -2,80 +2,9 @@
 layout: post
 status: publish
 published: true
-title: ! 'Review: Magento Bulk Product Import Module'
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 463
-wordpress_url: http://tomrobertshaw.net/?p=463
-date: 2010-08-10 15:21:43.000000000 +01:00
+title: 'Review: Magento Bulk Product Import Module'
 categories:
 - Magento Development
-tags: []
-comments:
-- id: 2243
-  author: ! 'Comic: Magento Developer Excuses Part 1 | Magento News'
-  author_email: ''
-  author_url: http://www.magentonews.co.uk/magento-tips/comic-magento-developer-excuses-part-1/
-  date: !binary |-
-    MjAxMC0wOS0yNCAxMzo1NDo1NiArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOS0yNCAxMjo1NDo1NiArMDEwMA==
-  content: ! '[...] the downtime on Friday while 270 products were being imported
-    with the help of a useful module, I edited this xkcd [...]'
-- id: 3702
-  author: Praful
-  author_email: rajput.praful@gmail.com
-  author_url: http://www.burningdesire.co.in
-  date: !binary |-
-    MjAxMi0wNy0xMyAxNDo1Mzo0NiArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0xMyAxMzo1Mzo0NiArMDEwMA==
-  content: ! "Hello,\r\n\r\nReally it so helpful . I am feeling very glad.\r\n\r\nIt
-    was very nice experience to working with magento import module.\r\n\r\nThanks\r\nPraful"
-- id: 3707
-  author: Darren LeDoux
-  author_email: darren@elitetacticalcomponents.com
-  author_url: ''
-  date: !binary |-
-    MjAxMi0wOC0wMiAyMDoyNjoxNCArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0wMiAxOToyNjoxNCArMDEwMA==
-  content: We paid this developer to install the Import/Export Product Extension.
-    The extension has never worked properly. At first we tried to set up a discussion
-    with him to go over specifically what we needed this to do and he refused to arrange
-    a call. We paid him up front for the extension and 3 hours of time. His original
-    estimate for completing this was 5 to 8 hours. He spent 7 hours on this extension
-    and it has bugs in it. Originally he blamed the hosting, but there is not a problem
-    on that end. We have had someone look into it, and the problem lies in the extension.
-    When we contacted him to fix it, he requested that we purchase more time to fix
-    the extension that he installed and has not worked. Poor customer service and
-    no accountability for his service.
-- id: 3712
-  author: Tom Robertshaw
-  author_email: tom.robertshaw@meanbee.com
-  author_url: ''
-  date: !binary |-
-    MjAxMi0wOC0xNCAxMDozMjoyMSArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0xNCAwOTozMjoyMSArMDEwMA==
-  content: ! "Sorry to hear that you've had problems with the review module.  It's
-    been a while since I used it now but my own experience of Scott was that he was
-    very helpful and even sent me some alternative code for product image import.\r\n\r\nThe
-    best place to check for reviews of the module is on <a href=\"http://www.magentocommerce.com/magento-connect/bolasevich/extension/1894/custom-bulk-product-import-+-export-with-tier-pricing--product-custom-options--configurable-products--bundle-products--grouped-products--downloadable\"
-    rel=\"nofollow\">Magento Connect</a> where he has had a lot of first class reviews."
-- id: 4998
-  author: iLoveMage
-  author_email: magentowizards@gmail.com
-  author_url: ''
-  date: !binary |-
-    MjAxMy0wMy0yOCAwODo1NTo0OCArMDAwMA==
-  date_gmt: !binary |-
-    MjAxMy0wMy0yOCAwNzo1NTo0OCArMDAwMA==
-  content: ! "Yes Import Configurable and Grouped Products magento extension will
-    help you to import your configurable and grouped products into magento store and
-    also assign the simple products automatically to their respected configurable
-    or grouped products.\r\n\r\nThanks\r\niLoveMage"
 ---
 Time for a product review.  I've used a  Product Import module from Magento Connect for a couple of <a href="http://www.meanbee.com">Meanbee</a> projects now and have been so impressed that I thought I'd share it with you.
 
@@ -136,4 +65,3 @@ What's also really nice about this module is the great support.  I emailed Scott
 The module is priced at $99.99 which I believe is good value for money.  It quickly pays for itself with the time you save populating the catalogue.   Of course, the more products you have, the more you'll realise a product such as this is going to be essential!
 
 <a href="http://www.magentocommerce.com/magento-connect/bolasevich/extension/1894/custom-bulk-product-import-+-export-with-tier-pricing--product-custom-options--configurable-products--bundle-products--grouped-products--downloadable">Go get it</a>
-

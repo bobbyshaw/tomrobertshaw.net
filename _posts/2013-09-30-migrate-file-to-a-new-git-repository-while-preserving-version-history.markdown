@@ -3,18 +3,10 @@ layout: post
 status: publish
 published: true
 title: Migrate file to a new git repository while preserving version history
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 2237
-wordpress_url: http://tomrobertshaw.net/?p=2237
-date: 2013-09-30 21:46:33.000000000 +01:00
 categories:
 - Development
-tags: []
-comments: []
 ---
-Finding myself in a position where I was decommissioning an old project and starting afresh, there was a file that I wanted to copy to my new project and, ideally, retain all of the valuable version history. 
+Finding myself in a position where I was decommissioning an old project and starting afresh, there was a file that I wanted to copy to my new project and, ideally, retain all of the valuable version history.
 
 After searching, I found reams of git commands piped together that <em>may</em> have solved my problem.  They tended to be working backwards, making me start with the full repository and then using git filter-branch to filter down to the file or directory that I needed, it just didn't seem right.  The tutorials were also lengthy and used multiple git commands in sequence that I couldn't follow so I wasn't comfortable using.
 

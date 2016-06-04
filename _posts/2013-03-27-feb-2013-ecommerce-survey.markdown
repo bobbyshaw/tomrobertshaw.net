@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: Feb 2013 eCommerce Survey
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 2177
-wordpress_url: http://tomrobertshaw.net/?p=2177
-date: 2013-03-27 16:25:18.000000000 +00:00
 categories:
 - eCommerce
-tags: []
 ---
 
 <div class="hivemind-promo">

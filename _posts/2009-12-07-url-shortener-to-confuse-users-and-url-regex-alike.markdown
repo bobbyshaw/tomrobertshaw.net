@@ -3,40 +3,8 @@ layout: post
 status: publish
 published: true
 title: URL shortener "to" confuse users and url regex alike
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 42
-wordpress_url: http://tomrobertshaw.net/?p=42
-date: 2009-12-07 00:11:25.000000000 +00:00
 categories:
 - Technology
-tags: []
-comments:
-- id: 5148
-  author: seo
-  author_email: dccfjk@gmail.com
-  author_url: http://scottishseo.co.uk/
-  date: !binary |-
-    MjAxMy0wNC0wOSAxMzowNjoyOCArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMy0wNC0wOSAxMjowNjoyOCArMDEwMA==
-  content: In all honesty this became a wonderful advanced article even so like all
-    fantastic writers there are many points that is proved helpful upon. But never
-    your much less it turned out stimulating.
-- id: 5157
-  author: angelicadw55
-  author_email: maeyg1@mailaccount.de.pn
-  author_url: http://shemale.erolove.in
-  date: !binary |-
-    MjAxMy0wNC0wOSAxNjoyOTo0OSArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMy0wNC0wOSAxNToyOTo0OSArMDEwMA==
-  content: ! "Fucking put : \r\nhttp://pornstars.erolove.in/?seth \r\n rapidshare
-    tokio hotel live from the avalon hollywood c.p. green westside high school 1988
-    black booty shorts fucking granny in the office texas disposal systems exotic
-    game ranch ss501 u r man rapidshare sandy nylon long haired men and short haired
-    women"
 ---
 <p><h3><strong><a href="http://to/">http://to/</a></strong></h3></p>
 

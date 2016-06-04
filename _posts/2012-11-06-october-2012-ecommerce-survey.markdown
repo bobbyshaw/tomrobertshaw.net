@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: October 2012 eCommerce Survey
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 2122
-wordpress_url: http://tomrobertshaw.net/?p=2122
-date: 2012-11-06 14:37:53.000000000 +00:00
 categories:
 - eCommerce
-tags: []
 ---
 
 <div class="hivemind-promo">
@@ -24,7 +17,7 @@ The October 2012 eCommerce survey found 35,218 sites in the <a href="http://www.
 
 Magento isn't the only one. The popularity of <a href="http://www.zen-cart.com/">Zen Cart</a> continues to increase, up 12 percentage points to 4,451 sites.  Both Magento and Zen Cart have released new versions since the last survey.
 
-Following the top two platforms, both <a href="http://virtuemart.net/">VirtueMart</a> and <a href="http://www.oscommerce.com/">osCommerce</a> take a dip in numbers. Conversely, both <a href="http://www.prestashop.com/">PrestaShop</a> and <a href="http://www.opencart.com/">OpenCart</a> see significant increases. 
+Following the top two platforms, both <a href="http://virtuemart.net/">VirtueMart</a> and <a href="http://www.oscommerce.com/">osCommerce</a> take a dip in numbers. Conversely, both <a href="http://www.prestashop.com/">PrestaShop</a> and <a href="http://www.opencart.com/">OpenCart</a> see significant increases.
 
 <div id="mostPopularMillion"></div>
 
@@ -377,5 +370,5 @@ Feedback, suggestions and questions always welcome.  Say hello on twitter, I'm <
       }]
     });
   });
-		
+
 // ]]></script>

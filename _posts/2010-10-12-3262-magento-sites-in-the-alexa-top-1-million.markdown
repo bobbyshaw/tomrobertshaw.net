@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: 3262 Magento Sites in the Alexa Top 1 Million
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 778
-wordpress_url: http://tomrobertshaw.net/?p=778
-date: 2010-10-12 12:23:42.000000000 +01:00
 categories:
 - Magento Development
-tags: []
 ---
 
 <div class="hivemind-promo">
@@ -46,7 +39,7 @@ Here are a few sites that I found to be powered by Magento:
 
 <img src="http://tomrobertshaw.net/wp-content/uploads/2010/10/Screen-shot-2010-10-11-at-21.15.03.png" alt="Magento Sites by Country" title="Magento Sites by Country" />
 
-If we take a look at the countries that the Magento stores were hosted in, we can see that the United States has the clear majority with 1293.  Germany and the United Kingdom were the next largest hosts of Magento stores.  I was not able to identify the country location for 429 sites. 
+If we take a look at the countries that the Magento stores were hosted in, we can see that the United States has the clear majority with 1293.  Germany and the United Kingdom were the next largest hosts of Magento stores.  I was not able to identify the country location for 429 sites.
 
 It is best to keep in mind the validity of the source data when undertaking any analysis.  Alexa determines its <a href="http://www.alexa.com/faqs/?p=134">traffic rankings</a> by looking at the sites that are visited by users of the <a href="http://www.alexa.com/toolbar">Alexa Toolbar</a>.
 

@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: Feb 2012 eCommerce Survey
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1842
-wordpress_url: http://tomrobertshaw.net/?p=1842
-date: 2012-02-21 15:40:26.000000000 +00:00
 categories:
 - eCommerce
-tags: []
 ---
 
 <div class="hivemind-promo">
@@ -42,7 +35,7 @@ The eCommerce survey has come a long way since the first survey in September 201
 
 The content matching rules for each platform have been rewritten and incorporated into a more sophisticated signature engine.  The survey now runs on <a href="http://aws.amazon.com/ec2/">Amazon EC2</a> allowing for more sites to be visited and analysed in parallel, and results in a more scalable system.
 
-While the relative popularity of eCommerce platforms has remained static for the majority of solutions, the re-build has, as one might expect, caused some fluctuations in actual number of sites seen.  However, trends are expected to emerge in future editions of the survey.  Including some reports on where sites are moving from and to, rather than simply viewing software growth and decay. 
+While the relative popularity of eCommerce platforms has remained static for the majority of solutions, the re-build has, as one might expect, caused some fluctuations in actual number of sites seen.  However, trends are expected to emerge in future editions of the survey.  Including some reports on where sites are moving from and to, rather than simply viewing software growth and decay.
 
 Thanks goes to <a href="http://twitter.com/nickj89">Nick Jones</a> for technical assistance with the re-architecture.
 

@@ -3,17 +3,8 @@ layout: post
 status: publish
 published: true
 title: 37 Point Magento Pre-Launch Checklist
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 658
-wordpress_url: http://tomrobertshaw.net/?p=658
-date: 2010-09-23 10:39:07.000000000 +01:00
 categories:
 - Magento Development
-tags: []
-
- 
 ---
 [Guess what, I'm now available as a <a href="/img/2010/11/Magento-Pre-Launch-Checklist.pdf">PDF</a>.]
 
@@ -66,7 +57,7 @@ Taking any website live can be a very stressful time as a developer.   Your clie
     <li id="favicon"><h2>Favicon</h2></li>
 
     <p class="tick">Magento can be hard work at times, but that does not mean you can get away with making a fool out of yourself by forgetting to create a favicon.</p>
-   
+
     <li id="htmlhead"><h2>HTML Head</h2></li>
 
     <p class="tick">Do not leave the original settings in the HTML head.  You should change the title and set the meta description and keywords, these are important for SEO.  <tt>System &rarr; Configuration &rarr; General &rarr; Design &rarr; HTML Head</tt>.</p>
@@ -78,7 +69,7 @@ Taking any website live can be a very stressful time as a developer.   Your clie
     <li id="contact"><h2>Contact Information</h2></li>
 
     <p class="tick">Ensure all the store information and email addresses are set.  You will be able to find these in <tt>System &rarr; Configuration &rarr; General and System &rarr; Configuration &rarr; Store Email Addresses</tt>.</p>
-   
+
     <li id="transactional"><h2>Transactional Emails</h2></li>
 
     <p class="tick">Transactional emails use a different logo to the default one.  Make sure that the image that you want to use is saved in your theme directory as logo_email.gif.</p>
@@ -119,7 +110,7 @@ Taking any website live can be a very stressful time as a developer.   Your clie
     <p class="tick">Not to be pushed to the side of a development of any site.  Remember to test it.  Customers that find it will already be disappointed, do not let yourselves down by leaving the default Magento blocks still there.   So, please remember to "Kill the dog".</p>
 
     <p>Also, in the default 404 page which can be found in CMS &rarr; Pages, there is reference to "Magento Store".  Ditch it.</p>
-   
+
     <li id="cleardata"><h2>Clear Test Data</h2></li>
 
     <p class="tick">Remove all products, orders and customers that were created during development</p>
@@ -129,23 +120,23 @@ Taking any website live can be a very stressful time as a developer.   Your clie
    <p class="tick">When importing products the first time around, it is likely that you did not bother with managing stock. It's an unnecessary hassle when developing.  Before you go live, check with your client what configuration he would like set up.   You may have to do another product import with stock levels before going live.</p>
 
 	<li id="flushjs"><h2>Flush JavaScript to 1 file</h2></li>
-	
+
 	<p class="tick">One essential measure to reduce loading time is by limiting the number of HTTP requests that are made each time.   Magento stores can be heavy in JavaScript, but you can keep the requests down by flushing all of your JavaScript files into one: <tt>System &rarr; Configuration &rarr; Developer &rarr; JavaScript Settings</tt>.</p>
-	
+
 	<p>You may have used the odd bit of inline JavaScript when developing.  These will need to be moved in to their own file to avoid any unnecessary slowing of page load times.</p>
-	
+
 	<li id="minifycss"><h2>Minify the CSS</h2></li>
-   
+
 	<p class="tick">Use a <a href="http://www.minifycss.com/css-compressor/">CSS compressor</a>.  Keep two versions of the css, one in readable form e.g. styles.css.orig and then have a minified version styles.css.</p>
-	
+
 	<li id="flushcss"><h2>Flush CSS to 1 file</h2></li>
-	
+
 	<p class="tick">This is the same idea as the JavaScript flushing, but be careful, it is currently an experimental feature.  Best to enable on the staging server before taking it live to see if it has any side effects.  It can be found in <tt>System &rarr; Configuration &rarr; Developer &rarr; CSS Settings</tt></p>
 
        <p>A useful extension available on <a href="http://www.magentocommerce.com/magento-connect">Magento Connect</a> is <a href="http://www.magentocommerce.com/magento-connect/FOOMAN/extension/457/fooman-speedster">Fooman Speedster</a>.    It combines, minifies and compresses all JavaScript and CSS.</p>
 
 	<li id="maintenance"><h2>Maintenance.flag</h2></li>
-	
+
 	<p class="tick">Touch this file in the root of the Magento installation and it will display a holding page while you are going live.  Especially useful if you are using something slow like FTP.  Move this file across first and then queue the rest of Magento to transfer.</p>
 
         <li id="errorpage"><h2>Error Page Design</h2></li>
@@ -153,13 +144,13 @@ Taking any website live can be a very stressful time as a developer.   Your clie
         <p class="tick">When there is an error on the site, or the maintenance.flag file is set, a different theme is used to display the error message.  Without changing this your customers will see the Magento logo and default theme.  To adapt this page to your own template you will need to modify the files located in the <tt>errors</tt> directory.</p>
 
         <p>You will not want the error page to print a stack trace.  To stop this happening open <tt>errors/local.xml</tt> (assuming you are working from the sample), and then change the action from "print" to "email".  You can then set an email address for it to send the error report to.</p>
-	
+
 	<li id="indexmanagement"><h2>Index Management</h2></li>
-	
+
 	<p class="tick">Make sure you have re-indexed after making any catalogue changes.</p>
 
 	<li id="caching"><h2>Caching</h2></li>
-	
+
 	<p class="tick">Caching, although on by default would have been the first thing you disabled when beginning development.  So, remember to re-enable and refresh it when you are ready to go.</p>
 
         <li id="compilation"><h2>System Compilation</h2></li>
@@ -204,7 +195,7 @@ Taking any website live can be a very stressful time as a developer.   Your clie
     <li id="phpconfig"><h2>PHP Configuration</h2></li>
 
     <p class="tick">Make sure that you have reasonable values for <tt>memory_limit</tt> and <tt>max_execution_time</tt>.   This way, the heavier operations that Magento carries out can complete successfully.  If either are too restrictive a product export/import will fail.
-   
+
     <li id="crons"><h2>Turn on the Crons</h2></li>
 
     <p class="tick">Some things in Magento require scripts to be run periodically in order to keep things up to date, e.g. Google Sitemap.xml.  In order to configure these you will need to look in <tt>System &rarr; Configuration &rarr; Advanced &rarr; System</tt> and modify the Cron.php file in the root of your Magento installation.  The Magento Wiki has a <a href="http://www.magentocommerce.com/wiki/1_-_installation_and_configuration/how_to_setup_a_cron_job">page</a> on this. </p>

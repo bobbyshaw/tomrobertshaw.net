@@ -3,16 +3,8 @@ layout: post
 status: publish
 published: true
 title: ! 'OpenMIC #4 - Mobile Innovation Camp'
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 127
-wordpress_url: http://tomrobertshaw.net/?p=127
-date: 2010-02-11 21:45:28.000000000 +00:00
 categories:
 - Un-conference
-tags: []
-comments: []
 ---
 I'm now a barcamper!
 

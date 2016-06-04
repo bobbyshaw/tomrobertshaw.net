@@ -3,16 +3,8 @@ layout: post
 status: publish
 published: true
 title: Magento Webinar - Best Practices for Magento Developers
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 118
-wordpress_url: http://tomrobertshaw.net/?p=118
-date: 2010-02-10 21:38:17.000000000 +00:00
 categories:
 - Magento Development
-tags: []
-comments: []
 ---
 This evening, I attended the first in a series of Magento Webinars for developers - "Best Practices for Magento Developers".  It was mainly aimed at getting developers involved with improving the Magento Core code.  It ran through some PHP and Zend Framework coding standards and so would be useful to watch for any developer starting out with Magento, whether this is building commercial extensions or writing theme templates.
 
@@ -37,6 +29,6 @@ The presentation then turned to template coding and some tips on how to do it ri
 
 It was emphasised that there is a large amount of code that you should be able to reuse from <em>core/template</em>, <em>page/html_wrapper</em>, and <em>core/text_list</em>.  So make yourself familiar with these first so that you know what has already been done.
 
-It was announced that a Magento Contributor Portal is coming soon for people that want to get involved.  So if you want to work on the Magento core, write documentation, be part of Quality Assurance, or even work on Magento's design, you should watch the series and get in touch with Magento. 
+It was announced that a Magento Contributor Portal is coming soon for people that want to get involved.  So if you want to work on the Magento core, write documentation, be part of Quality Assurance, or even work on Magento's design, you should watch the series and get in touch with Magento.
 
 So go <a href="http://www.magentocommerce.com/media/webinar-archive">watch</a>.

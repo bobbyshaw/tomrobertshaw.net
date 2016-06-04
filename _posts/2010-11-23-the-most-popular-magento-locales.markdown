@@ -3,27 +3,8 @@ layout: post
 status: publish
 published: true
 title: The Most Popular Magento Locales
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 865
-wordpress_url: http://tomrobertshaw.net/?p=865
-date: 2010-11-23 12:11:30.000000000 +00:00
 categories:
 - Magento Development
-tags: []
-comments:
-- id: 2619
-  author: Tweets that mention The Most Popular Magento Locales | Tom Robertshaw --
-    Topsy.com
-  author_email: ''
-  author_url: http://topsy.com/tomrobertshaw.net/2010/11/the-most-popular-magento-locales/?utm_source=pingback&amp;utm_campaign=L2
-  date: !binary |-
-    MjAxMC0xMS0yMyAxNzozNjowMCArMDAwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMS0yMyAxNjozNjowMCArMDAwMA==
-  content: ! '[...] This post was mentioned on Twitter by Orchid Web Design, Tom Robertshaw.
-    Tom Robertshaw said: The Most Popular Magento Locales http://bit.ly/gOll5x [...]'
 ---
 I was interested in what locales are predominantly being used in Magento installations.   This kind of information is useful to see Magento's reach across the world.  What's more, it's interesting for developers to get some indication about what translations they should be looking to add to their modules.
 
@@ -72,4 +53,3 @@ Does this tie in with what you are seeing?  Any module and theme developers out 
 
 
 If anyone has any other ideas for things I could write a cheeky script to analyse, let me know :).
-
