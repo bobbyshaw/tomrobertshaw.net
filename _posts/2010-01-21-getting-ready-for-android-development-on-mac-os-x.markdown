@@ -3,27 +3,8 @@ layout: post
 status: publish
 published: true
 title: Getting Ready for Android Development on Mac OS X
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 81
-wordpress_url: http://tomrobertshaw.net/?p=81
-date: 2010-01-21 00:11:29.000000000 +00:00
 categories:
 - Android
-tags: []
-comments:
-- id: 2493
-  author: Tweets that mention Getting Ready for Android Development on Mac OS X |
-    Tom Robertshaw -- Topsy.com
-  author_email: ''
-  author_url: http://topsy.com/tomrobertshaw.net/2010/01/getting-ready-for-android-development-on-mac-os-x/?utm_source=pingback&amp;utm_campaign=L2
-  date: !binary |-
-    MjAxMC0xMS0wOCAxOTo1MzowMyArMDAwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMS0wOCAxODo1MzowMyArMDAwMA==
-  content: ! '[...] This post was mentioned on Twitter by Laura Kalbag, Tom Robertshaw.
-    Tom Robertshaw said: @laurakalbag :D http://bit.ly/aYQhFf [...]'
 ---
 Since I bought my lovely HTC Hero in aid of Children in Need from <a href="http://twitter.com/ruskin147">Rory Cellan-Jones</a> (the BBC tech correspondent), I have been getting very excited at the prospect of taking part in some Android development.
 

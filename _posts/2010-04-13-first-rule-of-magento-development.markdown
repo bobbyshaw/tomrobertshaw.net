@@ -3,16 +3,8 @@ layout: post
 status: publish
 published: true
 title: First Rule of Magento Development
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 156
-wordpress_url: http://tomrobertshaw.net/?p=156
-date: 2010-04-13 20:24:07.000000000 +01:00
 categories:
 - Magento Development
-tags: []
-comments: []
 ---
 The first rule of magento development is one that I keep having to relearn every time I install magento.  I am going to write it here, if only as a reminder to myself!
 

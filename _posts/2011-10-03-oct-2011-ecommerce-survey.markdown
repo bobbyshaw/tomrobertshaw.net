@@ -3,16 +3,9 @@ layout: post
 status: publish
 published: true
 title: Oct 2011 eCommerce Survey
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1703
-wordpress_url: http://tomrobertshaw.net/?p=1703
-date: 2011-10-03 11:25:10.000000000 +01:00
 categories:
 - Magento Development
 - eCommerce
-tags: []
 ---
 
 <div class="hivemind-promo">
@@ -21,21 +14,21 @@ tags: []
 
 October 2011's eCommerce survey found 4% more stores than the <a href="http://tomrobertshaw.net/2011/06/june-2011-ecommerce-survey/">June survey</a>, detecting 26,594 in total.  The analysis looks at the home page of the <a href="http://www.alexa.com/topsites">top 1 million Alexa sites</a> and analyses them for identifying features of 32 different eCommerce packages.  
 
-Both Zen Cart and Magento see huge growths of 18% each this month.  However, Magento is the real winner with over 20% of the eCommerce sites found being attributed to the platform.  We've consistently seen growth from Magento over the last 12 months and it shows no sign of slowing. 
+Both Zen Cart and Magento see huge growths of 18% each this month.  However, Magento is the real winner with over 20% of the eCommerce sites found being attributed to the platform.  We've consistently seen growth from Magento over the last 12 months and it shows no sign of slowing.
 
-Meanwhile, osCommerce remains the 4th most popular platform but the downward trend continues with 200 less sites compared June's survey. 
+Meanwhile, osCommerce remains the 4th most popular platform but the downward trend continues with 200 less sites compared June's survey.
 
 There are a number of other eCommerce platforms that have seen steady growth over the last 12 months, including Interspire, OpenCart, PrestaShop and Uber-cart.
 
 The presence of Enterprise edition of Magento has increased from 274 to 378 sites, up by over a third!  As a biased Magento Developer, it is very encouraging to see more and more corporate companies moving to the platform.
 
-As an aside, the hosting location of each site was checked.  Of the twenty-six thousand sites, over ten thousand were hosted in the United States.  The second largest identifiable hosting country was Germany with just under two thousand sites. 
+As an aside, the hosting location of each site was checked.  Of the twenty-six thousand sites, over ten thousand were hosted in the United States.  The second largest identifiable hosting country was Germany with just under two thousand sites.
 
 <h4 style="text-align: center;"><strong>Most Popular eCommerce Software (Top 1M Sites) - October 2011</strong></h4>
 
 <img src="/img/2011/10/October-2011-eCommerce-Results.png" alt="October 2011 eCommerce Results" title="October 2011 eCommerce Results" />
 
-This month, I decided to also look at just the top 100,000 sites to see how the distribution changes.  I was expecting software such as IBM WebSphere and GSI commerce to rule the Enterprise market.  Magento actually does very well there with 232 stores, and only 45 of which appear to be built upon the Professional/Enterprise edition. 
+This month, I decided to also look at just the top 100,000 sites to see how the distribution changes.  I was expecting software such as IBM WebSphere and GSI commerce to rule the Enterprise market.  Magento actually does very well there with 232 stores, and only 45 of which appear to be built upon the Professional/Enterprise edition.
 
 <h4 style="text-align: center;"><strong>Most Popular eCommerce Software (Top 100K Sites)- October 2011</strong></h4>
 

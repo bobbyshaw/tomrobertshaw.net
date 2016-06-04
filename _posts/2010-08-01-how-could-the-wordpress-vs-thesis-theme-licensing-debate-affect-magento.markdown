@@ -3,27 +3,8 @@ layout: post
 status: publish
 published: true
 title: How could the WordPress Vs Thesis Theme Licensing Debate Affect Magento?
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 318
-wordpress_url: http://tomrobertshaw.net/?p=318
-date: 2010-08-01 13:34:50.000000000 +01:00
 categories:
 - Magento Development
-tags: []
-comments:
-- id: 1469
-  author: How could the WordPress Vs Thesis Theme Licensing Debate Affect &#8230;
-    at The WordPress GPL Debate
-  author_email: ''
-  author_url: http://disclaiming.org/175/how-could-the-wordpress-vs-thesis-theme-licensing-debate-affect/
-  date: !binary |-
-    MjAxMC0wOC0wMyAxMjozOToyMSArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOC0wMyAxMTozOToyMSArMDEwMA==
-  content: ! '[...] View the original article: How could the WordPress Vs Thesis Theme
-    Licensing Debate Affect &#8230; [...]'
 ---
 I will start off this post with a disclaimer.  I am not proficient with software licensing.  As a programmer I am naturally aware of them and have studied them for a short time while at University, but I confess that I am no expert.  During the research for this article, I have begun to have a better understanding but I welcome corrections and comments.  All opinions herein are my own and do not represent the opinions of Meanbee.
 
@@ -112,6 +93,6 @@ Now, some of you may be panicking about the Magento theme you created for a clie
 
 <h2>Conclusion</h2>
 
-Magento modules and likely also themes are classed as derivative works of OSL code.  Consequently developers have the legal and moral obligation to make the source code available under the Open Software License.  Magento have made not indication whether they are interested in pursuing members of the community which are not releasing under the OSL.  So there is no reason to immediately worry. 
+Magento modules and likely also themes are classed as derivative works of OSL code.  Consequently developers have the legal and moral obligation to make the source code available under the Open Software License.  Magento have made not indication whether they are interested in pursuing members of the community which are not releasing under the OSL.  So there is no reason to immediately worry.
 
 This article is still work in progress.  I am going to contact Roy Rubin, CEO of Magento, to request his opinion and would be interested in what the Magento community thinks.   I will post updates and corrections as necessary.

@@ -3,59 +3,12 @@ layout: post
 status: publish
 published: true
 title: A Bee on the Wall of Sweet Tooth
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 2021
-wordpress_url: http://tomrobertshaw.net/?p=2021
-date: 2012-09-04 15:23:38.000000000 +01:00
 categories:
 - Personal
-tags: []
-comments:
-- id: 3723
-  author: Steve
-  author_email: steve@sweettoothhq.com
-  author_url: http://www.sweettoothrewards.com
-  date: !binary |-
-    MjAxMi0wOS0wNCAxNTo0NToyNyArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0wNCAxNDo0NToyNyArMDEwMA==
-  content: ! "Thanks for the write up and kind words, Tom. We really enjoyed having
-    you over and hope you had a great time in Canada! You're always welcome in our
-    offices!\r\n\r\nCheers!"
-- id: 3729
-  author: Jason Anderson
-  author_email: jason@jasonanderson.me
-  author_url: http://imotionvideo.com
-  date: !binary |-
-    MjAxMi0wOS0wNSAxNDoyOTo0OSArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0wNSAxMzoyOTo0OSArMDEwMA==
-  content: ! "It was a secret to me that you were only 23....until you let the cat
-    out of the bag at the end of your post.  Age and experience certainly has a lot
-    to do with wisdom but you're displaying wisdom with your insights; much more than
-    expected from someone at 23.\r\n\r\n\"Your Team Is Your Success\" is a mantra
-    I think of day in and day out.  Without my team, I'd literally have ZERO.  \r\n\r\nLooks
-    like you're up to good stuff so I'll be paying attention. Glad I stumbled upon
-    a retweet from @futureclients in my feed.  I wouldn't have found this without
-    it."
-- id: 3733
-  author: Tom Robertshaw
-  author_email: tom.robertshaw@meanbee.com
-  author_url: ''
-  date: !binary |-
-    MjAxMi0wOS0wNSAyMDo1NDoxNiArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0wNSAxOTo1NDoxNiArMDEwMA==
-  content: ! "@Steve.  Thanks, again, for having me.  I thoroughly enjoyed it and
-    found it very useful.\r\n\r\n@Jason  Hi Jason, thanks for your kind words.  Definitely,
-    I want to think about my team on a more day-to-day basis and how much I value
-    them.  Ah yes, Future Clients are great :)"
 ---
 For a couple of days in August I was privileged enough to spend a couple of days working from <a href="http://www.sweettoothrewards.com/">Sweet Tooth</a>.  It was a fantastic opportunity to swap tips and reflect on how to run a business.
 
-First, a bit of back story. Sweet Tooth develops eCommerce customer loyalty software.  It's available for free for <a href="http://www.magentocommerce.com/magento-connect/sweet-tooth-customer-rewards.html">Magento</a> (the most popular ecommerce platform), and it'll soon be available for Prestashop.  They are revolutionising the ecommerce loyalty market and people are noticing.  Earlier in the year they announced <a href="http://business.financialpost.com/2012/05/07/e-commerce-loyalty-company-sweet-tooth-raises-2-25m-in-seed-funding/">$2.25M in seed-funding</a>, they're definitely one to keep an eye on. 
+First, a bit of back story. Sweet Tooth develops eCommerce customer loyalty software.  It's available for free for <a href="http://www.magentocommerce.com/magento-connect/sweet-tooth-customer-rewards.html">Magento</a> (the most popular ecommerce platform), and it'll soon be available for Prestashop.  They are revolutionising the ecommerce loyalty market and people are noticing.  Earlier in the year they announced <a href="http://business.financialpost.com/2012/05/07/e-commerce-loyalty-company-sweet-tooth-raises-2-25m-in-seed-funding/">$2.25M in seed-funding</a>, they're definitely one to keep an eye on.
 
 <h2>4 Obvious Things It's Too Easy To Forget</h2>
 
@@ -71,15 +24,15 @@ I'll go first and admit to you that I have been spending too much time being bli
 
 Clichèd point two is how important it is to build the right team. Each member of the team at Sweet Tooth is an expert in what they do.  I got a real sense of the professional respect that they have for each other.   Not only that, but they're all passionate about what they're building.  It's easy to start with a team that's passionate, but to build a team around themselves that retains that buzz for the company is difficult.
 
-Breaking bread with your team is important, it's one of the few times you can step away from the business and actually get to know people better.  I first heard this from <a href="https://twitter.com/jason">Jason Calacanis</a> at the <a href="http://p0wer0f1.com/">Power of 1 conference</a>.  It struck me as such an easy and important thing to do. 
+Breaking bread with your team is important, it's one of the few times you can step away from the business and actually get to know people better.  I first heard this from <a href="https://twitter.com/jason">Jason Calacanis</a> at the <a href="http://p0wer0f1.com/">Power of 1 conference</a>.  It struck me as such an easy and important thing to do.
 
 Keeping your team energised is hard.  The atmosphere in the Sweet Tooth office is incredibly positive, something that obviously comes from the team that they've built.  One thing that they've introduced recently is the concept of demo days.  As the development team grows it can be difficult for people to track the progress of other members of the group.  On demo day, you give them the opportunity to show off their work to the group.  I can see this being great for confidence, morale and job satisfaction.
 
 <h3>3. And even then it doesn't come for free</h3>
 
-This is a shock to no-one.  The team at Sweet Tooth have done their fair sure of around the clock hours with little immediate gain.  I'm familiar with having to work all hours in order to get where I am.  I think I've done pretty well to be where I am only a year out of University, but I have aspirations for much more.  I don't expect that to come without a lot of time and effort. 
+This is a shock to no-one.  The team at Sweet Tooth have done their fair sure of around the clock hours with little immediate gain.  I'm familiar with having to work all hours in order to get where I am.  I think I've done pretty well to be where I am only a year out of University, but I have aspirations for much more.  I don't expect that to come without a lot of time and effort.
 
-This isn't the first escapade for the team behind Sweet Tooth either, as <a href="http://www.wdca.ca/">WDCA</a> they released other Magento extensions such as <a href="http://www.betterstoresearch.com/">Better Store Search</a>.  We shouldn't expect to become famously rich and successful on our first attempt. 
+This isn't the first escapade for the team behind Sweet Tooth either, as <a href="http://www.wdca.ca/">WDCA</a> they released other Magento extensions such as <a href="http://www.betterstoresearch.com/">Better Store Search</a>.  We shouldn't expect to become famously rich and successful on our first attempt.
 
 <h3>4. Business grows, teams change, companies evolve</h3>
 

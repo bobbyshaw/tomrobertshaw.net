@@ -3,46 +3,8 @@ layout: post
 status: publish
 published: true
 title: Top Links in Magento 1.4.1 Have Changed
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 240
-wordpress_url: http://tomrobertshaw.net/?p=240
-date: 2010-07-09 08:42:23.000000000 +01:00
 categories:
 - Magento Development
-tags: []
-comments:
-- id: 1805
-  author: handoyo
-  author_email: yonghan79@gmail.com
-  author_url: ''
-  date: !binary |-
-    MjAxMC0wOC0xNyAxNDo1NDoyMyArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOC0xNyAxMzo1NDoyMyArMDEwMA==
-  content: Hi there,i wonder how to add a styled search box into the top links?Thanks...
-- id: 1866
-  author: Tom Robertshaw
-  author_email: tar20@bath.ac.uk
-  author_url: ''
-  date: !binary |-
-    MjAxMC0wOC0xOSAxNDo1Mjo1MCArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOC0xOSAxMzo1Mjo1MCArMDEwMA==
-  content: Hi Handoyo.    Assuming you still have the default search box in the header,
-    the simplest way would be to move it with some extra css.   Do you have something
-    that I can look at?
-- id: 5489
-  author: Boss
-  author_email: hasitanh@gmail.com
-  author_url: http://www.boss-solutions.at/
-  date: !binary |-
-    MjAxMy0wOC0yNiAxMToxOTowNyArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMy0wOC0yNiAxMDoxOTowNyArMDEwMA==
-  content: ! "Hi\r\n\r\nI want to change the names of top menu links.  How can I edit
-    the name of menu. Please help   ... the site is http://flyerboss.at/"
 ---
 <p>In previous versions of Magento the top links, i.e.
 <pre lang="text">    * My Account

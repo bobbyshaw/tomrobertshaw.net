@@ -3,16 +3,9 @@ layout: post
 status: publish
 published: true
 title: Gource Video Showing Magento Theme Development
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 533
-wordpress_url: http://tomrobertshaw.net/?p=533
-date: 2010-08-13 09:29:03.000000000 +01:00
 categories:
 - Magento Development
 tags: []
-comments: []
 ---
 Time for some Friday fun.  Last weekend, I played with <a href="http://code.google.com/p/gource/">Gource</a>, a software version control visualisation tool.  It allows you to create videos of commits to your Git repository over time and by different users.
 

@@ -3,15 +3,8 @@ layout: post
 status: publish
 published: true
 title: HTML5 Proliferation Amongst Alexa Top Sites
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1267
-wordpress_url: http://tomrobertshaw.net/?p=1267
-date: 2011-02-24 11:35:33.000000000 +00:00
 categories:
 - Technology
-tags: []
 ---
 
 <img src="/img/2011/01/HTML5_Logo_128.png" alt="HTML5 Logo" title="HTML5 Logo" />

@@ -2,29 +2,9 @@
 layout: post
 status: publish
 published: true
-title: ! 'Magento Favicon: It''s lovely and all, but not on a live store please guys!'
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 868
-wordpress_url: http://tomrobertshaw.net/?p=868
-date: 2010-11-16 13:08:20.000000000 +00:00
+title: 'Magento Favicon: It''s lovely and all, but not on a live store please guys!'
 categories:
 - Magento Development
-tags: []
-comments:
-- id: 2572
-  author: ! 'Tweets that mention Magento Favicon: It’s lovely and all, but not on
-    a live store please guys! | Tom Robertshaw -- Topsy.com'
-  author_email: ''
-  author_url: http://topsy.com/tomrobertshaw.net/2010/11/magento-favicon-its-lovely-and-all-but-not-on-a-live-store-please-guys/?utm_source=pingback&amp;utm_campaign=L2
-  date: !binary |-
-    MjAxMC0xMS0xNiAxODo0ODo0NCArMDAwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMS0xNiAxNzo0ODo0NCArMDAwMA==
-  content: ! '[...] This post was mentioned on Twitter by Magento Developers, Tom
-    Robertshaw. Tom Robertshaw said: Magento Favicon: It’s lovely and all, but not
-    on a live store please guys! http://bit.ly/blGjMF [...]'
 ---
 With <a href="2010/11/magento-tops-ecommerce-market-share-november-2010/">November's list</a> of sites running Magento, I thought it would be fun (don't judge me) to look at how many of them were still using the default favicon.
 

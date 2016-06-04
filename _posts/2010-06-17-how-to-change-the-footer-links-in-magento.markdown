@@ -3,7 +3,6 @@ layout: post
 status: publish
 published: true
 title: How to Change the Footer Links in Magento
-author: Tom Robertshaw
 categories:
 - Magento Development
 ---
@@ -56,7 +55,7 @@ Another block with a "footer" reference can be found in page.xml:
 
 In the <tt>page/template/links.phtml</tt> file we can see a function call to <tt>$this->getLinks();</tt>
 
-The structure for this Block is in 
+The structure for this Block is in
 
 <pre lang="text">/app/code/core/Mage/Page/Block/Template/Links.php</pre>
 
@@ -106,4 +105,4 @@ Now layouts can add links to this structure.  So if we take a quick grep of the 
 
 Now that you know where each of these are defined you can remove them if necessary in your theme.  Of course, you have now realised that this is also a second method for adding footer links!  The advantage of this method is that if all you need is another link, it doesn't require you to go into the Admin interface to add new cms block.   It all can be done in xml files rather than being in the database.
 
-This took me some time to work out first time around, so I hope it's useful and time-saving to another Magento developer! 
+This took me some time to work out first time around, so I hope it's useful and time-saving to another Magento developer!

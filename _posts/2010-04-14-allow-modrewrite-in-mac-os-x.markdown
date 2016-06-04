@@ -3,16 +3,8 @@ layout: post
 status: publish
 published: true
 title: Allow ModRewrite in Mac OS X
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 161
-wordpress_url: http://tomrobertshaw.net/?p=161
-date: 2010-04-14 23:06:26.000000000 +01:00
 categories:
 - mac os x
-tags: []
-comments: []
 ---
 ModRewrite is described on the <a href="http://httpd.apache.org/docs/1.3/mod/mod_rewrite.html">Apache page</a> as the "Swiss Army Knife of URL manipulation".  So you can imagine my upset when it wasn't working on my Mac.  Luckily, all I had to do was a small config change to enable it.
 

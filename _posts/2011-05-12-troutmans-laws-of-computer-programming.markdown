@@ -3,25 +3,8 @@ layout: post
 status: publish
 published: true
 title: Troutman's Laws of Computer Programming
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1529
-wordpress_url: http://tomrobertshaw.net/?p=1529
-date: 2011-05-12 21:37:51.000000000 +01:00
 categories:
 - Fun
-tags: []
-comments:
-- id: 3322
-  author: Troutman’s Laws of Computer Programming | Magento News
-  author_email: ''
-  author_url: http://www.magentonews.co.uk/magento-tips/troutman%e2%80%99s-laws-of-computer-programming/
-  date: !binary |-
-    MjAxMS0wNS0xMyAwNTowOToyNSArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNS0xMyAwNDowOToyNSArMDEwMA==
-  content: ! '[...] Troutman’s Laws of Computer Programming [...]'
 ---
 Everyone loves a list of funny computer programming jokes.  I found this email in the <a href="http://www.bath.ac.uk/comp-sci/">Computer Science</a> department of the <a href="http://www.bath.ac.uk/">University of Bath</a>.
 

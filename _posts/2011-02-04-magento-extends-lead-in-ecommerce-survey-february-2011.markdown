@@ -3,16 +3,9 @@ layout: post
 status: publish
 published: true
 title: Magento Extends Lead in eCommerce Survey - February 2011
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1263
-wordpress_url: http://tomrobertshaw.net/?p=1263
-date: 2011-02-04 12:26:50.000000000 +00:00
 categories:
 - Magento Development
 - eCommerce
-tags: []
 ---
 
 <div class="hivemind-promo">

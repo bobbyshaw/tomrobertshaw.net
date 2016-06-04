@@ -3,36 +3,8 @@ layout: post
 status: publish
 published: true
 title: How exciting is 2011 going to be for Magento?  Very.
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1153
-wordpress_url: http://tomrobertshaw.net/?p=1153
-date: 2010-12-17 10:35:38.000000000 +00:00
 categories:
 - Magento Development
-tags: []
-comments:
-- id: 2840
-  author: Magento Powered Year &#8211; Fridays Top 5 Magento Picks | Magento Themed
-    Templates
-  author_email: ''
-  author_url: http://www.magentothemedtemplates.com/top-5-magento-picks/magento-powered-year/
-  date: !binary |-
-    MjAxMC0xMi0xNyAxNzowNjoxOCArMDAwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMi0xNyAxNjowNjoxOCArMDAwMA==
-  content: ! '[...]  How exciting is 2011 going  to be for Magento? Very. [...]'
-- id: 2867
-  author: Damu
-  author_email: enjoygame@hotmail.com
-  author_url: http://codefight.org/
-  date: !binary |-
-    MjAxMC0xMi0yMCAwNDoyNDo0NSArMDAwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMi0yMCAwMzoyNDo0NSArMDAwMA==
-  content: Great writeup. Your all posts are so professional, informative and great
-    to read. Keep it up mate.
 ---
 2010 is quickly rounding off and it's been a great year for Magento, there's no doubt about it.  Early in the year, Magento secured $22.5 million in <a href="http://techcrunch.com/2010/03/15/magento-scores-22-5-million-for-open-source-e-commerce-platform-play/">investment</a>.  Throughout the year, streams of companies have been joining the platform, whether it be to the community, professional or enterprise edition.  As the turnouts to conferences such as Meet Magento and the Developer's Paradise suggest, the industry realise it's power within the marketplace.
 

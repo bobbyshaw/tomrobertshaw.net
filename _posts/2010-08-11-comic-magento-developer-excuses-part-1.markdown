@@ -2,45 +2,10 @@
 layout: post
 status: publish
 published: true
-title: ! 'Comic: Magento Developer Excuses Part 1'
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 496
-wordpress_url: http://tomrobertshaw.net/?p=496
-date: 2010-08-11 09:09:09.000000000 +01:00
+title: 'Comic: Magento Developer Excuses Part 1'
 categories:
 - Magento Development
 - Fun
-tags: []
-comments:
-- id: 1633
-  author: Nick
-  author_email: nick@nicksays.co.uk
-  author_url: http://www.nicksays.co.uk
-  date: !binary |-
-    MjAxMC0wOC0xMSAwOTo1MDowMCArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOC0xMSAwODo1MDowMCArMDEwMA==
-  content: ! '*sigh* :)'
-- id: 2235
-  author: Branko Ajzele
-  author_email: ajzele@gmail.com
-  author_url: http://ajzele.net/
-  date: !binary |-
-    MjAxMC0wOS0yNCAxMjoyNjoyMSArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOS0yNCAxMToyNjoyMSArMDEwMA==
-  content: Brilliant :)
-- id: 2248
-  author: Wolf
-  author_email: rteslya@impulsis.com
-  author_url: http://www.impulsis.com/blog.html
-  date: !binary |-
-    MjAxMC0wOS0yNCAxNToyNzozMCArMDEwMA==
-  date_gmt: !binary |-
-    MjAxMC0wOS0yNCAxNDoyNzozMCArMDEwMA==
-  content: Ha-ha. Really cool :)
 ---
 <img src="/img/2010/08/magento-products-importing.png" alt="magento-products-importing" />
 

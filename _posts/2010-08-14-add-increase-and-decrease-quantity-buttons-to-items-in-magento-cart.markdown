@@ -3,16 +3,8 @@ layout: post
 status: publish
 published: true
 title: Add Increase and Decrease Quantity Buttons to Items in Magento Cart
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 517
-wordpress_url: http://tomrobertshaw.net/?p=517
-date: 2010-08-14 13:49:22.000000000 +01:00
 categories:
 - Magento Development
-tags: []
-
 ---
 When a customer views their cart, each product that they have added will be listed.   By default, Magento provides info for each product, e.g. name, image, quantity, price.  Customers can change the quantity in the text box and submit the "Update Shopping Cart" button.  That is a lot of effort for the user, we want to make this process as smooth as possible.
 
@@ -21,7 +13,7 @@ We can make it easier by adding +1 and -1 links to change the quantity of each i
 In my implementation I have used images for the links, but obviously you could use text, e.g (&uarr; &darr;).    The following two code snippets should surround the input quantity box on the shopping cart/basket page:
 
 {% highlight php %}
-<?php 
+<?php
   <input name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" id="cart[<?php echo $_item->getId() ?>][qty]"/>
 ?>
 {% endhighlight %}

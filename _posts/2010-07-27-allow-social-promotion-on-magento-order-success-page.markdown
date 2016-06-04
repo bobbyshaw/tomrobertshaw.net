@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! 'Allow Social Promotion on Magento Order Success Page '
+title: 'Allow Social Promotion on Magento Order Success Page '
 author: Tom Robertshaw
 categories:
 - Magento Development

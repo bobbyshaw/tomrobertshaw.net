@@ -3,7 +3,6 @@ layout: post
 status: publish
 published: true
 title: Responsive eCommerce Growth
-author: Tom Robertshaw
 categories:
 - eCommerce
 ---
@@ -30,17 +29,17 @@ This was somewhat rudimentary though, so using the [April 2014 eCommerce survey 
 - Ignoring media queries that were empty or only had one css statement.
 - Checking link HTML elements for media queries.
 
-It has been a year since the last ecommerce survey and there has been massive growth in it with an even wider range of platform detection.  This edition found 46,859 sites within the Alexa Top 1 million to be running on a known ecommerce platform.  This is an increase of 34% since February 2013. 
+It has been a year since the last ecommerce survey and there has been massive growth in it with an even wider range of platform detection.  This edition found 46,859 sites within the Alexa Top 1 million to be running on a known ecommerce platform.  This is an increase of 34% since February 2013.
 
 ## Results and Analysis
 
-The survey found just shy of 8000 results.  This means that 16% of ecommerce sites queried were making use of media queries to optimize display on different size devices.  This is a massive growth from a year ago when it was only 1%. 
+The survey found just shy of 8000 results.  This means that 16% of ecommerce sites queried were making use of media queries to optimize display on different size devices.  This is a massive growth from a year ago when it was only 1%.
 
 The sites that were detected to have used media queries were evenly spread over the top 1 million.  Showing that it is not only the larger sites that are investing in it.  The number of media queries used on each site is evenly spread through the top 1 million as well.  This means that the size of the site does not dictate the technique they use to achieve responsiveness.
 
 ### Most Popular Responsive Sites
 
-A selection of the most popular responsive sites that were detected were: 
+A selection of the most popular responsive sites that were detected were:
 
 #### [disney.go.com](http://disney.go.com) (IBM WebSphere)
 
@@ -81,9 +80,9 @@ Last year, Magento was at 66% so it has somewhat reduced in share even if the qu
 
 ## Responsive Web Design with Device Experiences
 
-This is where a responsive site is built but [device experiences](https://developers.facebook.com/blog/post/2012/01/24/device-experiences---responsive-design/) are created by detecting the user agent of the device and using a different template. 
+This is where a responsive site is built but [device experiences](https://developers.facebook.com/blog/post/2012/01/24/device-experiences---responsive-design/) are created by detecting the user agent of the device and using a different template.
 
-During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries but showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a site variant to mobile devices. 
+During sample analysis of the responsive survey results a number of sites were identified that had a number of media queries but showed a different theme to mobile devices. These sites were responding to different tablet and desktop sizes but offering a site variant to mobile devices.
 
 There are two approaches to this.  Some sites do this while keeping the same URL (regarded as better for SEO), e.g. [Urban Outfitter](http://www.urbanoutfitters.com/).  Meanwhile others redirect mobile customers to a mobile specifc URL e.g. [Marks and Spencers](http://m.marksandspencer.com/mt/www.marksandspencer.com) and [Warby Parker](http://m.warbyparker.com).
 
