@@ -17,12 +17,12 @@ It can be very hard to curate your reading with the link bait culture that we li
 
 1. Read more research papers.
 
-There's nothing wrong with learning on the shoulders of others, detached from the source. In fact, most of our knowledge is developed in this manner. It's a process that requires trust of the source which sometimes can be misplaced but it's not feasible to question everything.
+    There's nothing wrong with learning on the shoulders of others, detached from the source. In fact, most of our knowledge is developed in this manner. It's a process that requires trust of the source which sometimes can be misplaced but it's not feasible to question everything.
 
-That being said, I want to take the opportunities that I have to read in greater depth on subjects that interest me. This will be a challenge as research papers are longer, more complex and so require more focus to truly digest.  That's where the value is.
+    That being said, I want to take the opportunities that I have to read in greater depth on subjects that interest me. This will be a challenge as research papers are longer, more complex and so require more focus to truly digest.  That's where the value is.
 
 2.  Writing down my thoughts on a subject after consuming.
 
-This doesn't mean that I have to publish a blog post on the subject. Nor would I consider myself authoritative at this point. The practice of formulating my thoughts on paper, much as I'm doing now, is for my own benefit. It can be difficult to organise thoughts without them being confirmed out loud or on paper. 
+    This doesn't mean that I have to publish a blog post on the subject. Nor would I consider myself authoritative at this point. The practice of formulating my thoughts on paper, much as I'm doing now, is for my own benefit. It can be difficult to organise thoughts without them being confirmed out loud or on paper.
 
 So, let's see how this goes.
