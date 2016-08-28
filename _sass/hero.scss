@@ -1,0 +1,33 @@
+.hero {
+    background: url('/img/theme/tom_colour.jpg');
+    background-size: cover;
+    color: $white;
+    font-size: 1.5em;
+    min-height: 440px;
+    padding: 1em;
+    text-align: center;
+
+    @include hidpi {
+        background: url('/img/theme/tom_colour@2x.jpg');
+        background-size: cover;
+    }
+
+    .hero-message {
+        margin: 0 auto;
+        max-width: 30em;
+        padding: 3em 0 2em;
+    }
+
+    .hero-button {
+        border: 1px solid $white;
+        border-radius: 60px;
+        color: $white;
+        margin: 1em 0 3em;
+
+        &:active,
+        &:hover {
+            background: white;
+            color: $secondary-text-color;
+        }
+    }
+}

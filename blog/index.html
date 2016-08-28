@@ -1,0 +1,32 @@
+---
+layout: default
+title: Technology articles, pre-dominantly on Magento, ecommerce, technology tracking and machine learning | Tom Robertshaw
+description: Test
+---
+<section class="posts">
+	<h1 class="list-title">Blog Posts</h1>
+	<ul class="posts-list">
+		{% for post in paginator.posts %}
+	    	<li class="posts-list-item">
+                <h2><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                <div class="post-content">
+                    {{ post.content | markdownify | truncatewords:75 }}
+                </div>
+	    	</li>
+	    {% endfor %}
+	</ul>
+
+	{% if paginator.total_pages > 1 %}
+	<div class="pagination">
+	  {% if paginator.previous_page %}
+	    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous button">&#x276E; Newer</a>
+	  {% endif %}
+
+	  {% if paginator.next_page %}
+	    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next button">Older &#x276F;</a>
+	  {% endif %}
+	</div>
+	{% endif %}
+
+</section>

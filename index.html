@@ -1,26 +1,14 @@
 ---
 layout: default
-title: Tom Robertshaw | Co-founder at Meanbee and Hivemind.  eCommmerce strategy, magento development and technical experiments.
-meta-description: Co-founder of Meanbee and Hivemind, ecommerce focussed, speaking on responsive design, researching technology research and building a UX optimised checkout.
+title: Tom Robertshaw | Co-founder at Meanbee and Hivemind, freelance Magento developer and tech consultant.
+description: I'm a diligent eCommerce and Magento expert with a passion for solving problems through innovation
+fullwidth: true
 ---
 
-<ul class="posts">
-	{% for post in paginator.posts %}
-    	<li>
-    		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<p class="excerpt">{{ post.content | strip_html | truncatewords:50}}</p>
-    	</li>
-    {% endfor %}
-</ul>
+<section class="hero">
+	<p class="hero-message">I'm a diligent eCommerce and Magento expert with a passion for solving problems through innovation</p>
+	<a class="hero-button button" href="/projects">See my projects</a>
+</section>
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="newer">&#x2329; Newer</a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="older">Older &#x232A;</a>
-  {% endif %}
-</div>
-{% endif %}
+{% include recent-posts.html %}
+{% include portfolio.html %}

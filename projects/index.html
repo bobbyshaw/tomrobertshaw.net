@@ -1,0 +1,23 @@
+---
+layout: default
+title: Tom Robertshaw | Projects
+description: A list of research, development, experimental projects or contributions.
+---
+
+<section class="projects">
+    <h1 class="list-title">Projects</h1>
+    <em>I undertook each of these side-projects to solve my own problem or to explore an interest.</em>
+
+    <ul class="project-list">
+    {% for project in site.categories.projects %}
+        <li class="project-list-item">
+            <span class="project-list-item-date">{{ project.date | date: "%B %Y" }}</span>
+            <h2 class="project-list-item-title">{{ project.title }}</h2>
+            <div class="project-list-item-description">
+                {{ project.content | markdownify }}
+            </div>
+            <a href="{{ project.external }}" class="button" target="_blank">Find out more &#x232A;</a>
+        </li>
+    {% endfor %}
+    </ul>
+</section>

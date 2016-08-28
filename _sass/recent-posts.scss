@@ -1,0 +1,181 @@
+.recent-posts {
+    padding: 2em;
+    text-align: center;
+}
+
+.recent-posts-list {
+    list-style: none;
+}
+
+.recent-posts-toggle {
+    display: none;
+}
+
+.recent-posts-list-item {
+
+    margin-bottom: 2em;
+
+    h2 {
+        font-size: 1em;
+        line-height: 1.625em;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+.recent-posts-list-item-count {
+    color: $secondary-text-color;
+    display: block;
+    font-family: $font-family-condensed;
+    font-size: 0.875em;
+    font-weight: 300;
+    text-align: left;
+}
+
+.recent-posts-list-item-title {
+    text-decoration: none;
+}
+
+.recent-posts-list-item-date {
+    display: block;
+    font-weight: 300;
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: left;
+}
+
+.aside {
+    .recent-posts {
+        background: linear-gradient(0deg, #fcebcd, #fcf9e8);
+        margin: 0;
+    }
+
+    .recent-posts-title {
+        margin: 0;
+        text-align: left;
+    }
+
+    .recent-posts-and-action {
+        margin-top: 2em;
+    }
+
+    .recent-posts-toggle:not(checked) ~ .recent-posts-toggle-label .recent-posts-title:after {
+        content: '\FF0B';
+        float: right;
+    }
+
+    .recent-posts-toggle:not(checked) ~ .recent-posts-and-action {
+        display: none;
+    }
+
+    .recent-posts-toggle:checked ~ .recent-posts-toggle-label .recent-posts-title:after {
+        content: '\2014';
+        float: right;
+    }
+
+    .recent-posts-toggle:checked ~ .recent-posts-and-action {
+        display: block;
+    }
+
+    .recent-posts-list-item {
+        margin: 0 0 1.5em 0;
+    }
+
+    .recent-posts-list-item-count {
+        display: none;
+    }
+
+    .recent-posts-list-item-title {
+        color: $primary-text-color;
+        font-size: 0.9em;
+
+        &:hover,
+        &:active {
+            color: $primary-brand-color;
+        }
+    }
+
+    .recent-posts-list-item-date {
+        font-size: 0.875em;
+    }
+}
+
+@media (min-width: 30em) {
+
+    .recent-posts-list-item {
+        display: inline-block;
+        margin-left: 0;
+        padding-left: 2em;
+        vertical-align: top;
+        width: 45%;
+    }
+}
+
+@media (min-width: 50em) {
+    .recent-posts {
+        margin: 2em 0;
+    }
+
+    .recent-posts-list {
+        margin: 2em auto;
+    }
+
+    .recent-posts-list-item {
+        padding-left: 3em;
+        width: 24%;
+    }
+
+    .aside {
+
+        .recent-posts {
+            background: none;
+            border: 1px solid #b8b8b8;
+            border-left: 0;
+            border-right: 0;
+            padding: 2em 1em;
+
+            .button {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .recent-posts-toggle:not(checked) ~ .recent-posts-toggle-label .recent-posts-title:after {
+            content: '';
+            float: none;
+        }
+
+        .recent-posts-toggle:not(checked) ~ .recent-posts-and-action {
+            display: block;
+        }
+
+        .recent-posts-toggle:checked ~ .recent-posts-toggle-label .recent-posts-title:after {
+            content: '';
+            float: none;
+        }
+
+        .recent-posts-toggle:checked ~ .recent-posts-and-action {
+            display: block;
+        }
+
+        .recent-posts-list {
+            width: auto;
+        }
+
+        .recent-posts-list-item {
+            padding-left: 0em;
+            width: 100%;
+        }
+
+    }
+}
+
+@media (min-width: 80em) {
+    .recent-posts-list-item {
+        padding-left: 5em;
+    }
+
+    .recent-posts-list {
+        width: 80%;
+    }
+}

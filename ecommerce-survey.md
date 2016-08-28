@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Tom Robertshaw | Ecommerce and web technology survey
-meta-description: Surveying the most popular websites for their use of ecommerce and other web technologies.  Providing site information and trend analyis.
+description: Surveying the most popular websites for their use of ecommerce and other web technologies.  Providing site information and trend analyis.
 ---
 
 # Ecommerce Survey
 
 
-For the last four years I built an eCommerce survey.  It takes a list of sites, e.g. the [Alexa Top 1 Million](http://www.alexa.com/topsites) and then a spider visits the homepage of every site.  It passes the HTML page through a detection engine built up of signatures that recognise various ecommerce platforms.
+In 2010 I created the first version of the eCommerce survey.  It takes a list of sites, e.g. the [Alexa Top 1 Million](http://www.alexa.com/topsites) and then a spider visits the homepage of every site.  It passes the HTML page through a detection engine built up of signatures that recognise various ecommerce platforms.
 
 ## In the media
 
-I am very grateful for the coverage that the results and analyses have received in conferences and the media. 
+I am very grateful for the coverage that the results and analyses have received in conferences and the media.
 
 Coverage includes:
 
@@ -22,7 +22,7 @@ Coverage includes:
 
 ## Latest Survey
 
-The latest survey has been completed and will be released soon after the data valdiation phase has been completed.
+The latest updates to the survey and more can be found under [Hivemind Research](http://askhivemind.com).
 
 ## Previous Surveys
 
@@ -35,17 +35,3 @@ The latest survey has been completed and will be released soon after the data va
 - [Feb 2011 eCommerce Survey](/2011/02/magento-extends-lead-in-ecommerce-survey-february-2011/)
 - [Nov 2010 eCommerce Survey](/2010/11/magento-tops-ecommerce-market-share-november-2010/)
 - [Oct 2010 - Magento Sites](/2010/10/3262-magento-sites-in-the-alexa-top-1-million/)
-
-
-## Data for purchase
-
-Please get in touch if you would be interested in purchasing a dataset. 
-
-I can also perform custom surveys tailored to your needs.  For example, this could incldue running the technology survey over a different pre-filtered list of sites provided by a third party.  For a product company or service provider, this is a great way of finding out what your customers are running. 
-
-## Broadening the survey
-
-Over the last year, we have been reinventing the survey again.  This has included testing out different technologies and different detection methodologies.  More information to be released in the coming months.
-
-
-

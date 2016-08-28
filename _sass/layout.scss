@@ -1,0 +1,54 @@
+.header-content {
+    margin: 2em;
+}
+
+.main {
+    padding: 2em;
+
+    .full-width & {
+        padding: 0;
+    }
+}
+
+@media (min-width: 50em) {
+    .header-content {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .main {
+        padding: 3em;
+
+        .full-width & {
+            margin: 0;
+        }
+    }
+
+    .aside {
+        float: right;
+        padding: 3em 3em 3em 0;
+        width: 30%;
+    }
+}
+
+@media (min-width: 80em) {
+    .main {
+        margin: 5em 3em 5em 9em;
+        width: 80%;
+
+        .full-width & {
+            margin: 0;
+            width: auto;
+        }
+
+        .aside & {
+            width: auto;
+        }
+    }
+
+    .aside {
+        padding-bottom: 5em;
+        padding-top: 5em;
+        width: 20%;
+    }
+}

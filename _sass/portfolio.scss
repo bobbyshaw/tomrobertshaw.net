@@ -1,0 +1,119 @@
+.portfolio {
+    position: relative;
+    text-align: center;
+
+    &:after {
+        background-size: 200% 200%;
+        background-position: 0% 100%;
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-image: radial-gradient(circle 40em at 50% 50%, #fcdc83 10%, #f98f53 80%);
+        top: 0;
+        left: 0;
+        -webkit-animation-name: movinggradient;
+                animation-name: movinggradient;
+        -webkit-animation-duration: 20s;
+                animation-duration: 20s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+        -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+        z-index: -1;
+    }
+}
+
+@-web-kit-keyframes movinggradient {
+  from {
+    background-position: 0% 100%;
+  }
+  to {
+      background-position: 100% 0%;
+  }
+}
+
+@keyframes movinggradient {
+    from {
+      background-position: 0% 100%;
+    }
+    to {
+        background-position: 100% 0%;
+    }
+}
+
+.portfolio-list {
+    padding-bottom: 5em;
+}
+
+.portfolio-list-item {
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em 5em 0;
+    position: relative;
+    z-index: 0;
+    max-width: 25em;
+}
+
+.portfolio-list-item:before {
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    content: "";
+    display: block;
+    height: 5.5em;
+    left: 50%;
+    margin-left: -2.75em;
+    position: absolute;
+    top: 4em;
+    width: 5.5em;
+    z-index: -1;
+}
+
+.portfolio-list-item-logo {
+    &.logo-hivemind {
+        padding-top: 1.9em;
+    }
+
+    &.logo-magento {
+        padding: 1.8em 0 0 0.2em;
+    }
+}
+
+.portfolio-list-item-title {
+    letter-spacing: 2px;
+    color: $white;
+    margin: 0 0 0.5em 0;
+}
+
+.portfolio-list-item-summary {
+    color: $secondary-text-color;
+    font-size: 0.875em;
+    line-height: 1.75em;
+    margin: 0;
+}
+
+@media (min-width: 50em) {
+    .portfolio-list {
+        margin: 0 auto;
+    }
+
+    .portfolio-list-item {
+        display: inline-block;
+        padding: 2em 2em 0;
+        vertical-align: top;
+        width: 25%;
+    }
+
+    .portfolio-list-item-logo {
+        &.logo-hivemind {
+            margin-bottom: 2.8em;
+        }
+
+        &.logo-magento {
+            margin-bottom: 2.6em;
+        }
+    }
+}

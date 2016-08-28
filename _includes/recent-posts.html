@@ -1,0 +1,16 @@
+<section class="recent-posts">
+	<input type="checkbox" value="selected" id="recent-posts-toggle" class="recent-posts-toggle">
+	<label for="recent-posts-toggle" class="recent-posts-toggle-label"><h3 class="recent-posts-title">Recent Blog Posts</h3></label>
+	<div class="recent-posts-and-action">
+		<ul class="recent-posts-list">
+			{% for post in site.categories.blog limit: 4 %}
+		    	<li class="recent-posts-list-item">
+					<span class="recent-posts-list-item-count">0{{ forloop.index }}</span>
+		    		<h2><a class="recent-posts-list-item-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+					<span class="recent-posts-list-item-date">{{ post.date | date: "%B %Y" }}</span>
+		    	</li>
+		    {% endfor %}
+		</ul>
+		<a href="/blog" class="button">See All</a>
+	</div>
+</section>

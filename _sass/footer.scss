@@ -1,0 +1,43 @@
+.footer-content {
+    background: url('/img/theme/footer.png') top left repeat;
+    clear: both;
+
+    @include hidpi {
+        background: url('/img/theme/footer@2x.png') top left repeat;
+        background-size: 1280px 202px;
+    }
+}
+
+.contact {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-item {
+    display: inline-block;
+    margin: 1.6em
+}
+
+.contact-item-link {
+    display: inline-block;
+    padding: 1em 0;
+    text-indent: -9999px;
+    width: 1.2em;
+
+    &.logo-twitter {
+        background: url('/img/theme/twitter.svg') center center no-repeat;
+    }
+
+    &.logo-linkedin {
+        background: url('/img/theme/linkedin.svg') center center no-repeat;
+    }
+
+    &.logo-rss {
+        background: url('/img/theme/rss.svg') center center no-repeat;
+    }
+
+    &.logo-email {
+        background: url('/img/theme/mail.svg') center center no-repeat;
+    }
+}

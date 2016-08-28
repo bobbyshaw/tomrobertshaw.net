@@ -1,9 +1,34 @@
 name: Tom Robertshaw
+description: Magento and ecommerce expert.
+firstname: Tom
+surname: Robertshaw
+
+exclude:
+    - 'Gemfile*'
 
 gems:
  - 'jekyll-paginate'
-paginate: 5
-paginate_path: "page/:num"
+ - 'jekyll-sitemap'
+ - 'jekyll-seo-tag'
+ - 'jekyll-feed'
 
 permalink: /:year/:month/:title/
 url: http://tomrobertshaw.net
+
+# jekyll-paginate
+
+paginate: 4
+paginate_path: "blog/page/:num"
+
+# jekyll-seo-tag
+
+author:
+    name: Tom Robertshaw
+    twitter: bobbyshaw
+    email: me@tomrobertshaw.net
+
+twitter:
+    username: bobbyshaw
+
+seo:
+    type: BlogPosting

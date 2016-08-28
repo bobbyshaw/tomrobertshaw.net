@@ -1,0 +1,68 @@
+.list-title {
+    color: $primary-brand-color;
+    font-size: 1.25em;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+}
+
+.project-list {
+    margin-top: 3em;
+}
+
+.project-list-item {
+    border-bottom: 1px solid #b8b8b8;
+    list-style: none;
+    margin: 0 0 3em 0;
+    padding-bottom: 2em;
+
+    .button {
+        margin-left: 0;
+    }
+}
+
+.project-list-item-title {
+    color: $tertiary-text-color;
+    font-size: 1.625em;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.project-list-item-date {
+    display: block;
+    font-weight: 300;
+    font-size: 0.75em;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+@media (min-width: 50em) {
+    .project-list-item {
+        display: inline-block;
+        margin-right: 3em;
+        vertical-align: top;
+        width: 40%;
+
+        .button {
+            margin-top: 3em;
+        }
+    }
+
+    .project-list-item-title {
+        height: 2.54em;
+    }
+
+    .project-list-item-description {
+        height: 6em;
+    }
+}
+
+@media (min-width: 80em) {
+    .project-list-item {
+        margin-right: 5em;
+    }
+
+    .project-list-item-description {
+        height: 4em;
+    }
+}

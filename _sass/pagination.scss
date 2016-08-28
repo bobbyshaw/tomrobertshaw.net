@@ -1,0 +1,16 @@
+.pagination {
+    margin: 2em 0;
+    text-align: center;
+
+    .button {
+        padding: 1em 3em;
+    }
+
+    .previous {
+        padding-right: 3.8em;
+    }
+
+    .next {
+        padding-left: 3.8em;
+    }
+}

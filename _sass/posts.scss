@@ -1,0 +1,65 @@
+.post-detail {
+    padding: 2em;
+}
+
+.posts-list {
+    list-style: none;
+}
+
+.posts-list-item {
+    margin: 0 0 5em 0;
+}
+
+.post-title {
+    color: $tertiary-text-color;
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 0.75em;
+    text-decoration: none;
+}
+
+.post-date {
+    color: $primary-brand-color;
+    font-weight: 800;
+}
+
+.post-content {
+    a {
+        color: $primary-text-color;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 50em) {
+    .posts,
+    .post-detail {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .post-detail {
+        padding: 3em;
+    }
+
+    .post-title {
+        font-size: 2.75rem;
+    }
+}
+
+@media (min-width: 80em) {
+
+    .post-detail {
+        padding: 5em 5em 5em 9em;
+        width: 80%;
+    }
+}
