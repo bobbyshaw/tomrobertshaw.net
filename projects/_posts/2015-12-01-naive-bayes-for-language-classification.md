@@ -4,5 +4,6 @@ external: http://tomrobertshaw.net/2015/12/introduction-to-machine-learning-with
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Research and development with Naive Bayes to classify website languages and content categorisation.

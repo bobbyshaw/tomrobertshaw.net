@@ -4,5 +4,6 @@ external: https://github.com/meanbee/Meanbee_Tinymce5
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Adds HTML 5 elements to allowed elements list within Magento CMS.

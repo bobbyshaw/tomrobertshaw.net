@@ -4,5 +4,6 @@ external: https://github.com/meanbee/ordershare
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Allow customers to share their order items to social networks with this simple Magento extension.

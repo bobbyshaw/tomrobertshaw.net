@@ -4,5 +4,6 @@ external: https://github.com/meanbee/PersonalisedContent
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Vary marketing content to ecommerce customers based on their browsing and purchasing habits.

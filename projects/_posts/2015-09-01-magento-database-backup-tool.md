@@ -4,5 +4,6 @@ external: https://github.com/meanbee/magedbm
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Manage Magento database backups free of sensitive data for development and staging environments.

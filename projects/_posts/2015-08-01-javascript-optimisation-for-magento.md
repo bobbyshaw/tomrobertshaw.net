@@ -4,5 +4,6 @@ external: https://github.com/bobbyshaw/magento-footer-js
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Improve Google PageSpeed score with this extension to move all JS source and in-line JS to the footer.

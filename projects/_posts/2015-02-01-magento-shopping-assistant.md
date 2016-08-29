@@ -4,5 +4,6 @@ external: https://github.com/meanbee/magento-shopping-assistant
 sitemap: false
 hidden: true
 visible: 0
+draft: true
 ---
 Customers invite shopping assistants to browse/shop with them while chatting.
