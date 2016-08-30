@@ -13,7 +13,7 @@ gems:
  - 'jekyll-feed'
 
 permalink: /:year/:month/:title/
-url: http://tomrobertshaw.net
+url: https://tomrobertshaw.net
 
 # jekyll-paginate
 
