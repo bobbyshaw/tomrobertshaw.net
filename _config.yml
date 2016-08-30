@@ -5,6 +5,7 @@ surname: Robertshaw
 
 exclude:
     - 'Gemfile*'
+    - 'vendor'
 
 gems:
  - 'jekyll-paginate'
