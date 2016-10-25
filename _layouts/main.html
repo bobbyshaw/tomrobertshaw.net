@@ -20,13 +20,11 @@ layout: compress
         <link rel="preload" href="/css/styles.css" as="style" onload="this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/css/styles.css"></noscript>
         <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-6428376-2', 'tomrobertshaw.net');
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'UA-6428376-2', 'auto');
+            ga('send', 'pageview');
         </script>
+        <script async src='https://www.google-analytics.com/analytics.js'></script>
         {% seo %}
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
@@ -51,7 +49,7 @@ layout: compress
                         <a class="site-navigation-item-link" href="{{ site.url }}/projects">Projects</a>
                     </li>
                     <li class="site-navigation-item">
-                        <a class="site-navigation-item-link" data-no-instant href="mailto:me@tomrobertshaw.net">Contact</a>
+                        <a class="site-navigation-item-link" href="mailto:me@tomrobertshaw.net">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -74,19 +72,12 @@ layout: compress
                         <a href="/feed.xml" target="_blank" class="contact-item-link logo-rss">Subscribe to RSS feed"</a>
                     </li>
                     <li class="contact-item">
-                        <a href="mailto:me@tomrobertshaw.net" data-no-instant class="contact-item-link logo-email">Email Tom Robertshaw</a>
+                        <a href="mailto:me@tomrobertshaw.net" class="contact-item-link logo-email">Email Tom Robertshaw</a>
                     </li>
                 </ul>
             </div>
         </footer>
-        <script src="/js/main.js" data-no-instant></script>
-        <script data-no-instant>
-            InstantClick.on('change', function() {
-                ga('send', 'pageview', location.pathname + location.search);
-            });
-
-            InstantClick.init();
-        </script>
+        <script src="/js/main.js" ></script>
         {% for script in page.js %}
         <script type="text/javascript" src="{{ script }}"></script>
         {% endfor %}
