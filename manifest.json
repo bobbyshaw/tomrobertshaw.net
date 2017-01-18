@@ -1,0 +1,28 @@
+{
+  "short_name": "T Robertshaw",
+  "name": "Tom Robertshaw",
+  "description": "My blog: I’m a diligent eCommerce and Magento expert with a passion for solving problems through innovation",
+  "icons": [
+    {
+      "src": "/img/theme/icon-small.png",
+      "sizes": "50x50",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/theme/icon-medium.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/theme/icon-large.png",
+      "sizes": "600x600",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "start_url": "/index.html?utm_source=web_app_manifest",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en-GB"
+}
