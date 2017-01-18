@@ -83,7 +83,7 @@ self.addEventListener('fetch', event => {
                 .catch( () => {
                     // CACHE or FALLBACK
                     return caches.match(request)
-                        .then( response => response || caches.match('/offline') );
+                        .then( response => response || caches.match(offlinePage) );
                 })
         );
         return;
