@@ -7,7 +7,7 @@ categories:
 - Technology
 - Fun
 ---
-Play your local mp3 files in the browser with <strong><a href="http://tomrobertshaw.net/browserbeats" title="Browser Beats" target="_blank">Browser Beats</a></strong>, a hack weekend project by <a href="http://twitter.com/tgerulaitis">Tomas Gerulaitis</a> and me.  
+Play your local mp3 files in the browser with <strong><a href="http://tomrobertshaw.net/browserbeats" title="Browser Beats" target="_blank" rel="noopener">Browser Beats</a></strong>, a hack weekend project by <a href="http://twitter.com/tgerulaitis">Tomas Gerulaitis</a> and me.  
 
 This weekend, <a href="http://www.storm-consultancy.com/">Storm Consultancy</a> held their second hack weekend. A time for webbies to descend on "Storm Towers" to code, design, drink, eat pizza and play Guitar Hero.  I paired up with Tomas to build a browser music player (only compatible with Chrome), that plays local MP3 files using the HTML 5 audio element.
 
