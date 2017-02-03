@@ -6,5 +6,5 @@ hidden: true
 visible: 0
 draft: true
 ---
-Experimented with ServiceWorkers and implemented Cache First strategy on this
-site to provide performance and offline support. Achieved 99/100 on Lighthouse test.
+Added Service Workers and implemented Cache First strategy to improve
+ performance and add offline support.
