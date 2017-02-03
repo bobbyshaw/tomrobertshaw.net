@@ -39,12 +39,18 @@ h3 {
     text-transform: uppercase;
 }
 
+ol,
 ul {
     list-style: disc;
     padding: 0;
     margin: 1em 0;
 }
 
+ol {
+    list-style: decimal;
+}
+
+ol,
 ul li {
     margin-left: 1em;
 }
