@@ -38,8 +38,8 @@ You can then create your list of links as appropriate in the Magento backend, th
 
 {% highlight html %}
 <ul>
-    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
-    <li class="last"><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+    <li><a href="\{\{store direct_url="about-magento-demo-store"\}\}">About Us</a></li>
+    <li class="last"><a href="\{\{store direct_url="customer-service"\}\}">Customer Service</a></li>
 </ul>
 {% endhighlight %}
 
