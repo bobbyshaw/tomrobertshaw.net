@@ -4,7 +4,6 @@ external: https://github.com/bobbyshaw/tomrobertshaw.net
 sitemap: false
 hidden: true
 visible: 0
-draft: true
 ---
 Added Service Workers and implemented Cache First strategy to improve
  performance and add offline support.
