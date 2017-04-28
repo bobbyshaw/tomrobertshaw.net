@@ -12,7 +12,7 @@ Last week I shared my experiences of the [AISB hackathon](https://tomrobertshaw.
 
 - [Alan Winfield](https://twitter.com/alan_winfield), a Professor of Robot Ethics at the University of West of England
 - [Mandy Chessel](https://twitter.com/MandyChessell) - IBM Distinguished Engineer, Master Inventor and Fellow of Academy of Engineering
-- [Nello Christianini](https://twitter.com/BjoernSchuller) - Professor of AI at University of Bristol
+- [Nello Christianini](http://www.bris.ac.uk/engineering/people/nello-cristianini/) - Professor of AI at University of Bristol
 - [Danit Gal](https://twitter.com/danitgal) - Ethics Consultant to Tencent and chairs the IEEE Global Initiative for ethical considerations of AI
 - [Björn W. Schuller](https://twitter.com/bjoernschuller) - Professor of Intelligent Systems at University of Passau.
 
