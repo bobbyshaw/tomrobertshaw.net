@@ -13,7 +13,7 @@ Last week I shared my experiences of the [AISB hackathon](https://tomrobertshaw.
 - [Alan Winfield](https://twitter.com/alan_winfield), a Professor of Robot Ethics at the University of West of England
 - [Mandy Chessel](https://twitter.com/MandyChessell) - IBM Distinguished Engineer, Master Inventor and Fellow of Academy of Engineering
 - [Nello Christianini](http://www.bris.ac.uk/engineering/people/nello-cristianini/) - Professor of AI at University of Bristol
-- [Danit Gal](https://twitter.com/danitgal) - Ethics Consultant to Tencent and chairs the IEEE Global Initiative for ethical considerations of AI
+- [Danit Gal](https://twitter.com/danitgal) - Chair of the IEEE Global Initiative for Ethical Considerations in AI and AS Outreach Committee, and external consultant to Tencent on AI Ethics
 - [Björn W. Schuller](https://twitter.com/bjoernschuller) - Professor of Intelligent Systems at University of Passau.
 
 Alan Winfield hosted the panel and presented the questions. At the end there was an opportunity for the audience to ask their own questions.
@@ -44,11 +44,11 @@ When considering the ethics of AI, Danit served up the example of Chinese poker 
 
 The last point on this question was made by Nello and the other panel members concurred with it. As developers and engineers we have to consider that everything that we make will drift to other user cases. I think this is interesting because it's easy to bring up the example of researchers working on technology that can be repurposed by the military but there's a whole range of technology that isn't about life or death but can still be re-used in ethically questionable circumstances.
 
-## Do the public understand how machine learning is affectig our lives?
+## Do the public understand how machine learning is affecting our lives?
 
 The question was first posed to Mandy who expanded on the breadth of the question saying that "they and we don't understand". Like most technology people can see the utility of it but that doesn't mean they recognise how it works. Judging what the long term effects are is nigh-on impossible for us to say with any certainty.
 
-Ganit warned that we have reached the point of no return in terms of convenience that we won't be able to give it up. The primary concern here is with the level privacy that we are giving up for the benefits that the largest internet companies provide us, in many cases, for free.
+Danit warned that we have reached the point of no return in terms of convenience that we won't be able to give it up. The primary concern here is with the level privacy that we are giving up for the benefits that the largest internet companies provide us, in many cases, for free.
 
 Nello shared that one of the challenges with this is that it's so difficult for us to put into words the importance of retaining our privacy. To many, it just makes us feel nervous and that it is wrong. Storytelling is such a powerful way of conveying messages that he encouraged us to create better stories so that we can share this ingrained feeling that we have.
 
@@ -74,9 +74,11 @@ So on one level, we know that people don't need, nor want a 100% precise list of
 
 Nello continued by comparing the importance for transparency versus fairness. When we look at the pharmaceutical market, we care that drugs are fair, i.e. they have the effect that they claim. That's not to say that we know why they work, we may only have a hypothesis. Either way, the importance is that it's works as advertised.
 
-I believe it was Ganit that followed up with the paradox of building AI in our own image. We expect them to explain their decisions. Can you expect the same from a human being? While I don't believe this warrants giving up with the activity, I see her point and it made me thinking about human sub-conscious decision making and the fictionalisation that happens after. Even if we believe the story we create, it's not so different from one AI model being used to make the prediction and one model being used to create the story.
+## To what extent are AI ethics dependent on cultural context?
 
-Given Ganit's exposure to different cultures, particular Chinese and Japanese, she expressed the difficulty with coming up with an answer to many of these questions because the social implications are culturally specific.
+Danit's exposure to different cultures, particular Chinese and Japanese, positioned her best to lead the discussion on this question. Firstly, she asked us to consider the paradox of building AI in our own image. We expect them to explain their decisions but can we expect the same from a human being? While I don't believe this warrants foregoing the discussion, it made me think how people make decisions on a sub-conscious basis before fictionalising after. Even if we believe the story we create, it's not so different from one AI model being used to make the prediction and another being used to create the story.
+
+Furthermore, Danit expressed the difficulty with coming up with an answer to many of these questions because the social implications are culturally specific.
 
 Researchers and policy writers in Japan are considering robots as "members or quasi members" of society and the rights that they may have within society. This is stark contrast to Chinese and Western philosophies that consider robots to be tools, regardless of their "intellect" and form.
 
@@ -86,7 +88,7 @@ During the audience questions phase, [Virginia Dignum](https://twitter.com/vdign
 
 This led us on to a short discussion on the ethics of humanoid robots. While the context was not provided, there were notable members of the room that are highly against the idea of humanoid robots because it fools humans into giving robots more rights than they deserve. If you're interested, read more from Joanna Bryson on why [Robots Should be Slaves](http://www.cs.bath.ac.uk/~jjb/ftp/Bryson-Slaves-Book09.html).
 
-Reflecting on all these items, Ganit said that technology is progressing too quickly for us to answer these ethical questions. The progress is too quick for policy makers to get up to speed and agree guidelines.
+Reflecting on all these items, Danit said that technology is progressing too quickly for us to answer these ethical questions. The progress is too quick for policy makers to get up to speed and agree guidelines.
 
 ## How is society affected right now?
 
@@ -106,7 +108,9 @@ However, recognising that education is the problem doesn't lead us quickly to a 
 
 There is going to be a need for balance between regulation and innovation. While that's easy to say, it's much harder to determine where the needle lies on that scale between them.
 
-What is clear is that policy makers should be willing to stifle innovation to protect the people. On the topic of privacy, it was argued that it sometimes is the responsibility of policy makers to protect the people because they have no-one else that will do so. What's more people aren't always good at making decisions. There is a precedence for this in law. For example, the Discrimination Act in the UK recognises biases and protects people from themselves (and others). The role, and ultimately the amount of control that a government exerts. in a sensitive subject, particularly in the US.
+From Danit's experience, witnessing policy makers from a range of  countries and cultures discuss AI ethics, there's a frustrating and dangerous preference for innovation over good ethics.  She called for them to stifle innovation to protect the people. This is an area of conflict during discussions which can make it hard to make progress.
+
+On the topic of privacy, it was argued that it sometimes is the responsibility of policy makers to protect the people because they have no-one else that will do so. What's more people aren't always good at making decisions. There is a precedence for this in law. For example, the Discrimination Act in the UK recognises biases and protects people from themselves (and others). The role, and ultimately the amount of control that a government exerts. in a sensitive subject, particularly in the US.
 
 As mentioned earlier, it's not that the technology requires us to give up our privacy. For example we can perform the computation on the device to protect consumer data but that has its trade-offs. The public first has to know that's happening and not only understand the difference, but care about it.
 
@@ -118,7 +122,7 @@ Once we consider the approach of different cultures to the regulation versus inn
 
 Where possible I've included audience questions within the previous discussions when applicable. Here are a couple of discussions that were standalone.
 
-Do we need to design failsafes into these systems? This is something that Ganit is working on at the IEEE. Much of current research is about how to incorporate machines further into our lives without thinking about the second part of being able to stop using the machine. For example, if an autonomous car gets hacked, (and nothing is secure), there needs to be a mechanical way to regain control. The process to regain control cannot be computer-based because this can also be hacked.
+Do we need to design failsafes into these systems? This is something that Danit is working on at the IEEE. Much of current research is about how to incorporate machines further into our lives without thinking about the second part of being able to stop using the machine. For example, if an autonomous car gets hacked, (and nothing is secure), there needs to be a mechanical way to regain control. The process to regain control cannot be computer-based because this can also be hacked.
 
 It wouldn't be discussion about AI ethics without one on the biases in AI. There was a question about whether AI should have gender, indeed some languages don't. [Some recent research by Joanna Bryson](https://www.theguardian.com/technology/2017/apr/13/ai-programs-exhibit-racist-and-sexist-biases-research-reveals) shows that regardless of whether a language has gendered articles, our language itself evolves to incorporate the (sexual and racist) biases in our culture. So it's less a question of whether it should have gender and how we counter these innate biases.
 
