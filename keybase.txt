@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/bobbyshaw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tomrobertshaw.net
+  * I am bobbyshaw (https://keybase.io/bobbyshaw) on keybase.
+  * I have a public key with fingerprint EC92 A9E8 77AC 0372 77B0  BEF0 92CB 1A4D 3E6A 6DB1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101914b1f8f4c41037ad3aca79b5d08a10307febc723371eef6b78be437dd3923360a",
+            "fingerprint": "ec92a9e877ac037277b0bef092cb1a4d3e6a6db1",
+            "host": "keybase.io",
+            "key_id": "92cb1a4d3e6a6db1",
+            "kid": "0101914b1f8f4c41037ad3aca79b5d08a10307febc723371eef6b78be437dd3923360a",
+            "uid": "5cd8ebff2556093be6e9b449bef73b19",
+            "username": "bobbyshaw"
+        },
+        "service": {
+            "hostname": "tomrobertshaw.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1497599746,
+    "expire_in": 157680000,
+    "prev": "10bc0b83488e2d8b9b783ea168c78db4d5302ddaf162270b61a78cca57ac093e",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.72
+Comment: https://keybase.io/crypto
+
+yMItAnicrZJbSBRRGMfXyxpuKEUYpVAwEGRJzJnbmdkSN+0CSVBoUJQu58w5o5O7
+M+vM6CYlQRd8qOgCXQjJQkErynooJIO1u7FFFyOiQivKIBIpqKCHtjNSbz12Xg7n
+O//vd/7fd77bBTmBUNa3ob63b2K9l7PSN061BDZVHczezmGbtHHh7VwTndpojFDX
+izaZhAtzPOCBBiQMDNWQdAnwIkRERDqCGpYJryIW4aFBsQ4FUYSAUkPBUMVUEiEh
+osaCCo+4Ms4wrQbqJBzT8hiW6pqANKpCiHSGFCDEPKYGrwk6BkgiIlWQQjBgiY22
+62cwcxi5dIlpsxg7RKfs/UP/n323TOFknagUG4YgywqviZgqVMOSpDHPUMRA84Uu
+dSwUp0yNbYzb3EaU5NrLOBZuNXXqd9Yv5Y/Es+OOjanj+bIlFvUYIeHYnq3bMXbd
+6HkJN+yne20JX5+kOPqHFMWmRVg3WUYrdVzTtrgwYErdM300kDQoaxqUlDKObkuY
+Do2avkKGisqz5b9DWxkS8FjnsSpKqkoFomKN1S9SBBRVhyrBEpFFXiAEGUARBMhj
+BSCo6jqS/T/TRMr5tTVbNmOLzCdqYEzXbLCQ1+JQrv3m0JbcQFYokBfM9scsEMqf
+8Xf4cMe0jHtgqGdBkBR2bX3xJdM3Nr1s5fLq3tDrniZwdVH/oBbo79y/tOJhan2c
+Xhw+/G64ZLL505yD+HF3Qc5eq6P2eGf9qXuhk911w6s/BJJn0OiIfSyTvhuzN+cM
+BisqBwsmXswLemOZFQtTA+WRw+E963dWjlVunJgVSB+adT69zppfipq/Z66Pn+a6
+1jxdltrxcvHJkvzFJZfuDuzb+LHqAXx1jsx9f7Yo3v+j6Eo0Unpn4MTRz/ura9at
+KR6ffeFK4ZHd5ca3ePGxoaq+nq7XFY8eRqo3jOYdGb1V+2ve9FJvVeT6yP3cr6lr
+2WLSVXbdPvp4Zt2Oms4DzyZ/rq1/8vxyYV33b1GySLY=
+=QMyk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bobbyshaw
+
+==================================================================
+
