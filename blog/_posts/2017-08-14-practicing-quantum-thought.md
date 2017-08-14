@@ -8,7 +8,7 @@ categories:
 - Philosophical
 ---
 
-"Not only should you disagree with others, but you should disagree with yourself." Quote by Nick Szabo his post "[More Short Takes](https://unenumerated.blogspot.fi/2012/07/more-short-takes.html)"
+"Not only should you disagree with others, but you should disagree with yourself." - [Nick Szabo](https://twitter.com/NickSzabo4) in his post "[More Short Takes](https://unenumerated.blogspot.fi/2012/07/more-short-takes.html)".
 
 We like to believe that there is always a right and a wrong. It can be hard for us to acknowledge that reality is a lot murkier. To add insult to injury to those that desire a simple world, clear of conflict, we have to play to the faults of the human condition and provide a safe path for people to change their opinion. To do so, we often have to acknowledge positive elements of our opponent's position in order to reduce their defensiveness.  All the while, we need to go into such discussions with an open mind ourselves in case we should be the ones that need to review our beliefs, god forbid.
 
