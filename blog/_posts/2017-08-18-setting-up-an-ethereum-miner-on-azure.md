@@ -21,7 +21,7 @@ sudo apt-get install ethereum geth
 sudo apt-get install nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight
 ```
 
-Download the latest release of the [Claymore Miner](https://github.com/nanopool/Claymore-Dual-Miner/releases). The easiest way to configure pools and start script is using the quick start guide on [Nanopool](https://nanopool.org/).
+Download the latest release of the [Claymore Miner](https://github.com/nanopool/Claymore-Dual-Miner/releases). The easiest way to configure pools and start script is using the quick start guide on [Nanopool](https://nanopool.org/).  For more detailed info on getting a mining rig set up with your own hardware I'd recommend the series from [Crytobadger](http://www.cryptobadger.com/2017/04/build-ethereum-mining-rig-linux/)
 
 From my experiment, I saw around 95%-90% loss in value from money spent on the VM to Ethereum produced from mining. It was fun to get a better grip on what's going on though.
 
