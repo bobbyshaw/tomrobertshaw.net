@@ -25,6 +25,6 @@ Download the latest release of the [Claymore Miner](https://github.com/nanopool/
 
 From my experiment, I saw around 95%-90% loss in value from money spent on the VM to Ethereum produced from mining. It was fun to get a better grip on what's going on though.
 
-For the foreseeable future, I'll be sticking to letting the professional to the mining for me at [Genesis Mining](https://www.genesis-mining.com/a/1077991). Use Code `xIPjC9` for 3% off.
+For the foreseeable future, I'll be sticking to letting the professionals do the mining for me at [Genesis Mining](https://www.genesis-mining.com/a/1077991). Use Code `xIPjC9` for 3% off.
 
 Other wallet services that you might find useful are [Coinbase](https://www.coinbase.com/join/592732c0f0da04054fc01566) and [Poloniex](https://poloniex.com/).
