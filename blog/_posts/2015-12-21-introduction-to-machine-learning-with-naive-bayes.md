@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Introduction to Machine Learning with Naive Bayes
 categories:
-- development
+- Machine Learning
 ---
 
 _Long Read_
@@ -203,7 +203,7 @@ Next up is to experiment with alternative machine learning algorithms, probably 
 
 ## Post-script
 
-For those interested in receiving news updates on exponential change, including those achieved through AI, I recommend [Azeem Azhar's newsletter](https://www.getrevue.co/profile/azeem).
+For those interested in receiving news updates on exponential change, including those achieved through AI, I recommend [Azeem Azhar's newsletter](http://www.exponentialview.co/newsletter).
 
 Thanks also to [Cam Spiers](https://twitter.com/camspiers), without his library, my understanding of and experimentation with machine learning would have been even further belated.
 
