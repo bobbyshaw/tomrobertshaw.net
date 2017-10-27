@@ -22,12 +22,14 @@ layout: compress
         </style>
         <link rel="preload" href="/css/styles.css" as="style" onload="this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/css/styles.css"></noscript>
-        <script>
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-6428376-2', 'auto');
-            ga('send', 'pageview');
-        </script>
-        <script async src='https://www.google-analytics.com/analytics.js'></script>
+        {% if jekyll.environment == 'production' %}
+            <script>
+                window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+                ga('create', 'UA-6428376-2', 'auto');
+                ga('send', 'pageview');
+            </script>
+            <script async src='https://www.google-analytics.com/analytics.js'></script>
+        {% endif %}
         {% seo %}
     </head>
     <body itemscope itemtype="http://schema.org/WebPage">
