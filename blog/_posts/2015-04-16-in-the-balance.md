@@ -4,24 +4,24 @@ status: publish
 published: true
 title: In The Balance
 categories:
-- personal
+- Personal
 ---
 
-People that know me will know that I throw myself into any task or goal and do everything that I can in order to make it succeed. 
+People that know me will know that I throw myself into any task or goal and do everything that I can in order to make it succeed.
 
-I started a small but professional ecommerce agency, Meanbee, when I was in the second year of a Computer Science degree at the University of Bath. 
+I started a small but professional ecommerce agency, Meanbee, when I was in the second year of a Computer Science degree at the University of Bath.
 
-Approaching graduation I had a choice of applying to the plethora of graduate schemes that many of my colleagues at University were applying to.  Was it to be the likes of JP Morgan and Goldman Sachs at the investment banks, a traditional software company like Microsoft or a curve-ball like GCHQ? 
+Approaching graduation I had a choice of applying to the plethora of graduate schemes that many of my colleagues at University were applying to.  Was it to be the likes of JP Morgan and Goldman Sachs at the investment banks, a traditional software company like Microsoft or a curve-ball like GCHQ?
 
 I felt that during a low-risk phase of my life, graduating to Meanbee and throwing myself into running a company was my best opportunity to learn. Even if there was a possibility that the learning was going to be through failure.
 
-Failure, a state that none find comfortable and a state that most of us orchestrate our actions to avoid.  Even the wisest of businessmen with the benefit of hindsight tell you that failure is an important tool.  On paper, I have succeeded in many things in my life; top grades through school and University and now I have created and manage a reputable business.  While that is the outside perspective, there is much more going on underneath that includes the devaluing of my own achievements. 
+Failure, a state that none find comfortable and a state that most of us orchestrate our actions to avoid.  Even the wisest of businessmen with the benefit of hindsight tell you that failure is an important tool.  On paper, I have succeeded in many things in my life; top grades through school and University and now I have created and manage a reputable business.  While that is the outside perspective, there is much more going on underneath that includes the devaluing of my own achievements.
 
-In the past couple of years I've also become a Christian and one of the quotes from a famous pastor, Rob Bell, that sticks in my mind is that "Good is the enemy of great."  It is very easy to do things that we warrant to be "good enough" but these often restrict us from doing the "great" things. 
+In the past couple of years I've also become a Christian and one of the quotes from a famous pastor, Rob Bell, that sticks in my mind is that "Good is the enemy of great."  It is very easy to do things that we warrant to be "good enough" but these often restrict us from doing the "great" things.
 
 I don't want to be good, I want to be great.  I want to make the most of the opportunities that have been provided to me.  I want to be the best that I can be.  I believe that by osmosis this has also transferred to our company.  Many of the Meanbee employees enjoy the freedom to excel at their work and that is what we are constantly pushing them to do.
 
-On a personal level, it has often meant that I have pushed myself too far.  There are so many "good" opportunities out there.  The voice in my head that tells me what is the right thing to be doing has had very little consideration for what's the best of the right things to be doing.  And not only that, actually doing the "wrong" thing more often, e.g. turning down opportunities, disappointing clients, friends or associates so that I can give myself space, would have enabled me to realise what was great over what was good. 
+On a personal level, it has often meant that I have pushed myself too far.  There are so many "good" opportunities out there.  The voice in my head that tells me what is the right thing to be doing has had very little consideration for what's the best of the right things to be doing.  And not only that, actually doing the "wrong" thing more often, e.g. turning down opportunities, disappointing clients, friends or associates so that I can give myself space, would have enabled me to realise what was great over what was good.
 
 2013/14 saw me reach the pinnacle of not being able to cope and not seeing the point in coping.  I was splitting myself in so many directions trying to be good at everything.  I was trying to be more spiritual and evaluate what I believed in, I was in a long-distance relationship with my, now, wife. I was into the third year of creating a service business with no experience and very little guidance.  I had two serious side projects on the go.  One was a checkout extension for Magento and one is a technology research business which I have just launched called Hivemind. Any one of these is enough to put considerable a strain on a person.
 

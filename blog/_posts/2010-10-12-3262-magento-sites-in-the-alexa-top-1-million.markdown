@@ -4,7 +4,8 @@ status: publish
 published: true
 title: 3262 Magento Sites in the Alexa Top 1 Million
 categories:
-- Magento Development
+    - Ecommerce
+    - Research
 ---
 
 <div class="hivemind-promo">

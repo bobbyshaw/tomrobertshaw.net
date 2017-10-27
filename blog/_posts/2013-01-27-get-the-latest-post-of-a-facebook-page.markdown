@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Get the Latest Post of a Facebook Page
 categories:
-- Development
+    - Development
 ---
 My awesome friend <a href="https://twitter.com/lewisking">Lewis King</a> wanted to display the latest facebook post in the footer of a site that he's building.  He's not a developer, and facebook didn't make it easy.
 

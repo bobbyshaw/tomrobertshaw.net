@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How exciting is 2011 going to be for Magento?  Very.
 categories:
-- Magento Development
+    - Magento
 ---
 2010 is quickly rounding off and it's been a great year for Magento, there's no doubt about it.  Early in the year, Magento secured $22.5 million in <a href="http://techcrunch.com/2010/03/15/magento-scores-22-5-million-for-open-source-e-commerce-platform-play/">investment</a>.  Throughout the year, streams of companies have been joining the platform, whether it be to the community, professional or enterprise edition.  As the turnouts to conferences such as Meet Magento and the Developer's Paradise suggest, the industry realise it's power within the marketplace.
 

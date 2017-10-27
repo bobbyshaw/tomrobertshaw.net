@@ -4,8 +4,8 @@ status: publish
 published: true
 title: Oct 2011 eCommerce Survey
 categories:
-- Magento Development
-- eCommerce
+    - Ecommerce
+    - Research
 ---
 
 <div class="hivemind-promo">

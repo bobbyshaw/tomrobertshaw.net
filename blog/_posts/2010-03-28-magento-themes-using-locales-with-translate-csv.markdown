@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Magento Themes: Using locales with translate.csv'
 categories:
-- Magento Development
+    - Magento
 ---
 I have been converting Photoshop designs into Magento themes recently and wanted to leave a couple of tips.
 

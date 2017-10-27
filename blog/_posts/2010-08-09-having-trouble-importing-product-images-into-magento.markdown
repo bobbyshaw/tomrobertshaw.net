@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Having Trouble Importing Product Images into Magento?
 categories:
-- Magento Development
+    - Magento
 ---
 So you've done a product import via spreadsheet only to find that none of your products have images.  Bummer.
 

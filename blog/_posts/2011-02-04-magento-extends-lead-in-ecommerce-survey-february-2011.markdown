@@ -4,8 +4,8 @@ status: publish
 published: true
 title: Magento Extends Lead in eCommerce Survey - February 2011
 categories:
-- Magento Development
-- eCommerce
+- Ecommerce
+- Research
 ---
 
 <div class="hivemind-promo">

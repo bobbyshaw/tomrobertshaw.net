@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Responsive eCommerce Growth
 categories:
-- eCommerce
+    - Ecommerce
+    - Research
 ---
 
 <div class="hivemind-promo">

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: What's new in Magento 1.7?
 categories:
-- Magento Development
+    - Magento
 ---
 Magento 1.7 is at release candidate version one with <a href="http://www.magentocommerce.com/bug-tracking/search_result/?show_result=1&amp;version=1.7.0.0-rc1">10 open issues</a>.  We should be expecting the full release shortly to tie in with the annual <a href="http://www.imagineecommerce.com/">Imagine Conference</a>.
 

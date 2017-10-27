@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Tools for Managing A PHP Library
 categories:
-- development
+- PHP
 ---
 
 I spend an awful lot of time with Magento, but over the past year I've been catching up with how PHP has been progressing since the days when Magento was architected.

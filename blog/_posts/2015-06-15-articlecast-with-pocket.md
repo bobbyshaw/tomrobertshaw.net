@@ -4,7 +4,7 @@ status: publish
 published: true
 title: ArticleCast with Pocket
 categories:
-- development
+- Projects
 ---
 
 Try [ArticleCast](http://www.articlecast.co.uk/) now.
@@ -21,7 +21,7 @@ The make or break for this project is the quality of the text to speech service.
 
 The production site is hosted on Heroku with audio files stored in Amazon S3.  I had some problems with the ephemeral file system.  We had architected the system heavily on statuses in order to facilitate the division of tasks and cope with task failure.  The problem was that the MP3 output of one task had disappeared by the time the upload to S3 task ran.  For now, I've simply moved them into the same task.
 
-Sign in with your Pocket account at [ArticleCast](http://www.articlecast.co.uk/).  Unread articles are synchronised daily and the conversion and upload process is run every 10 minutes.  It will take a while to go through your entire feed upon first login and synchronisation. 
+Sign in with your Pocket account at [ArticleCast](http://www.articlecast.co.uk/).  Unread articles are synchronised daily and the conversion and upload process is run every 10 minutes.  It will take a while to go through your entire feed upon first login and synchronisation.
 
 There are a couple of improvements that I'd like to make:
 

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Next Level Consumer Engagement with IBM Watson Personality Insights
 categories:
-- ibm-watson
+- IBM Watson
 ---
 
 The sheer volume of data that is produced and made publicly available each day is astounding and is only set to continue growing rapidly. One of the challenges of building upon this treasure trove of information is that the majority of it is unstructured. Traditional computing requires structured data; data that is clearly labelled with every possible annotation that we may be interested in. This isn't viable and means that traditional computing can not make the most of the information provided.

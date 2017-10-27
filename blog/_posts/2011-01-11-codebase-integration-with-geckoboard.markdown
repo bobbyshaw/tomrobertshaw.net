@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Codebase Integration with Geckoboard
 categories:
-- Technology
+    - Projects
 ---
 <a href="http://geckoboard.com/">Geckoboard</a> is an awesome little web app which allows you to show real-time statistics about your business on a screen in the office, or anywhere for that matter!
 

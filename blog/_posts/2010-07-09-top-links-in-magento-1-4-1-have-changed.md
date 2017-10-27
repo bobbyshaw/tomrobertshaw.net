@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Top Links in Magento 1.4.1 Have Changed
 categories:
-- Magento Development
+    - Magento
 ---
 
 In previous versions of Magento the top links, i.e.

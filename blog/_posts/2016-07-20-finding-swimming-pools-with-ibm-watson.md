@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Finding Swimming Pools with IBM Watson
 categories:
-- machine-learning
+- Machine Learning
+- IBM Watson
 ---
 
 Much of my recent research and development time recently has been spent exploring IBM's

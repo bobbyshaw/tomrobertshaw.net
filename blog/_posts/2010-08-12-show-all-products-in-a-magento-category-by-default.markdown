@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Show All Products in a Magento Category by Default
 categories:
-- Magento Development
+    - Magento
 ---
 If you don't have many items in each of your categories, you may be interested in showing all products by default.   The customer can then request to show less products and enforce pagination if they so wish.
 

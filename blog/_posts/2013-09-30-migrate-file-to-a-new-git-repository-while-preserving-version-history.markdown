@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Migrate file to a new git repository while preserving version history
 categories:
-- Development
+    - Development
 ---
 Finding myself in a position where I was decommissioning an old project and starting afresh, there was a file that I wanted to copy to my new project and, ideally, retain all of the valuable version history.
 

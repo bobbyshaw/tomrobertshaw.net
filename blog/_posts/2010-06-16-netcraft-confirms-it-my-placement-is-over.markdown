@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Netcraft confirms it, my placement is over.
 categories:
-- Personal
+    - Personal
 ---
 I have come to the end of my year in industry at <a href="http://www.netcraft.com">Netcraft</a>.  I had some good times, I had some bad times. I had some exciting times, I had some frustrating times.  All in all, a year well spent and a huge amount learnt.
 

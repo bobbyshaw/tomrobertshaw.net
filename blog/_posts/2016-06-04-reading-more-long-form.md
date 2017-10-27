@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Reading and Getting Closer to the Source
 categories:
-- personal
+- Personal
 ---
 
 In an age where bite-sized content is continually generated and immediately available, it can be hard not to consume it. Whether the fix is email, social media, news, web articles, it is hard to combat that sweet, sweet [dopamine release](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google) as we search for new information.

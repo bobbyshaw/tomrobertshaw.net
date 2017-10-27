@@ -3,16 +3,9 @@ layout: post
 status: publish
 published: true
 title: June 2011 eCommerce Survey
-author: Tom Robertshaw
-author_login: admin
-author_email: tom.robertshaw@meanbee.com
-wordpress_id: 1549
-wordpress_url: http://tomrobertshaw.net/?p=1549
-date: 2011-06-15 22:46:23.000000000 +01:00
 categories:
-- Magento Development
-- eCommerce
-tags: []
+    - Ecommerce
+    - Research
 ---
 
 <div class="hivemind-promo">

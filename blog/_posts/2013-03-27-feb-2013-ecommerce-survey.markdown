@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Feb 2013 eCommerce Survey
 categories:
-    - eCommerce
+    - Ecommerce
+    - Research
 js:
     - /js/highcharts.js
     - /js/posts/feb-2013-ecommerce-survey.js

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Review: Magento Bulk Product Import Module'
 categories:
-- Magento Development
+    - Magento
 ---
 Time for a product review.  I've used a  Product Import module from Magento Connect for a couple of <a href="http://www.meanbee.com">Meanbee</a> projects now and have been so impressed that I thought I'd share it with you.
 

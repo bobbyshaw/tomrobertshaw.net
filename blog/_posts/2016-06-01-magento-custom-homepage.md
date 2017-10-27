@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Magento Custom Homepage Per Theme.
 categories:
-- magento-development
+- Magento
+- Projects
 ---
 
 Magento's multi-website, multi-store management is fantastic for handling internationalisation

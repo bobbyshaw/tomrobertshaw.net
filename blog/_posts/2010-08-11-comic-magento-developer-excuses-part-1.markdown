@@ -4,8 +4,7 @@ status: publish
 published: true
 title: 'Comic: Magento Developer Excuses Part 1'
 categories:
-- Magento Development
-- Fun
+    - Fun
 ---
 <img src="/img/2010/08/magento-products-importing.png" alt="magento-products-importing" />
 

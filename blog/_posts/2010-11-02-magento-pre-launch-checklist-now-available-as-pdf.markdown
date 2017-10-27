@@ -4,8 +4,7 @@ status: publish
 published: true
 title: Magento Pre-Launch Checklist Now Available as PDF
 categories:
-- Magento Development
-tags: []
+    - Magento
 ---
 I thought it might be more convenient for magento developers to have my <a href="37-point-magento-pre-launch-checklist">pre-launch checklist</a> in PDF form so <a href="/img/2010/11/Magento-Pre-Launch-Checklist.pdf">here you go</a>.
 

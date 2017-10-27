@@ -4,7 +4,7 @@ status: publish
 published: true
 title: URL shortener "to" confuse users and url regex alike
 categories:
-- Technology
+    - Uncategorised
 ---
 <p><h3><strong><a href="http://to/">http://to/</a></strong></h3></p>
 

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: ! 'Magento Security: Check your app/etc/local.xml file.'
 categories:
-- Magento Development
+    - Magento
 ---
 The local.xml that can found in the app/etc/ folder of your Magento installation.  It contains the database connection details to your store and the encryption key used to secure data. If a nefarious individual laid his hands on this, he/she would have everything they could want.
 

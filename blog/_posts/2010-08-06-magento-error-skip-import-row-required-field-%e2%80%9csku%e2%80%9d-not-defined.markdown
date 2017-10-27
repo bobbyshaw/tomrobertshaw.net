@@ -4,7 +4,7 @@ status: publish
 published: true
 title: ! 'Magento Error: Skip Import Row, Required Field “sku” Not Defined'
 categories:
-- Magento Development
+    - Magento
 ---
 I was getting this error message when doing an import of simple products in to a Magento store.  I already had some products in the store so I had run the "export all products" profile to get a starting spreadsheet to add to.
 

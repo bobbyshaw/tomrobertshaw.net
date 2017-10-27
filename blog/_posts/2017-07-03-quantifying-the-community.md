@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Quantifying the Community
 categories:
-- magento
+- Magento
+category: Magento
 ---
 
 I was talking to [Sherrie Rohde](https://twitter.com/sherrierohde), our friend and community manager, about her work which includes the [Magento Master](https://magento.com/community/magento-masters) programme. A fantastic initiative to highlight and engage with those in the community that contribute substantially to it. And it got me thinking, how big is our community and what counts as an active community?

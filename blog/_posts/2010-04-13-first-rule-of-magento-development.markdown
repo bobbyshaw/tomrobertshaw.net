@@ -4,7 +4,7 @@ status: publish
 published: true
 title: First Rule of Magento Development
 categories:
-- Magento Development
+    - Magento
 ---
 The first rule of magento development is one that I keep having to relearn every time I install magento.  I am going to write it here, if only as a reminder to myself!
 

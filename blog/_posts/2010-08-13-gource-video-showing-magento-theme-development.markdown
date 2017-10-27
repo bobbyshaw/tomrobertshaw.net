@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Gource Video Showing Magento Theme Development
 categories:
-- Magento Development
+    - Fun
 tags: []
 ---
 Time for some Friday fun.  Last weekend, I played with <a href="http://code.google.com/p/gource/">Gource</a>, a software version control visualisation tool.  It allows you to create videos of commits to your Git repository over time and by different users.

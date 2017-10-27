@@ -4,7 +4,7 @@ status: publish
 published: true
 title: A Bee on the Wall of Sweet Tooth
 categories:
-- Personal
+    - Personal
 ---
 For a couple of days in August I was privileged enough to spend a couple of days working from <a href="http://www.sweettoothrewards.com/">Sweet Tooth</a>.  It was a fantastic opportunity to swap tips and reflect on how to run a business.
 

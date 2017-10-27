@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Magento Tops eCommerce Market Share - November 2010
 categories:
-- eCommerce
+    - Ecommerce
+    - Research
 ---
 <a href="http://tomrobertshaw.net/2010/10/3262-magento-sites-in-the-alexa-top-1-million/">Last month</a> I looked at how many Magento sites I could find in the <a href="http://www.alexa.com/topsites">Alexa top 1 million</a>.   So that I had a benchmark to compare against I also looked for osCommerce installations.
 

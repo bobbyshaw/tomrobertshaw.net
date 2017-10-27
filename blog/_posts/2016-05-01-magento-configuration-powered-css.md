@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Magento Configuration Powered CSS Extension
 categories:
-- magento-development
+- Magento
 ---
 
 A problem that we've come across a few times at Meanbee is needing to apply different

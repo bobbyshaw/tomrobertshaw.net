@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Magento Webinar - Best Practices for Magento Developers
 categories:
-- Magento Development
+    - Magento
 ---
 This evening, I attended the first in a series of Magento Webinars for developers - "Best Practices for Magento Developers".  It was mainly aimed at getting developers involved with improving the Magento Core code.  It ran through some PHP and Zend Framework coding standards and so would be useful to watch for any developer starting out with Magento, whether this is building commercial extensions or writing theme templates.
 

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Handy regex for adding inline translations to Magento template files
 categories:
-- Magento Development
+    - Magento
 ---
 When developing Magento themes, you will quite often have flat HTML that you are breaking apart and putting into Magento's template files.  One thing that I have OCD-like tendencies with is the need to make sure that all text is in an inline translate.  By that I mean using:
 

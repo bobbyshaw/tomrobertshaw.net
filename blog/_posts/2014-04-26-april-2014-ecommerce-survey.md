@@ -4,7 +4,8 @@ status: publish
 published: true
 title: April 2014 eCommerce Survey
 categories:
-    - eCommerce
+    - Ecommerce
+    - Research
 js:
     - /js/highcharts.js
     - /js/posts/april-2014-ecommerce-survey.js

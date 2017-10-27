@@ -4,7 +4,7 @@ status: publish
 published: true
 title: ! 'OpenMIC #4 - Mobile Innovation Camp'
 categories:
-- Un-conference
+    - Uncategorised
 ---
 I'm now a barcamper!
 

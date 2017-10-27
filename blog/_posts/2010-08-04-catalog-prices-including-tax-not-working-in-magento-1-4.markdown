@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Catalog Prices Including Tax Not Working in Magento 1.4
 categories:
-- Magento Development
+    - Magento
 ---
 I was having the issue where even though I set catalog prices to be including tax, Magento was still adding tax on top of the product's unit price.
 

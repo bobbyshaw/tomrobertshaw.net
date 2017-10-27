@@ -4,7 +4,7 @@ status: publish
 published: true
 title: The Most Popular Magento Locales
 categories:
-- Magento Development
+    - Magento
 ---
 I was interested in what locales are predominantly being used in Magento installations.   This kind of information is useful to see Magento's reach across the world.  What's more, it's interesting for developers to get some indication about what translations they should be looking to add to their modules.
 

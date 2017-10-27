@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Add Increase and Decrease Quantity Buttons to Items in Magento Cart
 categories:
-- Magento Development
+    - Magento
 ---
 When a customer views their cart, each product that they have added will be listed.   By default, Magento provides info for each product, e.g. name, image, quantity, price.  Customers can change the quantity in the text box and submit the "Update Shopping Cart" button.  That is a lot of effort for the user, we want to make this process as smooth as possible.
 

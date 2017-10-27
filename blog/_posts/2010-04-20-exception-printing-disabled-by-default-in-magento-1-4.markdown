@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Exception Printing Disabled by Default in Magento 1.4
 categories:
-- Magento Development
+    - Magento
 ---
 While doing some development on the <a href="http://www.meanbee.com">Meanbee</a> postcode module today on Magento 1.4.0.1, I received the following error:
 

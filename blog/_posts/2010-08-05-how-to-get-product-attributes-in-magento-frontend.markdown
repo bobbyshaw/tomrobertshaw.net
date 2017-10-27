@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How to Get Product Attributes in Magento Frontend
 categories:
-- Magento Development
+    - Magento
 ---
 Almost every store is going to require custom attributes for its products.  Naturally, you are going to want to advertise some of these features on the category and product listing pages.   So I'd thought I'd take the time to write a short note on how to get this done.
 

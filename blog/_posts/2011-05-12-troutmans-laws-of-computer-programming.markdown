@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Troutman's Laws of Computer Programming
 categories:
-- Fun
+    - Fun
 ---
 Everyone loves a list of funny computer programming jokes.  I found this email in the <a href="http://www.bath.ac.uk/comp-sci/">Computer Science</a> department of the <a href="http://www.bath.ac.uk/">University of Bath</a>.
 

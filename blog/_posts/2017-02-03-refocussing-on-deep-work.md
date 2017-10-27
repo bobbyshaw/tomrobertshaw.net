@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Refocussing on Deep Work
 categories:
-- personal
+- Personal
 ---
 
 <img src="/img/2017/02/checking-phone.jpg" alt="Checking for updates on my phone" />

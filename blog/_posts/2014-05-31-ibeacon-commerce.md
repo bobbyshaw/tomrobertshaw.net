@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Beacon-assisted Commerce
 categories:
-- eCommerce
+- Ecommerce
 ---
 
 Just under a year ago, Apple quietly announced iBeacons at WWDC.  While their potential uses are inviting, their uptake so far has been limited and tentative.
@@ -25,7 +25,7 @@ Crucially, iBeacons are monitored even when the app is closed.  So when a device
 
 Apple's iBeacon technology is available for Android as well as iOS.  There are alternative providers of similar technology including [Gimbal](https://www.gimbal.com/) and [Datzing](http://www.datzing.com/). The latter advertises the advantage of not requiring separate hardware and instead makes use of the WiFi and Bluetooth technology built into other devices.
 
-NFC is commonly mentioned as a competitor and while the aim of this article was not to perform a comparison, in short they appear to serve different purposes.  NFC is more suited to contactless payments than it is proximity notifications.  NFC has a maximum working distance of 20cm as opposed to Bluetooth Low Energy's [potential range of over 100m](http://www.Bluetooth.com/Pages/low-energy-tech-info.aspx). 
+NFC is commonly mentioned as a competitor and while the aim of this article was not to perform a comparison, in short they appear to serve different purposes.  NFC is more suited to contactless payments than it is proximity notifications.  NFC has a maximum working distance of 20cm as opposed to Bluetooth Low Energy's [potential range of over 100m](http://www.Bluetooth.com/Pages/low-energy-tech-info.aspx).
 
 
 ## Who's using them?
@@ -42,7 +42,7 @@ Following their announcement, Apple [rolled out to 254 stores](http://www.zdnet.
 
 The concern for businesses is how to use the technology effectively so as not to intimidate customers with unsolicited messages and invading their privacy, e.g. making the customer aware that you know the aisle that they spend the most time deliberating in.
 
-We were in a similar position over 10 years ago with regular Bluetooth where [Bluejacking](http://en.wikipedia.org/wiki/Bluejacking) could be used to send unsolicited messages to other Bluetooth device.  The worry is how the software could be abused.  Few people want to walk through a shopping mall and get hounded by interruptions with offers and advertisements. 
+We were in a similar position over 10 years ago with regular Bluetooth where [Bluejacking](http://en.wikipedia.org/wiki/Bluejacking) could be used to send unsolicited messages to other Bluetooth device.  The worry is how the software could be abused.  Few people want to walk through a shopping mall and get hounded by interruptions with offers and advertisements.
 
 The key in customer engagement is the timing; it should be when the customer wants it, thereby enabling them.
 
@@ -55,14 +55,14 @@ The real power of beacons in commerce lies in being able to provide key informat
 
 Multi-channel brands are now in prime position to understand customer behaviour between website and store. Using an app with beacon technology integrated, it could intelligently make suggestions based on the customer history and knowledge of the current location. Perhaps this would be by displaying featured products that are in stock and are related to a customer's previous purchase, then providing in-store location and finally being able to call over a store representative.  Alternatively, notify your store representatives on internal systems when your most valuable customers arrive.
 
-Rather than beacons being another medium to prompt advertisements, it can be a mechanism through which to refine customer communication timing.  Fewer, tailored messages in which you are able to better understand and respond to your individual customer's needs are going to be more effective than mass-mailing generic newsletters. 
+Rather than beacons being another medium to prompt advertisements, it can be a mechanism through which to refine customer communication timing.  Fewer, tailored messages in which you are able to better understand and respond to your individual customer's needs are going to be more effective than mass-mailing generic newsletters.
 
-Not only can this be used to control marketing efforts in-store, it has the potential to feed back into the customer analytical engine to allow for even more intelligent engagement.  For example, featuring a product on the ecommerce site because it is known that the customer spent time by the item in store yet did not purchase.  Essentially, this is recovery technique for abandoned carts of the real world. Woh. 
+Not only can this be used to control marketing efforts in-store, it has the potential to feed back into the customer analytical engine to allow for even more intelligent engagement.  For example, featuring a product on the ecommerce site because it is known that the customer spent time by the item in store yet did not purchase.  Essentially, this is recovery technique for abandoned carts of the real world. Woh.
 
 
-## Summary 
+## Summary
 
-While adoption of beacons might be considered slow, it is due to a careful balance of providing a better experience to customers without intimidating them.  Allowing them gradually to become acclimatised to the technology. 
+While adoption of beacons might be considered slow, it is due to a careful balance of providing a better experience to customers without intimidating them.  Allowing them gradually to become acclimatised to the technology.
 
 iBeacons alone may not be a significant enough reason to build a mobile app.  However if you already have one,  integrating this technology could provide very valuable information about your customers.  It is another data-point in a [data hungry world](http://www.youtube.com/watch?v=Pj-qBUWOYfE) in the race to better understand, so that you can better deliver to loyal customers.
 

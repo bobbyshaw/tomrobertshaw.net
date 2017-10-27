@@ -4,9 +4,9 @@ status: publish
 published: true
 title: Investigating Redditors' values with IBM Watson
 categories:
-- ai
-- psychology
-- watson
+- AI
+- Psychology
+- IBM Watson
 ---
 
 This week saw the annual AISB conference come to Bath. That's the "Society for the Study of Artificial Intelligence and Simulation of Behaviour" for the uninitiated which I include myself in. In addition to researchers presenting their papers, there was a [hackathon](http://aisb2017.cs.bath.ac.uk/tutorialshackathon.html) that was opening to the public. The theme was "building Artificially Intelligent systems to work within society" and it was a great opportunity for academics to engage with the local developer community.

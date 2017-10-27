@@ -5,7 +5,7 @@ published: true
 title: 'Allow Social Promotion on Magento Order Success Page '
 author: Tom Robertshaw
 categories:
-- Magento Development
+    - Magento
 ---
 <img src="/img/2010/07/Order-Success-Page.png" alt="Order Success Page" title="Order Success Page" />
 

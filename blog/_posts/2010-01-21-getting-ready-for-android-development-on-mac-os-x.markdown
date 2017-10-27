@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Getting Ready for Android Development on Mac OS X
 categories:
-- Android
+    - Uncategorised
 ---
 Since I bought my lovely HTC Hero in aid of Children in Need from <a href="http://twitter.com/ruskin147">Rory Cellan-Jones</a> (the BBC tech correspondent), I have been getting very excited at the prospect of taking part in some Android development.
 

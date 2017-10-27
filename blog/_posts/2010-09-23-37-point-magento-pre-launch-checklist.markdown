@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 37 Point Magento Pre-Launch Checklist
 categories:
-- Magento Development
+    - Magento
 ---
 [Guess what, I'm now available as a <a href="/img/2010/11/Magento-Pre-Launch-Checklist.pdf">PDF</a>.]
 

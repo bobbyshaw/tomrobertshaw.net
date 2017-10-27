@@ -4,8 +4,8 @@ status: publish
 published: true
 title: The Ethical Impact of AI on Society
 categories:
-- ai
-- ethics
+- AI
+- Ethics
 ---
 
 Last week I shared my experiences of the [AISB hackathon](https://tomrobertshaw.net/2017/04/investigating-redditors-values-with-ibm-watson/). Another part of the conference that was open to members of the public was a panel discussion on [The Ethical Impact of AI on Society](http://aisb2017.cs.bath.ac.uk/panel.html). A quick look at the event page made it immediately obvious the wealth of knowledge and experience that would be answering questions:

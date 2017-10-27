@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How to Change the Footer Links in Magento
 categories:
-- Magento Development
+    - Magento
 ---
 Magento's XML layout and template framework and the flexibility that it brings is awesome, but unfortunately it does come with its own learning curve.  This can take some time getting used to if you're unfamiliar with Zend Framework and can turn the most trivial of tasks like modifying the links in the footer of a page somewhat more involved.
 

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: HTML5 Proliferation Amongst Alexa Top Sites
 categories:
-- Technology
+    - Research
 ---
 
 <img src="/img/2011/01/HTML5_Logo_128.png" alt="HTML5 Logo" title="HTML5 Logo" />

@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How could the WordPress Vs Thesis Theme Licensing Debate Affect Magento?
 categories:
-- Magento Development
+    - Magento
 ---
 I will start off this post with a disclaimer.  I am not proficient with software licensing.  As a programmer I am naturally aware of them and have studied them for a short time while at University, but I confess that I am no expert.  During the research for this article, I have begun to have a better understanding but I welcome corrections and comments.  All opinions herein are my own and do not represent the opinions of Meanbee.
 

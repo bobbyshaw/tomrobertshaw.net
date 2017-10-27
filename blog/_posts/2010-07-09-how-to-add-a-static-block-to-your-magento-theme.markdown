@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How to Add a Static Block to Your Magento Theme
 categories:
-- Magento Development
+    - Magento
 ---
 When creating your magento theme, you often will want to insert cms static blocks rather than keeping all of the content in the theme.  The store owner is going to want to change the content now and again and if you do as much as possible with static blocks, they can be edited in the Magento Admin.
 

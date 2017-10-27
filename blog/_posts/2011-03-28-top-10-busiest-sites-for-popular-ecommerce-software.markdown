@@ -4,7 +4,8 @@ status: publish
 published: true
 title: Top 10 Busiest Sites for Popular eCommerce Software
 categories:
-- eCommerce
+    - Ecommerce
+    - Research
 ---
 
 <div class="hivemind-promo">

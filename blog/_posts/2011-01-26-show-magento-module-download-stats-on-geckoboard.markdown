@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Show Magento Module Download Stats on Geckoboard
 categories:
-- Technology
+    - Projects
 ---
 I've been playing with <a href="http://www.geckoboard.com/">Geckoboard</a> in my spare time (of which I seem to have very little of at the moment).  <a href="2011/01/codebase-integration-with-geckoboard">Previously I looked at</a> displaying commit statistics from the code management tool we use, <a href="http://www.codebasehq.com/t/w1xzietlf7bit8qd/">Codebase</a>.  So next up, I thought that being able to show the number of downloads that <a href="http://www.meanbee.com">Meanbee's</a> Magento Community modules had had would be neat.
 

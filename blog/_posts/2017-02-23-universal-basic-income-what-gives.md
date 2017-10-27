@@ -4,7 +4,7 @@ status: publish
 published: true
 title: "Universal Basic Income, What Gives?"
 categories:
-- economics
+- Economics
 ---
 
 Over the last couple of years, I've taken an interest in the rise in discussions on Universal Basic Income (UBI). It's not often that I write about politics or economics but I wanted to compile the articles I've read and distill into one qualitative study on the topic to consider its attractiveness.

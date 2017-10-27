@@ -4,7 +4,7 @@ status: publish
 published: true
 title: How to Turn On Layered Navigation in Magento Categories
 categories:
-- Magento Development
+    - Magento
 ---
 For some stores, on the category pages you will want your customers to be able to filter products based on different attributes.  Magento calls this <tt>Layered Navigation</tt>.  Well, at least they do in the layout code and in documentation.  
 

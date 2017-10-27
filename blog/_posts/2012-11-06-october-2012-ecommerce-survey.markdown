@@ -4,7 +4,8 @@ status: publish
 published: true
 title: October 2012 eCommerce Survey
 categories:
-- eCommerce
+    - Ecommerce
+    - Research
 js:
     - /js/highcharts.js
     - /js/posts/oct-2012-ecommerce-survey.js

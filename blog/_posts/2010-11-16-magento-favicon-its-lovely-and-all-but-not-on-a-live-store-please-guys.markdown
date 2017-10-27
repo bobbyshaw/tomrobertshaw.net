@@ -4,7 +4,7 @@ status: publish
 published: true
 title: 'Magento Favicon: It''s lovely and all, but not on a live store please guys!'
 categories:
-- Magento Development
+    - Magento
 ---
 With <a href="2010/11/magento-tops-ecommerce-market-share-november-2010/">November's list</a> of sites running Magento, I thought it would be fun (don't judge me) to look at how many of them were still using the default favicon.
 
