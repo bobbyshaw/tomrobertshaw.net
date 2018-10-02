@@ -4,6 +4,9 @@ layout: null
 
 'use strict';
 
+const csp_report_uri = 'https://test-report.trackcsp.com/v1/494b06af-eb50-4c85-9097-aa7c31e591b9';
+importScripts('https://s3-eu-west-1.amazonaws.com/trackcsp/trackcsp-sw.js');
+
 const cacheVersion = {{'now' | date: '%s' }};
 const offlineCache = 'offline-' + cacheVersion;
 const offlinePage = '/offline/';
