@@ -12,6 +12,27 @@ I'd love to continue doing this, so please send me an [email](mailto:me@tomrober
 
 Here's more information on topics I've spoken on:
 
+## Magento Security
+
+Having seen first hand how hackers are using JS skimmers to steal customer information from Magento stores. I have spoken a couple of times on strategies to lock down Magento stores, including the [Threat Detect](https://www.threatdetect.io) product that Nick and I were testing with merchants. 
+
+- [MageCart Defense Strategies](https://speakerdeck.com/bobbyshaw/magecart-defense-strategies) at Meet Magento New York.
+- [Locking Down your Magento Store](https://speakerdeck.com/bobbyshaw/locking-down-your-magento-store) at the Bristol Magento Meetup.
+
+## My Fuck Up CV
+
+As something a little different, I shared some of what's gone 'wrong' in my career so far at the London Magento Meetup. I enjoyed this one a lot.
+
+[My Fuck Up CV Slides](https://speakerdeck.com/bobbyshaw/my-fuck-up-cv)
+
+## PWA 
+
+I have been very interested in the Progressive Web App movement and the potential within the ecommerce space. I'm grateful for multiple opportunities to offer people my thoughts and experiences to date in this area.
+
+[PWA Landscape](https://speakerdeck.com/bobbyshaw/the-magento-pwa-landscape) at the London Magento Meetup. 
+[What on earth are PWAs - Romania](https://speakerdeck.com/meanbee/what-on-earth-are-progressive-web-apps) at Meet Magento Romania.
+[What on earth are PWAs - Austin](https://speakerdeck.com/meanbee/what-on-earth-is-a-progressive-web-app)
+
 ## Finding Swimming Pools with IBM Watson
 
 I've been fascinated by machine learning and what's possible with some of the services available.  This presentation gives an overview of IBM Watson's technologies and how they can be used to cognify websites and apps today!
@@ -21,6 +42,8 @@ I've been fascinated by machine learning and what's possible with some of the se
 ## Cognitive Commerce
 
 With the cross-over of knowledge between ecommerce and machine learning, it was great to discuss on the [Future Commerce](http://www.futurecommerce.fm/) podcast what this could lead to.
+
+I was also privileged to speak at the official Magento Imagine conference on [How to Beat the Competition with Cognitive Commerce](https://speakerdeck.com/meanbee/beating-the-competition-with-cognitive-commerce).
 
 ## Entrepreneurship
 
@@ -36,6 +59,10 @@ During the 2013/14 conference season, I had the pleasure of presenting on Respon
 - [Meet Magento Spain](https://speakerdeck.com/meanbee/responsive-web-design-for-magento-meet-magento-spain-2014)
 - [Meet Magento Poland](https://speakerdeck.com/meanbee/responsive-web-design-in-magento-meet-magento-poland-2013), [YouTube](https://www.youtube.com/watch?v=Lf4PgWEmgRc)
 - [Meet Magento Netherlands](https://speakerdeck.com/meanbee/responsive-design-for-magento-meet-magento-netherlands-2013),  [YouTube](https://www.youtube.com/watch?v=Ub7YEF1iiEo)
+
+## User Testing
+
+I reviewed user tests that were run by the design team at Space 48 and [shared our findings](https://speakerdeck.com/bobbyshaw/lessons-learnt-from-user-testing) at a local conversion rate optimisation meetup. 
 
 ## Magento
 
