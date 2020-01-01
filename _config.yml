@@ -7,7 +7,7 @@ exclude:
     - 'Gemfile*'
     - 'vendor'
 
-gems:
+plugins:
  - 'jekyll-paginate'
  - 'jekyll-sitemap'
  - 'jekyll-seo-tag'
