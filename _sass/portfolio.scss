@@ -1,3 +1,4 @@
+.about-me,
 .portfolio {
     position: relative;
     text-align: center;
@@ -24,6 +25,15 @@
                 animation-direction: alternate;
         z-index: -1;
     }
+
+    a {
+        color: #38393a;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 @-web-kit-keyframes movinggradient {
@@ -41,6 +51,16 @@
     }
     to {
         background-position: 100% 0%;
+    }
+}
+
+.about-me-info {
+    margin: 0 auto;
+    max-width: 30em;
+    padding: 2em 1em 1.5em;
+
+    p {
+        margin-bottom: 0.5em;
     }
 }
 
@@ -83,12 +103,14 @@
     }
 }
 
+.about-me-title,
 .portfolio-list-item-title {
     letter-spacing: 2px;
     color: $white;
     margin: 0 0 0.5em 0;
 }
 
+.about-me-summary,
 .portfolio-list-item-summary {
     color: $secondary-text-color;
     font-size: 0.875em;
